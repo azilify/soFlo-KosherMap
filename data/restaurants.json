@@ -4,12 +4,21 @@
     "address": "2905 Stirling Rd, Fort Lauderdale, FL 33312",
     "area": "",
     "phone": "954-986-6860",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/9229Grand Cafe Hollywood_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -18,12 +27,21 @@
     "address": "5650 Stirling Rd, Hollywood, FL 33021",
     "area": "",
     "phone": "954-505-3190",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/3364Mizrachi's Pizza Hollywood 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.0466968,
     "lon": -80.2019115
   },
@@ -32,12 +50,19 @@
     "address": "21160 95th Ave South, Boca 33428",
     "area": "",
     "phone": "561-558-2550",
-    "category": "Dairy, Meat",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": true,
     "cert_link": "",
     "source": "ORB",
+    "food_type": [
+      "Dairy",
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Meat, Restaurant",
     "lat": null,
     "lon": null
   },
@@ -46,12 +71,19 @@
     "address": "6100 Hollywood Blvd, Hollywood FL 33024",
     "area": "",
     "phone": "954-986-7570",
-    "category": "Dairy, Meat, Non Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": true,
     "cert_link": "/pdf/1069Hollywood Deli, Inc._Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy",
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Meat, Restaurant",
     "lat": 26.0092938,
     "lon": -80.2101326
   },
@@ -60,12 +92,21 @@
     "address": "22191 Powerline Rd, Boca Raton, FL 33434",
     "area": "",
     "phone": "561-338-0008",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/7468Jon\u2019s Place 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.3476653,
     "lon": -80.1552799
   },
@@ -74,12 +115,21 @@
     "address": "9970 W Oakland Park Blvd, Sunrise, FL 33351",
     "area": "",
     "phone": "954-274-3317",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/8638Cheese Xpress_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.1688224,
     "lon": -80.283201
   },
@@ -88,12 +138,21 @@
     "address": "21065 Powerline Road, Ste A-6, Boca Raton, FL 33487",
     "area": "",
     "phone": "",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/4588Lox N Bagel.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -102,12 +161,21 @@
     "address": "3000 Stirling Rd, Unit 112 Hollywood, FL 33021",
     "area": "",
     "phone": "954-584-5171",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/5374Cafe Noir 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -116,12 +184,21 @@
     "address": "7300 W Camino Real, Boca Raton, FL 33433",
     "area": "",
     "phone": "561-367-3412",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/2588Carmelas_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.3435689,
     "lon": -80.1552009
   },
@@ -130,12 +207,22 @@
     "address": "3330 Griffin Rd, Fort Lauderdale, FL 33312",
     "area": "",
     "phone": "754-888-9262",
-    "category": "Dairy, Pas Yisroel, Yoshon",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/2260Ariel\u2019s Delicious Pizza December 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
     "lat": null,
     "lon": null
   },
@@ -144,12 +231,21 @@
     "address": "7300 West Camino Real, Boca Raton, FL 33433",
     "area": "",
     "phone": "561-408-7283",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/7639Rave Pizza & Sushi_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.3435689,
     "lon": -80.1552009
   },
@@ -158,12 +254,22 @@
     "address": "9070 Kimberly Blvd, STE 26, Boca Raton, FL 33434",
     "area": "",
     "phone": "561-757-3900",
-    "category": "Dairy, Pas Yisroel, Yoshon",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/3376Lenny's Pizza (Boca)_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
     "lat": null,
     "lon": null
   },
@@ -172,12 +278,21 @@
     "address": "900 N Federal Highway, Hollywood, FL 33020",
     "area": "",
     "phone": "877-577-0770",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/4508Zuka_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.019065,
     "lon": -80.143317
   },
@@ -186,12 +301,21 @@
     "address": "2491 NE 186th St, Miami, FL 33180",
     "area": "",
     "phone": "305-627-3495",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/3114Grand Cafe Aventura_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 25.9476726,
     "lon": -80.1503019
   },
@@ -200,12 +324,21 @@
     "address": "2906 NE 207th St, Aventura, FL 33180",
     "area": "",
     "phone": "305-204-0304",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/4163The Cafe Maison la Fleur 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 25.9674536,
     "lon": -80.1433844
   },
@@ -214,12 +347,21 @@
     "address": "5850 S Pine Island Rd, Davie, FL 33328",
     "area": "",
     "phone": "754-264-8120",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/5651Bagel Boss (JCC)_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.0478263,
     "lon": -80.25961
   },
@@ -228,12 +370,21 @@
     "address": "9523 Harding Ave, Surfside, FL 33154",
     "area": "",
     "phone": "954-609-8740",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/6222Gifted Crust 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 25.8857173,
     "lon": -80.123504
   },
@@ -242,12 +393,21 @@
     "address": "3288 Stirling Rd, Hollywood, FL 33021",
     "area": "",
     "phone": "754-547-6727",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/9443Joe's Pizza_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.0474607,
     "lon": -80.1759779
   },
@@ -256,12 +416,21 @@
     "address": "18549 W Dixie Hwy, Aventura, FL 33180",
     "area": "",
     "phone": "954-302-4687",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/4401Bagel Boss (Aventura)_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 25.9653337,
     "lon": -80.1477483
   },
@@ -270,12 +439,21 @@
     "address": "3775 Woolbright Rd, Boynton Beach, FL 33436",
     "area": "",
     "phone": "",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/1293Mizrachi's Pizza Kitchen in KC Boynton Beach 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.5145521,
     "lon": -80.0753243
   },
@@ -284,12 +462,21 @@
     "address": "419 N Federal Hwy, #104, Hallandale Beach FL 33009",
     "area": "",
     "phone": "954-417-3249",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/5791Barrel Wine and Cheese_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -298,12 +485,21 @@
     "address": "5650 Stirling Rd, Hollywood, FL 33021",
     "area": "",
     "phone": "",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/7981Rita's Ice_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.0466968,
     "lon": -80.2019115
   },
@@ -312,12 +508,21 @@
     "address": "5810 S University Dr #104, Davie, FL 33328",
     "area": "",
     "phone": "954-533-0767",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/1096Oasis Pizzeria & Bakery_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -326,12 +531,21 @@
     "address": "740 W 41st St, Miami Beach, FL 33140",
     "area": "",
     "phone": "305-563-9813",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/5995Bagel Boss (Miami Beach)_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -340,12 +554,21 @@
     "address": "3944 N 46th Ave, Hollywood, FL 33021",
     "area": "",
     "phone": "954-986-1770",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/2160Hollywood Sara's Pizza_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.0455263,
     "lon": -80.1905314
   },
@@ -354,12 +577,21 @@
     "address": "1002 E Hallandale Beach Blvd, Hallandale Beach, FL 33009",
     "area": "",
     "phone": "",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/1282Mizrachi's Pizza in KC Hallandale 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 25.9855331,
     "lon": -80.1392888
   },
@@ -368,12 +600,21 @@
     "address": "613 W Hallandale Beach Blvd #7, Hallandale Beach, FL 33009",
     "area": "",
     "phone": "",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/6718A La Carte_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -382,12 +623,21 @@
     "address": "96th St & The Beach, Surfside, FL 33155",
     "area": "",
     "phone": "",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/9368Gifted Pizza Food Truck 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -396,12 +646,21 @@
     "address": "9543 Harding Ave, Surfside, FL 33154",
     "area": "",
     "phone": "305-504-7443",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/1916Bagel Boss (Surfside)_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 25.8860359,
     "lon": -80.1235331
   },
@@ -410,12 +669,22 @@
     "address": "22107 Powerline Rd, Boca Raton, FL, 33433",
     "area": "",
     "phone": "754-264-8120",
-    "category": "Dairy, Parve, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/6135Bagel Boss Boca Raton_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Parve, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.3592836,
     "lon": -80.1533137
   },
@@ -424,12 +693,21 @@
     "address": "2721 N Hiatus Rd, Cooper City, FL, 33026",
     "area": "",
     "phone": "754-465-5026",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/4109Abby's 2026 (1).pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.0316729,
     "lon": -80.2968004
   },
@@ -438,12 +716,21 @@
     "address": "525 W 41st St, Miami Beach, FL 33140",
     "area": "",
     "phone": "305-538-0300",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/5063Miri's Cafe_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 25.8132462,
     "lon": -80.1351483
   },
@@ -452,12 +739,21 @@
     "address": "18110 Collins Ave, Sunny Isles Beach, FL 33160",
     "area": "",
     "phone": "305-974-0019",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/3560Luna Sunny Isles_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 25.9438296,
     "lon": -80.1221689
   },
@@ -466,12 +762,21 @@
     "address": "18525 W Dixie Hwy, Aventura, FL 33180",
     "area": "",
     "phone": "954-806-7109",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/2032Moran Patisserie Aventura_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 25.9625046,
     "lon": -80.1476661
   },
@@ -480,12 +785,21 @@
     "address": "645 W Hallandale Beach Blvd, Unit 111, Hallandale Beach, FL 33009",
     "area": "",
     "phone": "954-794-9990",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/1285Puro 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -494,12 +808,21 @@
     "address": "18090 Colin\u2019s Ave, Sunny isles, FL 33160",
     "area": "",
     "phone": "",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/4811Slice Pizzeria_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -508,12 +831,23 @@
     "address": "668 W Hallandale Beach Blvd, Hallandale Beach, FL 33009",
     "area": "",
     "phone": "754-999-8999",
-    "category": "Dairy, Parve, Pas Yisroel, Yoshon",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/7029Bakey Hallandale 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Parve, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
     "lat": 25.9854877,
     "lon": -80.155631
   },
@@ -522,12 +856,21 @@
     "address": "4009 Oakwood Blvd, Hollywood, FL 33020",
     "area": "",
     "phone": "954-922-7876",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/7811Sapore 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.0473042,
     "lon": -80.1599275
   },
@@ -536,12 +879,21 @@
     "address": "3523 Griffin Rd, Dania Beach, FL 33312",
     "area": "",
     "phone": "516-856-7437",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/4766Pizzaoli 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.0626062,
     "lon": -80.1916673
   },
@@ -550,12 +902,21 @@
     "address": "2900 Griffin Rd, Fort Lauderdale, FL 33312",
     "area": "",
     "phone": "",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/7035Achla Pizza 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.062084,
     "lon": -80.1801862
   },
@@ -564,12 +925,21 @@
     "address": "4433 Stirling Rd, Fort Lauderdale, FL 33026",
     "area": "",
     "phone": "",
-    "category": "Dairy, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "/pdf/7982Ba-li Cafe 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -578,12 +948,20 @@
     "address": "2445 Stirling Rd, Dania Beach, FL 33312",
     "area": "",
     "phone": "954-251-1799",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/4386Pita Xpress_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.0478522,
     "lon": -80.1736827
   },
@@ -592,12 +970,20 @@
     "address": "18533 W Dixie Hwy, Aventura, FL 33180",
     "area": "",
     "phone": "305-936-1800",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/5138Shalom Haifa_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 25.9625046,
     "lon": -80.1476661
   },
@@ -606,12 +992,20 @@
     "address": "5021 S State Road 7, Davie, FL 33314",
     "area": "",
     "phone": "954-588-3701",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/4707Nava's Kosher Kitchen_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.0600523,
     "lon": -80.2083043
   },
@@ -620,12 +1014,18 @@
     "address": "9060 Kimberly Blvd, Boca Raton, FL 33433",
     "area": "",
     "phone": "561-571-6144",
-    "category": "Meat, Non Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/2237Century Grill 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Meat, Restaurant",
     "lat": 26.3818426,
     "lon": -80.1876118
   },
@@ -634,12 +1034,20 @@
     "address": "7158 Beracasa Way, Boca Raton, FL, 33433",
     "area": "",
     "phone": "561-717-6968",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9851Chill & Grill Pita LLC_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -648,12 +1056,20 @@
     "address": "658 W Hallandale Beach Blvd, Hallandale Beach, FL 33009",
     "area": "",
     "phone": "954-455-2118",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/2814Hummus Achla 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 25.9854932,
     "lon": -80.1554236
   },
@@ -662,12 +1078,18 @@
     "address": "9045 La Fontana Blvd, Boca Raton, FL 33434",
     "area": "",
     "phone": "561-482-3831",
-    "category": "Meat, Non Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9920Orchids Garden_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Meat, Restaurant",
     "lat": 26.3809647,
     "lon": -80.18791
   },
@@ -676,12 +1098,18 @@
     "address": "2275 S University Dr, Davie, FL 33324",
     "area": "",
     "phone": "954-281-8779",
-    "category": "Meat, Non Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/5515Sunrise Pita & Grill (Davie) 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Meat, Restaurant",
     "lat": 26.0922558,
     "lon": -80.2514284
   },
@@ -690,12 +1118,20 @@
     "address": "3575 NE 207th St, B11, Aventura, FL 33180",
     "area": "",
     "phone": "305-974-4899",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9209Levy's Shawarma_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -704,12 +1140,20 @@
     "address": "1304 E Las Olas Blvd, Fort Lauderdale, FL 33301",
     "area": "",
     "phone": "954-999-9676",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/7451Friendship Cafe & Catering 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.1192867,
     "lon": -80.1297572
   },
@@ -718,12 +1162,20 @@
     "address": "The Village at Gulfstream Park 501 S Federal, #1130, Hallandale Beach, FL 33009",
     "area": "",
     "phone": "954-367-2461",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/2307Tagine by Alma Grill 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -732,12 +1184,20 @@
     "address": "10143 W Oakland Park, Sunrise FL 33351",
     "area": "",
     "phone": "954-982-2158",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/8925Grill Xpress_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.1701023,
     "lon": -80.2856735
   },
@@ -746,12 +1206,20 @@
     "address": "4000 N 46th Ave, Hollywood, FL 33021",
     "area": "",
     "phone": "954-367-6608",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/1838JZ Steakhouse_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.0458457,
     "lon": -80.1905376
   },
@@ -760,12 +1228,20 @@
     "address": "5650 Stirling Rd #28, Hollywood, FL 33021",
     "area": "",
     "phone": "754-778-7684",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/8543The Cave Kosher Bar & Grill 2026 (1).pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.0477295,
     "lon": -80.1751735
   },
@@ -774,12 +1250,20 @@
     "address": "21000 W Dixie Hwy, Miami FL 33180",
     "area": "",
     "phone": "954-859-7467",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/1592Capas Burger_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 25.9695989,
     "lon": -80.1482731
   },
@@ -788,12 +1272,20 @@
     "address": "4875 Okeechobee Blvd, West Palm Beach, FL 33417",
     "area": "",
     "phone": "561-662-2223",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/7094Kosher Chobee_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.7054178,
     "lon": -80.0510034
   },
@@ -802,12 +1294,20 @@
     "address": "8966 Cleary Blvd, Plantation, FL, 33324",
     "area": "",
     "phone": "954-953-2717",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/2170Plantation Pita & Grill_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.1282334,
     "lon": -80.2687452
   },
@@ -816,12 +1316,20 @@
     "address": "12355 Hagen Ranch Rd, Boynton Beach, FL 33437",
     "area": "",
     "phone": "561-944-3984",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9921Bissli Grill_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.4926305,
     "lon": -80.1658534
   },
@@ -830,12 +1338,20 @@
     "address": "3317 Sheridan St, Hollywood, FL 33021",
     "area": "",
     "phone": "754-217-3182",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/1462PALA Mediterranean Kitchen 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.0331622,
     "lon": -80.1762387
   },
@@ -844,12 +1360,20 @@
     "address": "5800 Stirling Rd, Hollywood, FL 33021",
     "area": "",
     "phone": "954-981-7710",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/4517Hummus Vegas & Grill (Hollywood)_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.046709,
     "lon": -80.205077
   },
@@ -858,12 +1382,20 @@
     "address": "3371 Sheridan St, Hollywood, FL 33021",
     "area": "",
     "phone": "954-738-3162",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/8174Dabush_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.0331401,
     "lon": -80.1772412
   },
@@ -872,12 +1404,20 @@
     "address": "7000 W Camino Real, Suite 100, Boca Raton, FL, 33433",
     "area": "",
     "phone": "561-295-3630",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/1749Traditions South LLC_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -886,12 +1426,20 @@
     "address": "5530 S state Rd 7, Fort Lauderdale, FL 33314",
     "area": "",
     "phone": "786-679-5833",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9479G7 Hospitality LLC_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.0919736,
     "lon": -80.2009949
   },
@@ -900,12 +1448,20 @@
     "address": "5511 Woodland Lane, Fort Lauderdale FL 33312",
     "area": "",
     "phone": "561-600-1456",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9244Lasso Kosher Grill_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -914,12 +1470,21 @@
     "address": "3322 Griffin Rd, Fort Lauderdale, FL 33312",
     "area": "",
     "phone": "954-966-9975",
-    "category": "Meat, Pas Yisroel, Yoshon",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9609Ariel's Bamboo Kitchen 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
     "lat": null,
     "lon": null
   },
@@ -928,12 +1493,20 @@
     "address": "141 NW 20th St, Boca Raton, FL 33431",
     "area": "",
     "phone": "561-961-0559",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9283Bambu Pan Asian Kitchen (Boca)_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.3679578,
     "lon": -80.086569
   },
@@ -942,12 +1515,20 @@
     "address": "1550 NE 164th St, Miami, FL 33162",
     "area": "",
     "phone": "305-351-9545",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/7878Smash House Burgers Miami_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 25.9264802,
     "lon": -80.1690139
   },
@@ -956,12 +1537,20 @@
     "address": "2145 Stirling Rd, Fort Lauderdale, FL 33312",
     "area": "",
     "phone": "954-241-2011",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9428Pita Plus_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -970,12 +1559,20 @@
     "address": "4747 Collins Ave, Miami Beach, FL 33140",
     "area": "",
     "phone": "347-850-4747",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/8805Glatt Miami_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 25.8219453,
     "lon": -80.1221698
   },
@@ -984,12 +1581,21 @@
     "address": "265 NE Spanish River Blvd, Boca Raton, FL 33431",
     "area": "",
     "phone": "561-334-2935",
-    "category": "Meat, Parve, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/2318Grill Place 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat",
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Parve, Restaurant, Pas Yisroel",
     "lat": 26.3861039,
     "lon": -80.080154
   },
@@ -998,12 +1604,20 @@
     "address": "12250 Westchester Club Drive, Boynton Beach FL 33437",
     "area": "",
     "phone": "561-736-7500",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9996The W Kosher Steakhouse_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.4965895,
     "lon": -80.1477587
   },
@@ -1012,12 +1626,21 @@
     "address": "5978 SW 40th Ave, Fort Lauderdale, FL 33314",
     "area": "",
     "phone": "786-607-7878",
-    "category": "Meat, Pas Yisroel, Yoshon",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/7571Panini _ Panino Kosher Hollywood 2026 (1).pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
     "lat": 26.1089085,
     "lon": -80.2013509
   },
@@ -1026,12 +1649,20 @@
     "address": "21065 Powerline Rd, Suite C15, Boca Raton, FL 33433",
     "area": "",
     "phone": "",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/8241Smash House Burgers Boca_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1040,12 +1671,20 @@
     "address": "15280 Jog Rd, Suite G, Delray Beach, FL 33446",
     "area": "",
     "phone": "561-808-8803",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/2428Pita Lee_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1054,12 +1693,20 @@
     "address": "1011 W Hallandale Beach Blvd, #106, Hallandale Beach, FL 33009",
     "area": "",
     "phone": "954-251-1621",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/7237Kosher To Go_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1068,12 +1715,20 @@
     "address": "501 Silks Run, Suite 1130, Hallandale Beach, FL 33009",
     "area": "",
     "phone": "786-899-7999",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/7449Alma Grill_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1082,12 +1737,20 @@
     "address": "209 6th St, West Palm Beach, FL 33401",
     "area": "",
     "phone": "561-559-0901",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9040Malka West Palm Beach_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.7190881,
     "lon": -80.0511748
   },
@@ -1096,12 +1759,20 @@
     "address": "9561 Harding Ave, Surfside, FL 33154",
     "area": "",
     "phone": "305-763-8817",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/3831Street Bar Surfside_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 25.8863207,
     "lon": -80.1235575
   },
@@ -1110,12 +1781,20 @@
     "address": "249 E. Palmetto Park Rd, Boca Raton, FL 33432",
     "area": "",
     "phone": "561-896-4951",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/3662Avi\u2019s Grill, Inc._certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.3506208,
     "lon": -80.0826697
   },
@@ -1124,12 +1803,20 @@
     "address": "5650 Stirling Rd, Suite 8+9, Hollywood, FL 33021",
     "area": "",
     "phone": "954-505-4729",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/8018Shanghai 18_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1138,12 +1825,20 @@
     "address": "850 W Hallandale Beach Blvd, Hallandale Beach, FL 33009",
     "area": "",
     "phone": "954-589-5540",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/1448Chayhana Samarkand_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 25.9854715,
     "lon": -80.1604915
   },
@@ -1152,12 +1847,20 @@
     "address": "2726 Griffin Rd, Ste 3-6, Dania Beach, FL 33312",
     "area": "",
     "phone": "954-380-7892",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/2265Puya Urban Cantina 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1166,12 +1869,20 @@
     "address": "3455 NE 163rd St, North Miami Beach, FL 33160",
     "area": "",
     "phone": "305-974-5149",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/5416Ben Yehuda Grill_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 25.9290701,
     "lon": -80.1359113
   },
@@ -1180,12 +1891,20 @@
     "address": "1666 79th Street Causeway, Suite 102, North Bay Village, FL 33141",
     "area": "",
     "phone": "786-803-8092",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/3363Maison Ostrow December 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1194,12 +1913,20 @@
     "address": "16145 Biscayne Blvd, Aventura, FL 33160",
     "area": "",
     "phone": "786-795-7919",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/4970JZ Steakhouse Aventura_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 25.9460313,
     "lon": -80.1472641
   },
@@ -1208,12 +1935,20 @@
     "address": "5630 Taft St, Hollywood, FL 33021",
     "area": "",
     "phone": "954-544-0991",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/8667Tunis Village Certificate 2025.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.0249789,
     "lon": -80.2007846
   },
@@ -1222,12 +1957,20 @@
     "address": "2900 Griffin Rd, Fort Lauderdale, FL 33312",
     "area": "",
     "phone": "786-328-1982",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/2227Shawarma Bar_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.062084,
     "lon": -80.1801862
   },
@@ -1236,12 +1979,20 @@
     "address": "21077 Powerline Road, Boca Raton, FL 33433",
     "area": "",
     "phone": "561-576-2584",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9330Kosher Chobee Boca_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.3613747,
     "lon": -80.1528122
   },
@@ -1250,12 +2001,20 @@
     "address": "9427 Harding Ave, Surfside, FL 33154",
     "area": "",
     "phone": "305-280-3855",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/2062Wok N Roll 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 25.8839673,
     "lon": -80.1233339
   },
@@ -1264,12 +2023,20 @@
     "address": "5250 Town Center Cir, Boca Raton, FL 33486",
     "area": "",
     "phone": "561-334-2947",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/3821Mamush_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.3624026,
     "lon": -80.1236254
   },
@@ -1278,12 +2045,20 @@
     "address": "976 W 41st street, Miami Beach, FL 33140",
     "area": "",
     "phone": "323-428-8244",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/5852Otoro December 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1292,12 +2067,20 @@
     "address": "5650 Stirling Rd, Hollywood, FL 33021",
     "area": "",
     "phone": "",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/8617Holy Schnitzel_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.0466968,
     "lon": -80.2019115
   },
@@ -1306,12 +2089,20 @@
     "address": "9200 Glades Rd, Boca Raton, FL 33434",
     "area": "",
     "phone": "561-441-2260",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/1830Bamburgers_certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.3665549,
     "lon": -80.1889773
   },
@@ -1320,12 +2111,20 @@
     "address": "6790-92 Stirling Road, Hollywood, FL 33024",
     "area": "",
     "phone": "728-240-0320",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/2823K Roasters 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1334,12 +2133,20 @@
     "address": "8735 Stirling Rd, Cooper City, FL 33328",
     "area": "",
     "phone": "754-216-2158",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/5737Ruben 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.0451309,
     "lon": -80.2661883
   },
@@ -1348,12 +2155,20 @@
     "address": "7600 W Camino Real, Boca Raton, FL 33433",
     "area": "",
     "phone": "",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/9155Shawarma Bar 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.3440349,
     "lon": -80.1286783
   },
@@ -1362,12 +2177,20 @@
     "address": "1736 NE Miami Gardens Drive, Unit 07, North Miami Beach, FL 33179",
     "area": "",
     "phone": "305-454-0461",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/2067Laffa & Co. 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1376,12 +2199,20 @@
     "address": "6919 SW 18th St, Boca Raton, FL 33433",
     "area": "",
     "phone": "561-576-4177",
-    "category": "Meat, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/7624Nagila Moroccan Cuisine 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.3324656,
     "lon": -80.1523494
   },
@@ -1390,12 +2221,20 @@
     "address": "2893 Stirling Rd, Fort Lauderdale, FL 33312",
     "area": "",
     "phone": "954-404-8855",
-    "category": "Parve, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/2944Vish Hummus Hollywood 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1404,12 +2243,20 @@
     "address": "2909 Stirling Rd, Fort Lauderdale, FL 33312",
     "area": "",
     "phone": "954-404-7552",
-    "category": "Parve, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/7207Sushi Addicts_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1418,12 +2265,20 @@
     "address": "21073 Powerline Rd #31, Boca Raton, FL 33433",
     "area": "",
     "phone": "561-896-1134",
-    "category": "Parve, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/8372Yumm Sushi_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1432,12 +2287,18 @@
     "address": "5818 Stirling Rd, Hollywood, FL 33021",
     "area": "",
     "phone": "305-692-0300",
-    "category": "Parve",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/5483Sushi House_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Parve, Restaurant",
     "lat": 26.0466953,
     "lon": -80.2052684
   },
@@ -1446,12 +2307,20 @@
     "address": "2790 Stirling Road, ST 5, Hollywood, FL 33020",
     "area": "",
     "phone": "754-230-4892",
-    "category": "Parve, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/3065Sakura Sushi & Omakase_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Restaurant, Pas Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1460,12 +2329,20 @@
     "address": "3775 Woolbright Rd, Boynton Beach, FL 33436",
     "area": "",
     "phone": "786-200-2430",
-    "category": "Parve, Pas Yisroel",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/5003Falafelim_Certificate_December 31, 2026.pdf",
     "source": "ORB",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Restaurant, Pas Yisroel",
     "lat": 26.5145521,
     "lon": -80.0753243
   },
@@ -1474,12 +2351,17 @@
     "address": "5978 SW 40th Ave, Fort Lauderdale, FL 33314",
     "area": "",
     "phone": "",
-    "category": "Pas Yisroel, Yoshon",
     "agency": "ORB",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "/pdf/6176BREADS & CO Certificate 2025.pdf",
     "source": "ORB",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Pas Yisroel, Yoshon",
     "lat": 26.1089085,
     "lon": -80.2013509
   },
@@ -1488,13 +2370,18 @@
     "address": "Boca Raton",
     "area": "",
     "phone": "",
-    "email": "contact@bocatovtreats.com",
-    "category": "Pareve Bakery",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Parve, Bakery",
     "lat": 26.3586885,
     "lon": -80.0830984
   },
@@ -1503,13 +2390,16 @@
     "address": "6643 Boynton Beach Blvd., Boynton Beach",
     "area": "",
     "phone": "561-738-6477",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.5272807,
     "lon": -80.100683
   },
@@ -1518,13 +2408,16 @@
     "address": "121 1/2 N. Congress Ave., Boynton Beach",
     "area": "",
     "phone": "561-877-2284",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.563929,
     "lon": -80.0902409
   },
@@ -1533,13 +2426,16 @@
     "address": "6859 Stirling Road, Davie",
     "area": "",
     "phone": "954-585-0300",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.0462978,
     "lon": -80.2264167
   },
@@ -1548,13 +2444,16 @@
     "address": "4953 W. Atlantic Ave., Delray Beach",
     "area": "",
     "phone": "561-403-5500",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.4578736,
     "lon": -80.1214374
   },
@@ -1563,13 +2462,16 @@
     "address": "2076 Haverhill Rd. N., West Palm Beach",
     "area": "",
     "phone": "561-689-1917",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": null,
     "lon": null
   },
@@ -1578,13 +2480,18 @@
     "address": "Boynton Beach",
     "area": "",
     "phone": "954-560-0185",
-    "email": "chanabillet@gmail.com",
-    "category": "Shabbos Take-Out, Simcha Catering",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Take Out"
+    ],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [],
+    "category": "Take Out, Catering",
     "lat": 26.5289139,
     "lon": -80.058141
   },
@@ -1593,13 +2500,16 @@
     "address": "2390 Hayes St, Hollywood, FL",
     "area": "",
     "phone": "954-929-4311",
-    "email": "sales@citynutandcandyonline.com",
-    "category": "Manufacturing",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Manufacturing"
+    ],
+    "stringency": [],
+    "category": "Manufacturing",
     "lat": 26.0204691,
     "lon": -80.1544951
   },
@@ -1608,13 +2518,16 @@
     "address": "18225 Biscayne Blvd, Aventura, FL",
     "area": "",
     "phone": "305-466-6626",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 25.9441485,
     "lon": -80.1470097
   },
@@ -1623,13 +2536,16 @@
     "address": "405 SW 2nd Terrace, Dania Beach, FL",
     "area": "",
     "phone": "954-674-2211",
-    "email": "info@HipPOPs.com",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.0477763,
     "lon": -80.148556
   },
@@ -1638,13 +2554,16 @@
     "address": "See calendar for locations.",
     "area": "",
     "phone": "954-674-2211",
-    "email": "info@HipPOPs.com",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": null,
     "lon": null
   },
@@ -1653,13 +2572,16 @@
     "address": "8170 Glades Road, Boca Raton, FL 33434",
     "area": "",
     "phone": "561-465-3274",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.367379,
     "lon": -80.1737932
   },
@@ -1668,13 +2590,16 @@
     "address": "1760 N. Congress Ave., Boynton Beach, FL 33426",
     "area": "",
     "phone": "787-286-3370",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.5417932,
     "lon": -80.090171
   },
@@ -1683,13 +2608,16 @@
     "address": "9630 Stirling Road, Cooper City, FL 33024",
     "area": "",
     "phone": "754-201-1326",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.0446694,
     "lon": -80.2743272
   },
@@ -1698,13 +2626,16 @@
     "address": "13274 Biscayne Blvd., North Miami, FL 33181",
     "area": "",
     "phone": "786-899-0233",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 25.8981701,
     "lon": -80.1611803
   },
@@ -1713,13 +2644,16 @@
     "address": "7400 Abercorn St, Savannah, GA 31406",
     "area": "",
     "phone": "912-349-6163",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": null,
     "lon": null
   },
@@ -1728,13 +2662,16 @@
     "address": "3837 W. Woolbright Road, Boynton Beach, FL",
     "area": "",
     "phone": "561-877-6342",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.5143732,
     "lon": -80.0769563
   },
@@ -1743,13 +2680,16 @@
     "address": "4900 Linton Blvd, Delray Beach, FL",
     "area": "",
     "phone": "561-501-4301",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.4392639,
     "lon": -80.1192038
   },
@@ -1758,13 +2698,19 @@
     "address": "Bakery, Aventura, FL",
     "area": "",
     "phone": "305-333-8010",
-    "email": "lorisharabani@hotmail.com",
-    "category": "Bakery, (pareve and dairy)",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Parve, Bakery",
     "lat": null,
     "lon": null
   },
@@ -1773,13 +2719,16 @@
     "address": "4900 S. University Rd., Davie, FL",
     "area": "",
     "phone": "954-650-6499",
-    "email": "",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": null,
     "lon": null
   },
@@ -1788,13 +2737,17 @@
     "address": "11555 Heron Bay Blvd, Suite 200, Coral Springs",
     "area": "",
     "phone": "561-725-7525",
-    "email": "info@nacttive.com",
-    "category": "Wholesale Distribution, Food Additives",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Food Additives",
+      "Wholesale Distribution"
+    ],
+    "stringency": [],
+    "category": "Food Additives, Wholesale Distribution",
     "lat": null,
     "lon": null
   },
@@ -1803,13 +2756,16 @@
     "address": "11401 Pines Blvd, Pembroke Pines",
     "area": "",
     "phone": "954-349-3499",
-    "email": "info@popscorn.com",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.0098368,
     "lon": -80.3060595
   },
@@ -1818,13 +2774,18 @@
     "address": "6362 Timberlakes Way, Delray Beach, FL 33484",
     "area": "",
     "phone": "561-305-6128",
-    "email": "sapphireglatt@gmail.com",
-    "category": "Meat Catering",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [],
+    "category": "Meat, Catering",
     "lat": null,
     "lon": null
   },
@@ -1833,13 +2794,20 @@
     "address": "Hollywood, FL",
     "area": "",
     "phone": "954-552-2251",
-    "email": "sarinike@gmail.com",
-    "category": "Bakery, (pareve, pas Yisroel)",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Bakery, Pas Yisroel",
     "lat": 26.0112014,
     "lon": -80.1494901
   },
@@ -1848,13 +2816,18 @@
     "address": "Boca Raton",
     "area": "",
     "phone": "",
-    "email": "",
-    "category": "Meat Catering, @thebassarboard",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [],
+    "category": "Meat, Catering",
     "lat": 26.3586885,
     "lon": -80.0830984
   },
@@ -1863,13 +2836,20 @@
     "address": "4051 Stirling Rd, (inside Chevron Station), Hollywood",
     "area": "",
     "phone": "754-286-3241",
-    "email": "",
-    "category": "Cholov Yisroel Dairy, Take-Out",
     "agency": "SSK",
-    "cholov_yisroel": true,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Take Out"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel"
+    ],
+    "category": "Dairy, Take Out, Cholov Yisroel",
     "lat": null,
     "lon": null
   },
@@ -1878,13 +2858,18 @@
     "address": "4051 Stirling Rd, (inside Chevron Station), Hollywood",
     "area": "",
     "phone": "954-HOT-DOGS",
-    "email": "",
-    "category": "Meat Take-Out",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Take Out"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Meat, Take Out",
     "lat": null,
     "lon": null
   },
@@ -1893,13 +2878,16 @@
     "address": "901 Sunrise Lane, Ft. Lauderdale",
     "area": "",
     "phone": "954-349-3499",
-    "email": "info@popscorn.com",
-    "category": "Snack Foods",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.136999,
     "lon": -80.103852
   },
@@ -1908,13 +2896,16 @@
     "address": "9982 Glades Rd., West Boca Raton",
     "area": "Palm Beach County",
     "phone": "561-245-8080",
-    "email": "westbocaplaya@gmail.com",
-    "category": "Healthy Drinks/Snacks",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.367379,
     "lon": -80.1737932
   },
@@ -1923,13 +2914,16 @@
     "address": "15 S. Pointe Dr., Dania Beach",
     "area": "Broward County",
     "phone": "754-314-6869",
-    "email": "info@playabowlsdaniapointe.com",
-    "category": "Healthy Drinks/Snacks",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.0514933,
     "lon": -80.1596871
   },
@@ -1938,13 +2932,16 @@
     "address": "4462 Weston Road, Davie",
     "area": "Broward County",
     "phone": "954-800-3509",
-    "email": "playabowlsweston@gmail.com",
-    "category": "Healthy Drinks/Snacks",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 26.0629421,
     "lon": -80.3621976
   },
@@ -1953,13 +2950,16 @@
     "address": "10836 SW 104th St, Kendall",
     "area": "Miami-Dade County",
     "phone": "786-400-6147",
-    "email": "playabowlskendall@gmail.com",
-    "category": "Healthy Drinks/Snacks",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 25.6722083,
     "lon": -80.3705241
   },
@@ -1968,13 +2968,16 @@
     "address": "6620 SW 57th Ave., Coral Gables, (South Miami)",
     "area": "Miami-Dade County",
     "phone": "786-505-3011",
-    "email": "playabowlscoralgables@gmail.com",
-    "category": "Healthy Drinks/Snacks",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 25.7097483,
     "lon": -80.2856933
   },
@@ -1983,13 +2986,16 @@
     "address": "3111 NE 1st Ave, Midtown Miami",
     "area": "Miami-Dade County",
     "phone": "305-640-8763",
-    "email": "playabowlsmiamimidtown@gmail.com",
-    "category": "Healthy Drinks/Snacks",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 25.8102248,
     "lon": -80.1923162
   },
@@ -1998,13 +3004,16 @@
     "address": "14881 Biscayne Blvd., North Miami Beach",
     "area": "Miami-Dade County",
     "phone": "786-400-6146",
-    "email": "playabowlsnorthmiami@gmail.com",
-    "category": "Healthy Drinks/Snacks",
     "agency": "SSK",
-    "cholov_yisroel": false,
-    "cholov_stam": false,
     "cert_link": "",
     "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Drinks and Snacks"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Drinks and Snacks",
     "lat": 25.9130631,
     "lon": -80.1558366
   }
