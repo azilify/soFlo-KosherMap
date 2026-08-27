@@ -1,0 +1,409 @@
+{
+  "2905 stirling rd, fort lauderdale, fl 33312|": null,
+  "5650 stirling rd, hollywood, fl 33021|": {
+    "lat": 26.0466968,
+    "lon": -80.2019115
+  },
+  "21160 95th ave south, boca 33428|": null,
+  "6100 hollywood blvd, hollywood fl 33024|": {
+    "lat": 26.0092938,
+    "lon": -80.2101326
+  },
+  "22191 powerline rd, boca raton, fl 33434|": {
+    "lat": 26.3476653,
+    "lon": -80.1552799
+  },
+  "9970 w oakland park blvd, sunrise, fl 33351|": {
+    "lat": 26.1688224,
+    "lon": -80.283201
+  },
+  "21065 powerline road, ste a-6, boca raton, fl 33487|": null,
+  "3000 stirling rd, unit 112 hollywood, fl 33021|": null,
+  "7300 w camino real, boca raton, fl 33433|": {
+    "lat": 26.3435689,
+    "lon": -80.1552009
+  },
+  "3330 griffin rd, fort lauderdale, fl 33312|": null,
+  "7300 west camino real, boca raton, fl 33433|": {
+    "lat": 26.3435689,
+    "lon": -80.1552009
+  },
+  "9070 kimberly blvd, ste 26, boca raton, fl 33434|": null,
+  "900 n federal highway, hollywood, fl 33020|": {
+    "lat": 26.019065,
+    "lon": -80.143317
+  },
+  "2491 ne 186th st, miami, fl 33180|": {
+    "lat": 25.9476726,
+    "lon": -80.1503019
+  },
+  "2906 ne 207th st, aventura, fl 33180|": {
+    "lat": 25.9674536,
+    "lon": -80.1433844
+  },
+  "5850 s pine island rd, davie, fl 33328|": {
+    "lat": 26.0478263,
+    "lon": -80.25961
+  },
+  "9523 harding ave, surfside, fl 33154|": {
+    "lat": 25.8857173,
+    "lon": -80.123504
+  },
+  "3288 stirling rd, hollywood, fl 33021|": {
+    "lat": 26.0474607,
+    "lon": -80.1759779
+  },
+  "18549 w dixie hwy, aventura, fl 33180|": {
+    "lat": 25.9653337,
+    "lon": -80.1477483
+  },
+  "3775 woolbright rd, boynton beach, fl 33436|": {
+    "lat": 26.5145521,
+    "lon": -80.0753243
+  },
+  "419 n federal hwy, #104, hallandale beach fl 33009|": null,
+  "5810 s university dr #104, davie, fl 33328|": null,
+  "740 w 41st st, miami beach, fl 33140|": null,
+  "3944 n 46th ave, hollywood, fl 33021|": {
+    "lat": 26.0455263,
+    "lon": -80.1905314
+  },
+  "1002 e hallandale beach blvd, hallandale beach, fl 33009|": {
+    "lat": 25.9855331,
+    "lon": -80.1392888
+  },
+  "613 w hallandale beach blvd #7, hallandale beach, fl 33009|": null,
+  "96th st & the beach, surfside, fl 33155|": null,
+  "9543 harding ave, surfside, fl 33154|": {
+    "lat": 25.8860359,
+    "lon": -80.1235331
+  },
+  "22107 powerline rd, boca raton, fl, 33433|": {
+    "lat": 26.3592836,
+    "lon": -80.1533137
+  },
+  "2721 n hiatus rd, cooper city, fl, 33026|": {
+    "lat": 26.0316729,
+    "lon": -80.2968004
+  },
+  "525 w 41st st, miami beach, fl 33140|": {
+    "lat": 25.8132462,
+    "lon": -80.1351483
+  },
+  "18110 collins ave, sunny isles beach, fl 33160|": {
+    "lat": 25.9438296,
+    "lon": -80.1221689
+  },
+  "18525 w dixie hwy, aventura, fl 33180|": {
+    "lat": 25.9625046,
+    "lon": -80.1476661
+  },
+  "645 w hallandale beach blvd, unit 111, hallandale beach, fl 33009|": null,
+  "18090 colin\u2019s ave, sunny isles, fl 33160|": null,
+  "668 w hallandale beach blvd, hallandale beach, fl 33009|": {
+    "lat": 25.9854877,
+    "lon": -80.155631
+  },
+  "4009 oakwood blvd, hollywood, fl 33020|": {
+    "lat": 26.0473042,
+    "lon": -80.1599275
+  },
+  "3523 griffin rd, dania beach, fl 33312|": {
+    "lat": 26.0626062,
+    "lon": -80.1916673
+  },
+  "2900 griffin rd, fort lauderdale, fl 33312|": {
+    "lat": 26.062084,
+    "lon": -80.1801862
+  },
+  "4433 stirling rd, fort lauderdale, fl 33026|": null,
+  "2445 stirling rd, dania beach, fl 33312|": {
+    "lat": 26.0478522,
+    "lon": -80.1736827
+  },
+  "18533 w dixie hwy, aventura, fl 33180|": {
+    "lat": 25.9625046,
+    "lon": -80.1476661
+  },
+  "5021 s state road 7, davie, fl 33314|": {
+    "lat": 26.0600523,
+    "lon": -80.2083043
+  },
+  "9060 kimberly blvd, boca raton, fl 33433|": {
+    "lat": 26.3818426,
+    "lon": -80.1876118
+  },
+  "7158 beracasa way, boca raton, fl, 33433|": null,
+  "658 w hallandale beach blvd, hallandale beach, fl 33009|": {
+    "lat": 25.9854932,
+    "lon": -80.1554236
+  },
+  "9045 la fontana blvd, boca raton, fl 33434|": {
+    "lat": 26.3809647,
+    "lon": -80.18791
+  },
+  "2275 s university dr, davie, fl 33324|": {
+    "lat": 26.0922558,
+    "lon": -80.2514284
+  },
+  "3575 ne 207th st, b11, aventura, fl 33180|": null,
+  "1304 e las olas blvd, fort lauderdale, fl 33301|": {
+    "lat": 26.1192867,
+    "lon": -80.1297572
+  },
+  "the village at gulfstream park 501 s federal, #1130, hallandale beach, fl 33009|": null,
+  "10143 w oakland park, sunrise fl 33351|": {
+    "lat": 26.1701023,
+    "lon": -80.2856735
+  },
+  "4000 n 46th ave, hollywood, fl 33021|": {
+    "lat": 26.0458457,
+    "lon": -80.1905376
+  },
+  "5650 stirling rd #28, hollywood, fl 33021|": {
+    "lat": 26.0477295,
+    "lon": -80.1751735
+  },
+  "21000 w dixie hwy, miami fl 33180|": {
+    "lat": 25.9695989,
+    "lon": -80.1482731
+  },
+  "4875 okeechobee blvd, west palm beach, fl 33417|": {
+    "lat": 26.7054178,
+    "lon": -80.0510034
+  },
+  "8966 cleary blvd, plantation, fl, 33324|": {
+    "lat": 26.1282334,
+    "lon": -80.2687452
+  },
+  "12355 hagen ranch rd, boynton beach, fl 33437|": {
+    "lat": 26.4926305,
+    "lon": -80.1658534
+  },
+  "3317 sheridan st, hollywood, fl 33021|": {
+    "lat": 26.0331622,
+    "lon": -80.1762387
+  },
+  "5800 stirling rd, hollywood, fl 33021|": {
+    "lat": 26.046709,
+    "lon": -80.205077
+  },
+  "3371 sheridan st, hollywood, fl 33021|": {
+    "lat": 26.0331401,
+    "lon": -80.1772412
+  },
+  "7000 w camino real, suite 100, boca raton, fl, 33433|": null,
+  "5530 s state rd 7, fort lauderdale, fl 33314|": {
+    "lat": 26.0919736,
+    "lon": -80.2009949
+  },
+  "5511 woodland lane, fort lauderdale fl 33312|": null,
+  "3322 griffin rd, fort lauderdale, fl 33312|": null,
+  "141 nw 20th st, boca raton, fl 33431|": {
+    "lat": 26.3679578,
+    "lon": -80.086569
+  },
+  "1550 ne 164th st, miami, fl 33162|": {
+    "lat": 25.9264802,
+    "lon": -80.1690139
+  },
+  "2145 stirling rd, fort lauderdale, fl 33312|": null,
+  "4747 collins ave, miami beach, fl 33140|": {
+    "lat": 25.8219453,
+    "lon": -80.1221698
+  },
+  "265 ne spanish river blvd, boca raton, fl 33431|": {
+    "lat": 26.3861039,
+    "lon": -80.080154
+  },
+  "12250 westchester club drive, boynton beach fl 33437|": {
+    "lat": 26.4965895,
+    "lon": -80.1477587
+  },
+  "5978 sw 40th ave, fort lauderdale, fl 33314|": {
+    "lat": 26.1089085,
+    "lon": -80.2013509
+  },
+  "21065 powerline rd, suite c15, boca raton, fl 33433|": null,
+  "15280 jog rd, suite g, delray beach, fl 33446|": null,
+  "1011 w hallandale beach blvd, #106, hallandale beach, fl 33009|": null,
+  "501 silks run, suite 1130, hallandale beach, fl 33009|": null,
+  "209 6th st, west palm beach, fl 33401|": {
+    "lat": 26.7190881,
+    "lon": -80.0511748
+  },
+  "9561 harding ave, surfside, fl 33154|": {
+    "lat": 25.8863207,
+    "lon": -80.1235575
+  },
+  "249 e. palmetto park rd, boca raton, fl 33432|": {
+    "lat": 26.3506208,
+    "lon": -80.0826697
+  },
+  "5650 stirling rd, suite 8+9, hollywood, fl 33021|": null,
+  "850 w hallandale beach blvd, hallandale beach, fl 33009|": {
+    "lat": 25.9854715,
+    "lon": -80.1604915
+  },
+  "2726 griffin rd, ste 3-6, dania beach, fl 33312|": null,
+  "3455 ne 163rd st, north miami beach, fl 33160|": {
+    "lat": 25.9290701,
+    "lon": -80.1359113
+  },
+  "1666 79th street causeway, suite 102, north bay village, fl 33141|": null,
+  "16145 biscayne blvd, aventura, fl 33160|": {
+    "lat": 25.9460313,
+    "lon": -80.1472641
+  },
+  "5630 taft st, hollywood, fl 33021|": {
+    "lat": 26.0249789,
+    "lon": -80.2007846
+  },
+  "21077 powerline road, boca raton, fl 33433|": {
+    "lat": 26.3613747,
+    "lon": -80.1528122
+  },
+  "9427 harding ave, surfside, fl 33154|": {
+    "lat": 25.8839673,
+    "lon": -80.1233339
+  },
+  "5250 town center cir, boca raton, fl 33486|": {
+    "lat": 26.3624026,
+    "lon": -80.1236254
+  },
+  "976 w 41st street, miami beach, fl 33140|": null,
+  "9200 glades rd, boca raton, fl 33434|": {
+    "lat": 26.3665549,
+    "lon": -80.1889773
+  },
+  "6790-92 stirling road, hollywood, fl 33024|": null,
+  "8735 stirling rd, cooper city, fl 33328|": {
+    "lat": 26.0451309,
+    "lon": -80.2661883
+  },
+  "7600 w camino real, boca raton, fl 33433|": {
+    "lat": 26.3440349,
+    "lon": -80.1286783
+  },
+  "1736 ne miami gardens drive, unit 07, north miami beach, fl 33179|": null,
+  "6919 sw 18th st, boca raton, fl 33433|": {
+    "lat": 26.3324656,
+    "lon": -80.1523494
+  },
+  "2893 stirling rd, fort lauderdale, fl 33312|": null,
+  "2909 stirling rd, fort lauderdale, fl 33312|": null,
+  "21073 powerline rd #31, boca raton, fl 33433|": null,
+  "5818 stirling rd, hollywood, fl 33021|": {
+    "lat": 26.0466953,
+    "lon": -80.2052684
+  },
+  "2790 stirling road, st 5, hollywood, fl 33020|": null,
+  "boca raton|": {
+    "lat": 26.3586885,
+    "lon": -80.0830984
+  },
+  "6643 boynton beach blvd., boynton beach|": {
+    "lat": 26.5272807,
+    "lon": -80.100683
+  },
+  "121 1/2 n. congress ave., boynton beach|": {
+    "lat": 26.563929,
+    "lon": -80.0902409
+  },
+  "6859 stirling road, davie|": {
+    "lat": 26.0462978,
+    "lon": -80.2264167
+  },
+  "4953 w. atlantic ave., delray beach|": {
+    "lat": 26.4578736,
+    "lon": -80.1214374
+  },
+  "2076 haverhill rd. n., west palm beach|": null,
+  "boynton beach|": {
+    "lat": 26.5289139,
+    "lon": -80.058141
+  },
+  "2390 hayes st, hollywood, fl|": {
+    "lat": 26.0204691,
+    "lon": -80.1544951
+  },
+  "18225 biscayne blvd, aventura, fl|": {
+    "lat": 25.9441485,
+    "lon": -80.1470097
+  },
+  "405 sw 2nd terrace, dania beach, fl|": {
+    "lat": 26.0477763,
+    "lon": -80.148556
+  },
+  "see calendar for locations.|": null,
+  "8170 glades road, boca raton, fl 33434|": {
+    "lat": 26.367379,
+    "lon": -80.1737932
+  },
+  "1760 n. congress ave., boynton beach, fl 33426|": {
+    "lat": 26.5417932,
+    "lon": -80.090171
+  },
+  "9630 stirling road, cooper city, fl 33024|": {
+    "lat": 26.0446694,
+    "lon": -80.2743272
+  },
+  "13274 biscayne blvd., north miami, fl 33181|": {
+    "lat": 25.8981701,
+    "lon": -80.1611803
+  },
+  "7400 abercorn st, savannah, ga 31406|": null,
+  "3837 w. woolbright road, boynton beach, fl|": {
+    "lat": 26.5143732,
+    "lon": -80.0769563
+  },
+  "4900 linton blvd, delray beach, fl|": {
+    "lat": 26.4392639,
+    "lon": -80.1192038
+  },
+  "bakery, aventura, fl|": null,
+  "4900 s. university rd., davie, fl|": null,
+  "11555 heron bay blvd, suite 200, coral springs|": null,
+  "11401 pines blvd, pembroke pines|": {
+    "lat": 26.0098368,
+    "lon": -80.3060595
+  },
+  "6362 timberlakes way, delray beach, fl 33484|": null,
+  "hollywood, fl|": {
+    "lat": 26.0112014,
+    "lon": -80.1494901
+  },
+  "4051 stirling rd, (inside chevron station), hollywood|": null,
+  "901 sunrise lane, ft. lauderdale|": {
+    "lat": 26.136999,
+    "lon": -80.103852
+  },
+  "9982 glades rd., west boca raton|palm beach county": {
+    "lat": 26.367379,
+    "lon": -80.1737932
+  },
+  "15 s. pointe dr., dania beach|broward county": {
+    "lat": 26.0514933,
+    "lon": -80.1596871
+  },
+  "4462 weston road, davie|broward county": {
+    "lat": 26.0629421,
+    "lon": -80.3621976
+  },
+  "10836 sw 104th st, kendall|miami-dade county": {
+    "lat": 25.6722083,
+    "lon": -80.3705241
+  },
+  "6620 sw 57th ave., coral gables, (south miami)|miami-dade county": {
+    "lat": 25.7097483,
+    "lon": -80.2856933
+  },
+  "3111 ne 1st ave, midtown miami|miami-dade county": {
+    "lat": 25.8102248,
+    "lon": -80.1923162
+  },
+  "14881 biscayne blvd., north miami beach|miami-dade county": {
+    "lat": 25.9130631,
+    "lon": -80.1558366
+  }
+}
