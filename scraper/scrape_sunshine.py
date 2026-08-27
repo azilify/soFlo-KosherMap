@@ -31,6 +31,8 @@ import pdfplumber
 import requests
 from bs4 import BeautifulSoup
 
+from categorize import strip_handles
+
 PAGE_URL = "https://www.sunshinestatekosher.org/facilities"
 DEBUG_DIR = Path(__file__).parent.parent / "data"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; KosherMapBot/1.0)"}
@@ -112,6 +114,7 @@ def parse_pdf_tables(pdf_bytes, source_label):
                         address = ", ".join(remaining)
 
                     detail_lines = [l.strip() for l in detail_block.split("\n") if l.strip()]
+                    detail_lines = strip_handles(detail_lines)
                     phone_match, email_match = "", ""
                     category_lines = []
                     for line in detail_lines:
