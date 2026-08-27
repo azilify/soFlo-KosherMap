@@ -15,11 +15,6 @@
     --bg:#f5f6f7;
     --accent:#1a6b5c;
     --accent-soft:#e6f2ef;
-    --meat:#b5473a;
-    --dairy:#1a6b5c;
-    --parve:#8a6d1f;
-    --bakery:#8a5a34;
-    --other:#5f6368;
     --radius:10px;
     --shadow:0 1px 2px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.06);
   }
@@ -48,12 +43,23 @@
     border-radius:999px; box-shadow:var(--shadow); white-space:nowrap; pointer-events:auto;
   }
 
-  /* Desktop sidebar */
   #panel{
     position:absolute; top:64px; left:16px; bottom:16px; width:300px; z-index:900;
     background:var(--panel); border-radius:var(--radius); box-shadow:var(--shadow);
-    overflow-y:auto; padding:14px 16px 18px;
+    overflow-y:auto; padding:12px 16px 18px;
+    display:flex; flex-direction:column;
   }
+  .panel-actions{
+    display:flex; gap:8px; padding-bottom:10px; margin-bottom:8px; border-bottom:1px solid var(--line);
+  }
+  .panel-actions button{
+    flex:1; font-family:inherit; font-size:.78rem; font-weight:600; padding:7px 0;
+    border-radius:7px; border:1px solid var(--line); background:#fafafa; color:var(--ink); cursor:pointer;
+  }
+  .panel-actions button:hover{ background:var(--accent-soft); border-color:var(--accent); }
+  .panel-actions button.primary{ background:var(--accent); color:#fff; border-color:var(--accent); }
+  .panel-actions button.primary:hover{ opacity:.9; }
+
   .group{ margin-bottom:6px; border-bottom:1px solid var(--line); }
   .group:last-of-type{ border-bottom:none; }
   .group summary{
@@ -65,6 +71,7 @@
   .group summary::after{ content:"▾"; color:var(--muted); font-size:.7rem; transition:transform .15s; }
   .group[open] summary::after{ transform:rotate(180deg); }
   .group-body{ padding:0 2px 10px; }
+  .group-hint{ font-size:.72rem; color:var(--muted); padding:0 2px 6px; }
 
   label.chip{
     display:flex; align-items:center; gap:9px; padding:6px 4px;
@@ -87,7 +94,6 @@
     margin:2px 4px 0 0; color:#fff; font-weight:500;
   }
 
-  /* Mobile: floating Filters button + bottom-sheet panel */
   #filters-toggle{ display:none; }
 
   @media (max-width: 760px){
@@ -97,10 +103,10 @@
     #panel{
       display:none;
       top:auto; left:0; right:0; bottom:0; width:100%;
-      max-height:70dvh; border-radius:16px 16px 0 0;
+      max-height:75dvh; border-radius:16px 16px 0 0;
       padding-top:6px;
     }
-    #panel.open{ display:block; }
+    #panel.open{ display:flex; }
     #panel::before{
       content:""; display:block; width:36px; height:4px; background:var(--line);
       border-radius:99px; margin:4px auto 10px;
@@ -127,29 +133,60 @@
   </header>
 
   <div id="panel">
+    <div class="panel-actions">
+      <button class="primary" id="select-all-btn">Select all</button>
+      <button id="clear-btn">Clear filters</button>
+    </div>
+
+    <details class="group" open>
+      <summary>Food Type</summary>
+      <div class="group-body">
+        <label class="chip"><input type="checkbox" class="f-food_type" value="Dairy"><span class="swatch" style="background:#1a6b5c"></span>Dairy</label>
+        <label class="chip"><input type="checkbox" class="f-food_type" value="Meat"><span class="swatch" style="background:#b5473a"></span>Meat</label>
+        <label class="chip"><input type="checkbox" class="f-food_type" value="Parve"><span class="swatch" style="background:#8a6d1f"></span>Parve</label>
+      </div>
+    </details>
+
     <details class="group" open>
       <summary>Food Service</summary>
-      <div class="group-body" id="cat-group-food"></div>
+      <div class="group-body">
+        <label class="chip"><input type="checkbox" class="f-food_service" value="Restaurant"><span class="swatch" style="background:#3d5a99"></span>Restaurant</label>
+        <label class="chip"><input type="checkbox" class="f-food_service" value="Bakery"><span class="swatch" style="background:#8a5a34"></span>Bakery</label>
+        <label class="chip"><input type="checkbox" class="f-food_service" value="Take Out"><span class="swatch" style="background:#3d7a4d"></span>Take Out</label>
+        <label class="chip"><input type="checkbox" class="f-food_service" value="Drinks and Snacks"><span class="swatch" style="background:#c78a2e"></span>Drinks and Snacks</label>
+      </div>
     </details>
+
     <details class="group">
       <summary>Commercial &amp; Wholesale</summary>
-      <div class="group-body" id="cat-group-commercial"></div>
+      <div class="group-body">
+        <label class="chip"><input type="checkbox" class="f-commercial" value="Catering"><span class="swatch" style="background:#5a5a8a"></span>Catering</label>
+        <label class="chip"><input type="checkbox" class="f-commercial" value="Commercial"><span class="swatch" style="background:#6b6b6b"></span>Commercial</label>
+        <label class="chip"><input type="checkbox" class="f-commercial" value="Grocery"><span class="swatch" style="background:#3d6b7a"></span>Grocery</label>
+        <label class="chip"><input type="checkbox" class="f-commercial" value="Butcher"><span class="swatch" style="background:#8a2f2f"></span>Butcher</label>
+        <label class="chip"><input type="checkbox" class="f-commercial" value="Manufacturing"><span class="swatch" style="background:#6b6b6b"></span>Manufacturing</label>
+        <label class="chip"><input type="checkbox" class="f-commercial" value="Wholesale Distribution"><span class="swatch" style="background:#8a8a8a"></span>Wholesale Distribution</label>
+        <label class="chip"><input type="checkbox" class="f-commercial" value="Wholesale Only"><span class="swatch" style="background:#8a8a8a"></span>Wholesale Only</label>
+        <label class="chip"><input type="checkbox" class="f-commercial" value="Food Additives"><span class="swatch" style="background:#8a8a8a"></span>Food Additives</label>
+        <label class="chip"><input type="checkbox" class="f-commercial" value="Misc"><span class="swatch" style="background:#8a8a8a"></span>Misc</label>
+      </div>
     </details>
-    <details class="group" id="cat-group-other-wrap" style="display:none;">
-      <summary>Other</summary>
-      <div class="group-body" id="cat-group-other"></div>
+
+    <details class="group" open>
+      <summary>Stringencies</summary>
+      <div class="group-hint">Stricter standards some people specifically look for</div>
+      <div class="group-body">
+        <label class="chip"><input type="checkbox" class="f-stringency" value="Cholov Yisroel"><span class="swatch" style="background:#1a6b5c"></span>Cholov Yisroel</label>
+        <label class="chip"><input type="checkbox" class="f-stringency" value="Pas Yisroel"><span class="swatch" style="background:#8a6d1f"></span>Pas Yisroel</label>
+        <label class="chip"><input type="checkbox" class="f-stringency" value="Yoshon"><span class="swatch" style="background:#5a5a8a"></span>Yoshon</label>
+      </div>
     </details>
+
     <details class="group" open>
       <summary>Certifying Agency</summary>
       <div class="group-body" id="agency-filters"></div>
     </details>
-    <details class="group" open>
-      <summary>Dairy Standard</summary>
-      <div class="group-body">
-        <label class="chip"><input type="checkbox" class="std-filter" value="Cholov Yisroel" checked><span class="swatch" style="background:var(--dairy)"></span>Cholov Yisroel</label>
-        <label class="chip"><input type="checkbox" class="std-filter" value="Cholov Stam" checked><span class="swatch" style="background:#b5ab8a"></span>Cholov Stam</label>
-      </div>
-    </details>
+
     <div id="count"></div>
   </div>
 
@@ -159,87 +196,63 @@
 </div>
 
 <script>
-// Categories that belong to hands-on food service vs. commercial/wholesale-type listings.
-const FOOD_SERVICE_CATS = new Set([
-  "Meat","Dairy","Parve","Pareve","Bakery","Catering","Take Out","Butcher"
-]);
-const COMMERCIAL_CATS = new Set([
-  "Commercial","Wholesale Only","Wholesale Distribution","Food Additives",
-  "Manufacturing","Grocery","Misc"
-]);
-
 const CATEGORY_COLORS = {
-  "Meat": "#b5473a", "Dairy": "#1a6b5c", "Parve": "#8a6d1f", "Pareve": "#8a6d1f",
-  "Bakery": "#8a5a34", "Catering": "#5a5a8a", "Take Out": "#3d7a4d",
-  "Commercial": "#6b6b6b", "Butcher": "#8a2f2f", "Grocery": "#3d6b7a",
-  "Misc": "#8a8a8a", "Wholesale Only": "#8a8a8a", "Wholesale Distribution": "#8a8a8a",
-  "Food Additives": "#8a8a8a", "Manufacturing": "#6b6b6b",
+  "Dairy": "#1a6b5c", "Meat": "#b5473a", "Parve": "#8a6d1f",
+  "Restaurant": "#3d5a99", "Bakery": "#8a5a34", "Take Out": "#3d7a4d", "Drinks and Snacks": "#c78a2e",
+  "Catering": "#5a5a8a", "Commercial": "#6b6b6b", "Grocery": "#3d6b7a", "Butcher": "#8a2f2f",
+  "Manufacturing": "#6b6b6b", "Wholesale Distribution": "#8a8a8a", "Wholesale Only": "#8a8a8a",
+  "Food Additives": "#8a8a8a", "Misc": "#8a8a8a",
+  "Cholov Yisroel": "#1a6b5c", "Pas Yisroel": "#8a6d1f", "Yoshon": "#5a5a8a",
 };
+const AGENCY_LABELS = { "ORB": "ORB", "KM": "KM", "KDM": "KDM", "SSK": "Sunshine State Kosher" };
 
 const map = L.map('map', { zoomControl: false }).setView([25.95, -80.15], 10);
 L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-// Clean, minimal basemap (CARTO Positron) instead of default OSM styling.
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-  maxZoom: 19,
-  subdomains: 'abcd',
+// Esri's Light Gray Canvas basemap - clean, minimal, no API key required
+// (unlike CARTO's basemaps, which now require an account/key for this kind
+// of hosted usage).
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+  attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+  maxZoom: 16,
+}).addTo(map);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+  maxZoom: 16,
 }).addTo(map);
 
 let allData = [];
 let markers = [];
 
-function colorFor(categoryString){
-  const first = categoryString.split(",")[0].trim();
+function colorFor(rec){
+  const ft = rec.food_type || [], fs = rec.food_service || [], cm = rec.commercial || [];
+  const first = ft[0] || fs[0] || cm[0] || "";
   return CATEGORY_COLORS[first] || "#666";
 }
 
-function buildFilters(data){
-  const cats = new Set();
-  const agencies = new Set();
-  data.forEach(r => {
-    (r.category || "").split(",").forEach(c => {
-      const c2 = c.trim();
-      if (c2 && !["Cholov Yisroel","Cholov Stam"].includes(c2)) cats.add(c2);
-    });
-    agencies.add(r.agency);
-  });
-
-  const foodBox = document.getElementById('cat-group-food');
-  const commBox = document.getElementById('cat-group-commercial');
-  const otherBox = document.getElementById('cat-group-other');
-  let hasOther = false;
-
-  [...cats].sort().forEach(c => {
-    const id = 'cat-' + c.replace(/[^a-zA-Z0-9]+/g,'-');
-    const html = `
-      <label class="chip" for="${id}">
-        <input type="checkbox" id="${id}" class="cat-filter" value="${c}" checked>
-        <span class="swatch" style="background:${CATEGORY_COLORS[c]||'#666'}"></span>${c}
-      </label>`;
-    if (FOOD_SERVICE_CATS.has(c)) foodBox.insertAdjacentHTML('beforeend', html);
-    else if (COMMERCIAL_CATS.has(c)) commBox.insertAdjacentHTML('beforeend', html);
-    else { otherBox.insertAdjacentHTML('beforeend', html); hasOther = true; }
-  });
-  if (hasOther) document.getElementById('cat-group-other-wrap').style.display = 'block';
-
-  const agBox = document.getElementById('agency-filters');
+function buildAgencyFilters(data){
+  const agencies = new Set(data.map(r => r.agency));
+  const box = document.getElementById('agency-filters');
   [...agencies].sort().forEach(a => {
     const id = 'ag-' + a;
-    agBox.insertAdjacentHTML('beforeend', `
+    box.insertAdjacentHTML('beforeend', `
       <label class="chip" for="${id}">
-        <input type="checkbox" id="${id}" class="ag-filter" value="${a}" checked> ${a}
+        <input type="checkbox" id="${id}" class="f-agency" value="${a}"> ${AGENCY_LABELS[a] || a}
       </label>`);
   });
+}
 
-  document.querySelectorAll('.cat-filter,.ag-filter,.std-filter')
-    .forEach(el => el.addEventListener('change', render));
+function allFilterCheckboxes(){
+  return document.querySelectorAll('.f-food_type,.f-food_service,.f-commercial,.f-stringency,.f-agency');
 }
 
 function render(){
-  const activeCats = [...document.querySelectorAll('.cat-filter:checked')].map(e=>e.value);
-  const activeAgencies = [...document.querySelectorAll('.ag-filter:checked')].map(e=>e.value);
-  const activeStds = [...document.querySelectorAll('.std-filter:checked')].map(e=>e.value);
+  const active = {
+    food_type: [...document.querySelectorAll('.f-food_type:checked')].map(e=>e.value),
+    food_service: [...document.querySelectorAll('.f-food_service:checked')].map(e=>e.value),
+    commercial: [...document.querySelectorAll('.f-commercial:checked')].map(e=>e.value),
+    stringency: [...document.querySelectorAll('.f-stringency:checked')].map(e=>e.value),
+  };
+  const activeAgencies = [...document.querySelectorAll('.f-agency:checked')].map(e=>e.value);
 
   markers.forEach(m => map.removeLayer(m));
   markers = [];
@@ -247,40 +260,50 @@ function render(){
   let shown = 0;
   allData.forEach(r => {
     if (!r.lat || !r.lon) return;
-    const rowCats = (r.category || "").split(",").map(c=>c.trim());
-    const hasStdTag = rowCats.includes("Cholov Yisroel") || rowCats.includes("Cholov Stam");
-    const foodCats = rowCats.filter(c => !["Cholov Yisroel","Cholov Stam"].includes(c));
 
-    const catMatch = foodCats.some(c => activeCats.includes(c));
-    const agMatch = activeAgencies.includes(r.agency);
-    const stdMatch = !hasStdTag || rowCats.some(c => activeStds.includes(c));
-
-    if (catMatch && agMatch && stdMatch){
-      const color = colorFor(r.category || "");
-      const marker = L.circleMarker([r.lat, r.lon], {
-        radius: 6, color: '#fff', weight: 2, fillColor: color, fillOpacity: 0.95,
-      });
-      const tags = rowCats.map(c => `<span class="tag" style="background:${CATEGORY_COLORS[c]||'#888'}">${c}</span>`).join("");
-      marker.bindPopup(`
-        <b>${r.name}</b><br>
-        ${r.address || r.area || ""}<br>
-        ${r.phone ? r.phone + "<br>" : ""}
-        ${tags}<br>
-        <span style="color:${getComputedStyle(document.documentElement).getPropertyValue('--muted')};">Certified by ${r.agency} (${r.source})</span>
-        ${r.cert_link ? `<br><a href="${r.cert_link}" target="_blank">View certificate</a>` : ""}
-      `);
-      marker.addTo(map);
-      markers.push(marker);
-      shown++;
+    // A dimension only constrains a restaurant if the restaurant actually
+    // carries a tag in that dimension. If it has none there, that
+    // dimension is skipped for it entirely (e.g. a plain restaurant with
+    // no stringency tag isn't hidden by the Stringencies filter).
+    // If it DOES have tags there, at least one must be actively selected.
+    for (const dim of ["food_type","food_service","commercial","stringency"]) {
+      const tags = r[dim] || [];
+      if (tags.length && !tags.some(t => active[dim].includes(t))) return;
     }
+    if (activeAgencies.length && !activeAgencies.includes(r.agency)) return;
+    if (!activeAgencies.length) return; // agency filter always required to be explicit
+
+    const color = colorFor(r);
+    const marker = L.circleMarker([r.lat, r.lon], {
+      radius: 6, color: '#fff', weight: 2, fillColor: color, fillOpacity: 0.95,
+    });
+    const allTags = [...(r.food_type||[]), ...(r.food_service||[]), ...(r.commercial||[]), ...(r.stringency||[])];
+    const tagHtml = allTags.map(c => `<span class="tag" style="background:${CATEGORY_COLORS[c]||'#888'}">${c}</span>`).join("");
+    marker.bindPopup(`
+      <b>${r.name}</b><br>
+      ${r.address || r.area || ""}<br>
+      ${r.phone ? r.phone + "<br>" : ""}
+      ${tagHtml}<br>
+      <span style="color:#5f6368;">Certified by ${AGENCY_LABELS[r.agency] || r.agency} (${r.source})</span>
+      ${r.cert_link ? `<br><a href="${r.cert_link}" target="_blank">View certificate</a>` : ""}
+    `);
+    marker.addTo(map);
+    markers.push(marker);
+    shown++;
   });
 
   document.getElementById('count').textContent = `Showing ${shown} of ${allData.length} restaurants`;
 }
 
-// Leaflet can mis-measure its container if the map div's size isn't final
-// yet when it initializes (common on mobile). Force a re-check after layout
-// settles and on any viewport change.
+document.getElementById('select-all-btn').addEventListener('click', () => {
+  allFilterCheckboxes().forEach(cb => cb.checked = true);
+  render();
+});
+document.getElementById('clear-btn').addEventListener('click', () => {
+  allFilterCheckboxes().forEach(cb => cb.checked = false);
+  render();
+});
+
 function fixMapSize(){ map.invalidateSize(); }
 window.addEventListener('resize', fixMapSize);
 window.addEventListener('orientationchange', () => setTimeout(fixMapSize, 200));
@@ -290,7 +313,9 @@ fetch('data/restaurants.json?_=' + Date.now())
   .then(r => r.json())
   .then(data => {
     allData = data;
-    buildFilters(data);
+    buildAgencyFilters(data);
+    document.querySelectorAll('.f-food_type,.f-food_service,.f-commercial,.f-stringency,.f-agency')
+      .forEach(el => el.addEventListener('change', render));
     render();
     fixMapSize();
     document.getElementById('updated-label').textContent =
