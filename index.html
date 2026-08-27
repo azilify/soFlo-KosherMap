@@ -2,120 +2,188 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>South Florida Kosher Restaurant Map</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <style>
   :root{
-    --ink:#1c2b2d;
-    --paper:#f6f3ec;
-    --line:#d9d2c2;
-    --meat:#a3402f;
-    --dairy:#2f6a6b;
-    --parve:#8a7a3f;
-    --agency:#3a3a3a;
-    --accent:#c98a3f;
+    --ink:#202124;
+    --muted:#5f6368;
+    --line:#e3e5e8;
+    --panel:#ffffff;
+    --bg:#f5f6f7;
+    --accent:#1a6b5c;
+    --accent-soft:#e6f2ef;
+    --meat:#b5473a;
+    --dairy:#1a6b5c;
+    --parve:#8a6d1f;
+    --bakery:#8a5a34;
+    --other:#5f6368;
+    --radius:10px;
+    --shadow:0 1px 2px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.06);
   }
   *{box-sizing:border-box;}
+  html,body{ height:100%; }
   body{
-    margin:0; font-family:"Iowan Old Style","Georgia",serif;
-    background:var(--paper); color:var(--ink);
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--ink);
+    height:100dvh; overflow:hidden;
   }
+  #app{ position:relative; height:100dvh; width:100vw; }
+  #map{ position:absolute; inset:0; }
+
   header{
-    padding:18px 20px 14px; border-bottom:2px solid var(--ink);
-    display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:8px;
+    position:absolute; top:0; left:0; right:0; z-index:1000;
+    padding:12px 16px; display:flex; align-items:center; justify-content:space-between;
+    gap:10px; pointer-events:none;
   }
   header h1{
-    margin:0; font-size:1.35rem; letter-spacing:.02em; font-weight:600;
+    margin:0; font-size:1.05rem; font-weight:600; letter-spacing:-0.01em;
+    background:var(--panel); padding:9px 14px; border-radius:999px; box-shadow:var(--shadow);
+    pointer-events:auto;
   }
   header .updated{
-    font-family:"Helvetica Neue",Arial,sans-serif; font-size:.75rem; color:#5a5a52;
+    font-size:.72rem; color:var(--muted); background:var(--panel); padding:7px 12px;
+    border-radius:999px; box-shadow:var(--shadow); white-space:nowrap; pointer-events:auto;
   }
-  #layout{ display:flex; height:calc(100vh - 60px); }
+
+  /* Desktop sidebar */
   #panel{
-    width:280px; min-width:220px; overflow-y:auto; padding:14px 16px;
-    border-right:2px solid var(--ink); background:var(--paper);
-    font-family:"Helvetica Neue",Arial,sans-serif;
+    position:absolute; top:64px; left:16px; bottom:16px; width:300px; z-index:900;
+    background:var(--panel); border-radius:var(--radius); box-shadow:var(--shadow);
+    overflow-y:auto; padding:14px 16px 18px;
   }
-  #map{ flex:1; }
-  .group{ margin-bottom:18px; }
-  .group h2{
-    font-family:"Iowan Old Style","Georgia",serif;
-    font-size:.85rem; text-transform:uppercase; letter-spacing:.08em;
-    margin:0 0 8px; border-bottom:1px solid var(--line); padding-bottom:4px;
+  .group{ margin-bottom:6px; border-bottom:1px solid var(--line); }
+  .group:last-of-type{ border-bottom:none; }
+  .group summary{
+    list-style:none; cursor:pointer; padding:10px 2px;
+    font-size:.8rem; font-weight:600; color:var(--ink); text-transform:uppercase; letter-spacing:.04em;
+    display:flex; align-items:center; justify-content:space-between;
   }
+  .group summary::-webkit-details-marker{ display:none; }
+  .group summary::after{ content:"▾"; color:var(--muted); font-size:.7rem; transition:transform .15s; }
+  .group[open] summary::after{ transform:rotate(180deg); }
+  .group-body{ padding:0 2px 10px; }
+
   label.chip{
-    display:flex; align-items:center; gap:8px; padding:5px 2px;
-    font-size:.85rem; cursor:pointer; user-select:none;
+    display:flex; align-items:center; gap:9px; padding:6px 4px;
+    font-size:.86rem; cursor:pointer; user-select:none; border-radius:6px;
   }
-  label.chip input{ accent-color: var(--accent); width:15px; height:15px; }
+  label.chip:hover{ background:var(--accent-soft); }
+  label.chip input{ accent-color: var(--accent); width:16px; height:16px; flex-shrink:0; }
   .swatch{ width:10px; height:10px; border-radius:50%; display:inline-block; flex-shrink:0; }
+
   #count{
-    font-size:.75rem; color:#5a5a52; margin-top:10px; padding-top:10px;
+    font-size:.75rem; color:var(--muted); margin-top:8px; padding-top:10px;
     border-top:1px solid var(--line);
   }
-  .leaflet-popup-content{ font-family:"Helvetica Neue",Arial,sans-serif; font-size:.85rem; line-height:1.4; }
-  .leaflet-popup-content b{ font-family:"Iowan Old Style","Georgia",serif; font-size:1rem; }
+
+  .leaflet-popup-content-wrapper{ border-radius:8px; }
+  .leaflet-popup-content{ font-family:inherit; font-size:.85rem; line-height:1.45; margin:12px 14px; }
+  .leaflet-popup-content b{ font-size:.98rem; }
   .tag{
-    display:inline-block; font-size:.68rem; padding:1px 6px; border-radius:3px;
-    margin:2px 3px 0 0; color:#fff;
+    display:inline-block; font-size:.66rem; padding:2px 7px; border-radius:5px;
+    margin:2px 4px 0 0; color:#fff; font-weight:500;
   }
-  @media (max-width: 700px){
-    #layout{ flex-direction:column; height:auto; }
-    #panel{ width:100%; border-right:none; border-bottom:2px solid var(--ink); max-height:38vh; }
-    #map{ height:62vh; }
+
+  /* Mobile: floating Filters button + bottom-sheet panel */
+  #filters-toggle{ display:none; }
+
+  @media (max-width: 760px){
+    header h1{ font-size:.92rem; padding:8px 12px; }
+    header .updated{ display:none; }
+
+    #panel{
+      display:none;
+      top:auto; left:0; right:0; bottom:0; width:100%;
+      max-height:70dvh; border-radius:16px 16px 0 0;
+      padding-top:6px;
+    }
+    #panel.open{ display:block; }
+    #panel::before{
+      content:""; display:block; width:36px; height:4px; background:var(--line);
+      border-radius:99px; margin:4px auto 10px;
+    }
+
+    #filters-toggle{
+      display:flex; align-items:center; gap:8px;
+      position:absolute; bottom:20px; left:50%; transform:translateX(-50%); z-index:950;
+      background:var(--accent); color:#fff; border:none; padding:11px 20px;
+      border-radius:999px; box-shadow:var(--shadow); font-size:.88rem; font-weight:600;
+      font-family:inherit;
+    }
   }
 </style>
 </head>
 <body>
 
-<header>
-  <h1>South Florida Kosher Restaurants</h1>
-  <span class="updated" id="updated-label">Loading data…</span>
-</header>
+<div id="app">
+  <div id="map"></div>
 
-<div id="layout">
+  <header>
+    <h1>South Florida Kosher</h1>
+    <span class="updated" id="updated-label">Loading…</span>
+  </header>
+
   <div id="panel">
-    <div class="group">
-      <h2>Food Category</h2>
-      <div id="category-filters"></div>
-    </div>
-    <div class="group">
-      <h2>Certifying Agency</h2>
-      <div id="agency-filters"></div>
-    </div>
-    <div class="group">
-      <h2>Dairy Standard</h2>
-      <label class="chip"><input type="checkbox" class="std-filter" value="Cholov Yisroel" checked><span class="swatch" style="background:var(--dairy)"></span>Cholov Yisroel</label>
-      <label class="chip"><input type="checkbox" class="std-filter" value="Cholov Stam" checked><span class="swatch" style="background:#b5ab8a"></span>Cholov Stam</label>
-    </div>
+    <details class="group" open>
+      <summary>Food Service</summary>
+      <div class="group-body" id="cat-group-food"></div>
+    </details>
+    <details class="group">
+      <summary>Commercial &amp; Wholesale</summary>
+      <div class="group-body" id="cat-group-commercial"></div>
+    </details>
+    <details class="group" id="cat-group-other-wrap" style="display:none;">
+      <summary>Other</summary>
+      <div class="group-body" id="cat-group-other"></div>
+    </details>
+    <details class="group" open>
+      <summary>Certifying Agency</summary>
+      <div class="group-body" id="agency-filters"></div>
+    </details>
+    <details class="group" open>
+      <summary>Dairy Standard</summary>
+      <div class="group-body">
+        <label class="chip"><input type="checkbox" class="std-filter" value="Cholov Yisroel" checked><span class="swatch" style="background:var(--dairy)"></span>Cholov Yisroel</label>
+        <label class="chip"><input type="checkbox" class="std-filter" value="Cholov Stam" checked><span class="swatch" style="background:#b5ab8a"></span>Cholov Stam</label>
+      </div>
+    </details>
     <div id="count"></div>
   </div>
-  <div id="map"></div>
+
+  <button id="filters-toggle" onclick="document.getElementById('panel').classList.toggle('open')">
+    Filters
+  </button>
 </div>
 
 <script>
-const CATEGORY_COLORS = {
-  "Meat": "#a3402f",
-  "Dairy": "#2f6a6b",
-  "Parve": "#8a7a3f",
-  "Pareve": "#8a7a3f",
-  "Bakery": "#7a5a3a",
-  "Catering": "#5a5a8a",
-  "Take Out": "#4a7a4a",
-  "Commercial": "#777",
-  "Butcher": "#8a2f2f",
-  "Grocery": "#5a7a8a",
-  "Misc": "#999",
-  "Wholesale Only": "#999",
-};
-const AGENCY_COLORS = { "ORB":"#3a3a3a", "KM":"#3a3a3a", "KDM":"#3a3a3a" };
+// Categories that belong to hands-on food service vs. commercial/wholesale-type listings.
+const FOOD_SERVICE_CATS = new Set([
+  "Meat","Dairy","Parve","Pareve","Bakery","Catering","Take Out","Butcher"
+]);
+const COMMERCIAL_CATS = new Set([
+  "Commercial","Wholesale Only","Wholesale Distribution","Food Additives",
+  "Manufacturing","Grocery","Misc"
+]);
 
-const map = L.map('map').setView([25.95, -80.15], 10);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; OpenStreetMap contributors',
+const CATEGORY_COLORS = {
+  "Meat": "#b5473a", "Dairy": "#1a6b5c", "Parve": "#8a6d1f", "Pareve": "#8a6d1f",
+  "Bakery": "#8a5a34", "Catering": "#5a5a8a", "Take Out": "#3d7a4d",
+  "Commercial": "#6b6b6b", "Butcher": "#8a2f2f", "Grocery": "#3d6b7a",
+  "Misc": "#8a8a8a", "Wholesale Only": "#8a8a8a", "Wholesale Distribution": "#8a8a8a",
+  "Food Additives": "#8a8a8a", "Manufacturing": "#6b6b6b",
+};
+
+const map = L.map('map', { zoomControl: false }).setView([25.95, -80.15], 10);
+L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+// Clean, minimal basemap (CARTO Positron) instead of default OSM styling.
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
   maxZoom: 19,
+  subdomains: 'abcd',
 }).addTo(map);
 
 let allData = [];
@@ -130,22 +198,30 @@ function buildFilters(data){
   const cats = new Set();
   const agencies = new Set();
   data.forEach(r => {
-    r.category.split(",").forEach(c => {
+    (r.category || "").split(",").forEach(c => {
       const c2 = c.trim();
       if (c2 && !["Cholov Yisroel","Cholov Stam"].includes(c2)) cats.add(c2);
     });
     agencies.add(r.agency);
   });
 
-  const catBox = document.getElementById('category-filters');
+  const foodBox = document.getElementById('cat-group-food');
+  const commBox = document.getElementById('cat-group-commercial');
+  const otherBox = document.getElementById('cat-group-other');
+  let hasOther = false;
+
   [...cats].sort().forEach(c => {
-    const id = 'cat-' + c.replace(/\s+/g,'-');
-    catBox.insertAdjacentHTML('beforeend', `
+    const id = 'cat-' + c.replace(/[^a-zA-Z0-9]+/g,'-');
+    const html = `
       <label class="chip" for="${id}">
         <input type="checkbox" id="${id}" class="cat-filter" value="${c}" checked>
         <span class="swatch" style="background:${CATEGORY_COLORS[c]||'#666'}"></span>${c}
-      </label>`);
+      </label>`;
+    if (FOOD_SERVICE_CATS.has(c)) foodBox.insertAdjacentHTML('beforeend', html);
+    else if (COMMERCIAL_CATS.has(c)) commBox.insertAdjacentHTML('beforeend', html);
+    else { otherBox.insertAdjacentHTML('beforeend', html); hasOther = true; }
   });
+  if (hasOther) document.getElementById('cat-group-other-wrap').style.display = 'block';
 
   const agBox = document.getElementById('agency-filters');
   [...agencies].sort().forEach(a => {
@@ -171,19 +247,18 @@ function render(){
   let shown = 0;
   allData.forEach(r => {
     if (!r.lat || !r.lon) return;
-    const rowCats = r.category.split(",").map(c=>c.trim());
+    const rowCats = (r.category || "").split(",").map(c=>c.trim());
     const hasStdTag = rowCats.includes("Cholov Yisroel") || rowCats.includes("Cholov Stam");
     const foodCats = rowCats.filter(c => !["Cholov Yisroel","Cholov Stam"].includes(c));
 
     const catMatch = foodCats.some(c => activeCats.includes(c));
     const agMatch = activeAgencies.includes(r.agency);
-    // dairy-standard filter only constrains rows that actually carry a standard tag
     const stdMatch = !hasStdTag || rowCats.some(c => activeStds.includes(c));
 
     if (catMatch && agMatch && stdMatch){
-      const color = colorFor(r.category);
+      const color = colorFor(r.category || "");
       const marker = L.circleMarker([r.lat, r.lon], {
-        radius: 6, color: '#1c2b2d', weight: 1, fillColor: color, fillOpacity: 0.85,
+        radius: 6, color: '#fff', weight: 2, fillColor: color, fillOpacity: 0.95,
       });
       const tags = rowCats.map(c => `<span class="tag" style="background:${CATEGORY_COLORS[c]||'#888'}">${c}</span>`).join("");
       marker.bindPopup(`
@@ -191,7 +266,7 @@ function render(){
         ${r.address || r.area || ""}<br>
         ${r.phone ? r.phone + "<br>" : ""}
         ${tags}<br>
-        <span style="color:#777;">Certified by ${r.agency} (${r.source})</span>
+        <span style="color:${getComputedStyle(document.documentElement).getPropertyValue('--muted')};">Certified by ${r.agency} (${r.source})</span>
         ${r.cert_link ? `<br><a href="${r.cert_link}" target="_blank">View certificate</a>` : ""}
       `);
       marker.addTo(map);
@@ -203,17 +278,26 @@ function render(){
   document.getElementById('count').textContent = `Showing ${shown} of ${allData.length} restaurants`;
 }
 
+// Leaflet can mis-measure its container if the map div's size isn't final
+// yet when it initializes (common on mobile). Force a re-check after layout
+// settles and on any viewport change.
+function fixMapSize(){ map.invalidateSize(); }
+window.addEventListener('resize', fixMapSize);
+window.addEventListener('orientationchange', () => setTimeout(fixMapSize, 200));
+setTimeout(fixMapSize, 300);
+
 fetch('data/restaurants.json?_=' + Date.now())
   .then(r => r.json())
   .then(data => {
     allData = data;
     buildFilters(data);
     render();
+    fixMapSize();
     document.getElementById('updated-label').textContent =
-      'Data refreshes daily • ' + new Date().toLocaleDateString();
+      'Updates daily • ' + new Date().toLocaleDateString();
   })
   .catch(err => {
-    document.getElementById('updated-label').textContent = 'Failed to load data — see console';
+    document.getElementById('updated-label').textContent = 'Failed to load data';
     console.error(err);
   });
 </script>
