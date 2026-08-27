@@ -1,0 +1,51 @@
+name: Daily kosher restaurant data update
+
+on:
+  schedule:
+    # Runs at 9:00 AM UTC (~4-5 AM Eastern) every day.
+    # Edit the cron expression to change the time: https://crontab.guru/
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}   # lets you also trigger it manually from the Actions tab
+
+permissions:
+  contents: write   # needed so the workflow can commit the updated data file
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          pip install requests beautifulsoup4 playwright pdfplumber
+          playwright install --with-deps chromium
+
+      - name: Run scraper + build data
+        working-directory: scraper
+        run: python build_data.py
+
+      - name: Upload debug artifacts (KM screenshot/HTML, Sunshine raw text)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-debug
+          path: |
+            data/km_debug.png
+            data/km_debug.html
+            data/sunshine_debug.txt
+          if-no-files-found: ignore
+
+      - name: Commit updated data
+        run: |
+          git config user.name "kosher-map-bot"
+          git config user.email "actions@github.com"
+          git add data/restaurants.json data/geocode_cache.json
+          git diff --quiet --cached || git commit -m "Daily data update $(date -u +%Y-%m-%d)"
+          git push
