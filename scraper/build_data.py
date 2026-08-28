@@ -28,13 +28,26 @@ AGENCY_NAMES = {
     "SSK": "Sunshine State Kosher",
 }
 
+# Manual corrections for specific listings where the source data is too
+# thin for the automatic tagging rules to get right (e.g. a business whose
+# only listed category is "Dairy" with nothing else, so the "assume
+# Restaurant" fallback guesses wrong). Add entries here as you spot them -
+# key is the exact business name, value is a dict of fields to overwrite
+# after normal tagging runs.
+MANUAL_OVERRIDES = {
+    "Vamss Corp.": {"food_service": []},
+}
+
 
 def tag_record(base, extra_text_for_tagging):
     """Runs categorize.normalize() and attaches the four tag arrays plus a
     combined display string (used in map popups)."""
     tags = normalize(extra_text_for_tagging)
     base.update(tags)
-    all_tags = tags["food_type"] + tags["food_service"] + tags["commercial"] + tags["stringency"]
+    overrides = MANUAL_OVERRIDES.get(base["name"])
+    if overrides:
+        base.update(overrides)
+    all_tags = base["food_type"] + base["food_service"] + base["commercial"] + base["stringency"]
     base["category"] = ", ".join(all_tags)
     return base
 
@@ -60,6 +73,7 @@ def process_orb(raw):
             "phone": base["phone"],
             "agency": "ORB",
             "cert_link": base.get("cert_link", ""),
+            "website": base.get("website", ""),
             "source": "ORB",
         }, combined_text)
         out.append(rec)
@@ -91,6 +105,7 @@ def process_km(raw):
             "phone": row.get("phone", ""),
             "agency": "KM",
             "cert_link": "",
+            "website": row.get("website", ""),
             "source": "Kosher Miami",
         }, text_for_tagging)
         out.append(rec)
@@ -107,6 +122,7 @@ def process_sunshine(raw):
             "phone": row.get("phone", ""),
             "agency": "SSK",
             "cert_link": "",
+            "website": "",
             "source": "Sunshine State Kosher",
         }, row.get("category", ""))
         out.append(rec)
