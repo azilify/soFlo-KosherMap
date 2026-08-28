@@ -271,26 +271,40 @@ function render(){
     return;
   }
 
-  let shown = 0;
+   let shown = 0;
   allData.forEach(r => {
     if (!r.lat || !r.lon) return;
 
-    // Food Type is the one required filter - a restaurant with any food
-    // type tag must match your selection there, or it's hidden. This is
-    // what keeps the map from dumping everything on you before you've
-    // chosen anything.
-    const ft = r.food_type || [];
-    if (ft.length && !ft.some(t => active.food_type.includes(t))) return;
+    // A record must actually MATCH something you've selected, not merely
+    // avoid conflicting with it. Without this, a business with no tags at
+    // all in any dimension you've touched (e.g. a commercial-only listing
+    // with no food classification) would slip through every check simply
+    // by having nothing to contradict - never having actually matched
+    // anything you picked.
+    let rejected = false;
+    let matched = false;
 
-    // Every other group only constrains results once you've actually
-    // checked something in it - leaving a group untouched means "don't
-    // filter by this," not "hide everything with this tag."
+    const ft = r.food_type || [];
+    if (ft.length) {
+      if (active.food_type.some(t => ft.includes(t))) matched = true;
+      else rejected = true;
+    }
+
     for (const dim of ["food_service","commercial","stringency"]) {
       if (!active[dim].length) continue;
       const tags = r[dim] || [];
-      if (tags.length && !tags.some(t => active[dim].includes(t))) return;
+      if (tags.length) {
+        if (tags.some(t => active[dim].includes(t))) matched = true;
+        else rejected = true;
+      }
     }
-    if (activeAgencies.length && !activeAgencies.includes(r.agency)) return;
+
+    if (activeAgencies.length) {
+      if (activeAgencies.includes(r.agency)) matched = true;
+      else rejected = true;
+    }
+
+    if (rejected || !matched) return;
 
     const color = colorFor(r);
     const marker = L.circleMarker([r.lat, r.lon], {
