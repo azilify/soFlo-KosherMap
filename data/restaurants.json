@@ -985,6 +985,29 @@
     "lon": null
   },
   {
+    "name": "OBAA Matcha",
+    "address": "2433 NE 202 St, Aventura, FL 33180",
+    "area": "",
+    "phone": "305-318-8782",
+    "agency": "ORB",
+    "cert_link": "/pdf/5161OBAA Matcha 2026.pdf",
+    "website": "https://www.instagram.com/obaamatcha/",
+    "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
     "name": "Pita Xpress",
     "address": "2445 Stirling Rd, Dania Beach, FL 33312",
     "area": "",
@@ -2935,6 +2958,29 @@
     ],
     "stringency": [],
     "category": "Misc",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Chic Espresso",
+    "address": "",
+    "area": "Other",
+    "phone": "786-383-4929",
+    "agency": "KM",
+    "cert_link": "",
+    "website": "http://chicespresso.com",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel",
     "lat": null,
     "lon": null
   },
