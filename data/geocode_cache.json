@@ -405,5 +405,475 @@
   "14881 biscayne blvd., north miami beach|miami-dade county": {
     "lat": 25.9130631,
     "lon": -80.1558366
-  }
+  },
+  "9509 harding ave|surfside": {
+    "lat": 25.8854823,
+    "lon": -80.1232721
+  },
+  "1751 alton rd|miami beach": {
+    "lat": 25.7932574,
+    "lon": -80.141211
+  },
+  "600 n surf rd|hollywood": {
+    "lat": 26.015675,
+    "lon": -80.115851
+  },
+  "2525 davie rd bldg 330|broward county": null,
+  "2906 ne 207th street #101|aventura": {
+    "lat": 25.9674536,
+    "lon": -80.1433844
+  },
+  "|miami beach": null,
+  "6620 custer street|hollywood": {
+    "lat": 26.0411432,
+    "lon": -80.221571
+  },
+  "3585 ne 207th street - c3|aventura": null,
+  "17871 biscayne blvd|aventura": {
+    "lat": 25.9410501,
+    "lon": -80.1480651
+  },
+  "3427 ne 163rd street|north miami beach": {
+    "lat": 25.9289547,
+    "lon": -80.1362254
+  },
+  "9505 harding ave|surfside": {
+    "lat": 25.8854315,
+    "lon": -80.1234786
+  },
+  "9580 bay harbor ter|miami beach": null,
+  "|north miami beach": null,
+  "18671 w. dixie hwy|north miami beach": {
+    "lat": 25.9187174,
+    "lon": -80.1594988
+  },
+  "2198 nw 21st street|other": null,
+  "2180 1/2 ne 123rd street|north miami beach": null,
+  "|hollywood": null,
+  "2208 ne 123rd street|north miami beach": null,
+  "1688 ne 164th street|north miami beach": {
+    "lat": 25.9266433,
+    "lon": -80.1662532
+  },
+  "17831 biscayne blvd|aventura": {
+    "lat": 25.940716,
+    "lon": -80.1481565
+  },
+  "3919 alton road|miami beach": {
+    "lat": 25.812559,
+    "lon": -80.135479
+  },
+  "9531 harding ave|surfside": {
+    "lat": 25.8858453,
+    "lon": -80.1235162
+  },
+  "19501 biscayne blvd|aventura": {
+    "lat": 25.9576899,
+    "lon": -80.1431178
+  },
+  "9544 harding ave|surfside": {
+    "lat": 25.8860526,
+    "lon": -80.123717
+  },
+  "2248 west 77th street|miami": {
+    "lat": 25.8921174,
+    "lon": -80.3292092
+  },
+  "9540 w bay harbor dr|bal harbour": null,
+  "1150 ne 185th street|north miami beach": {
+    "lat": 25.9463031,
+    "lon": -80.1572592
+  },
+  "5210 s university dr #106|broward county": {
+    "lat": 26.0564692,
+    "lon": -80.2517929
+  },
+  "20695 biscayne blvd|aventura": {
+    "lat": 25.9666637,
+    "lon": -80.1463376
+  },
+  "7350 ne 2nd ave #102|aventura": null,
+  "4101 pinetree drive|miami beach": {
+    "lat": 25.8460014,
+    "lon": -80.1263563
+  },
+  "|aventura": null,
+  "18798 west dixie highway|aventura": {
+    "lat": 25.9653337,
+    "lon": -80.1477483
+  },
+  "2790 stirling rd|hollywood": {
+    "lat": 26.04784,
+    "lon": -80.1646079
+  },
+  "274 ne 59th street|miami": {
+    "lat": 25.8297176,
+    "lon": -80.1905548
+  },
+  "250 n dixie highway #107|hollywood": {
+    "lat": 26.0135888,
+    "lon": -80.1494634
+  },
+  "3131 ne 7th ave cu2|miami": null,
+  "18900 ne 25th ave|north miami beach": {
+    "lat": 25.9016751,
+    "lon": -80.150837
+  },
+  "1402 nw 23rd st.|miami": {
+    "lat": 25.7984792,
+    "lon": -80.2195082
+  },
+  "2530 ne miami gardens dr|north miami beach": {
+    "lat": 25.9425401,
+    "lon": -80.1815706
+  },
+  "9463 harding ave|surfside": {
+    "lat": 25.884585,
+    "lon": -80.1231959
+  },
+  "544 arthur godfrey rd|miami beach": {
+    "lat": 25.8137523,
+    "lon": -80.1296023
+  },
+  "19010 ne 29th ave|aventura": {
+    "lat": 25.9516184,
+    "lon": -80.1428129
+  },
+  "726-41st street|miami beach": {
+    "lat": 25.8136555,
+    "lon": -80.1311059
+  },
+  "2520 ne miami gardens dr|north miami beach": {
+    "lat": 25.9425401,
+    "lon": -80.1815706
+  },
+  "4101 pinetree dr.|miami beach": {
+    "lat": 25.8460014,
+    "lon": -80.1263563
+  },
+  "19048 ne 29th ave|aventura": {
+    "lat": 25.9517208,
+    "lon": -80.1433545
+  },
+  "3861 ne 163rd street|north miami beach": {
+    "lat": 25.9313857,
+    "lon": -80.132464
+  },
+  "19206 w dixie hwy|aventura": {
+    "lat": 25.9604134,
+    "lon": -80.1475952
+  },
+  "5225 collins avenue|miami beach": {
+    "lat": 25.8302977,
+    "lon": -80.1213171
+  },
+  "1215 ne 171 terrace|north miami beach": null,
+  "2500 ne 186st|north miami beach": null,
+  "17040 w dixie hwy|north miami beach": {
+    "lat": 25.9329286,
+    "lon": -80.1534271
+  },
+  "9415 harding avenue|surfside": {
+    "lat": 25.8838538,
+    "lon": -80.1231283
+  },
+  "9472 harding ave|surfside": {
+    "lat": 25.8847307,
+    "lon": -80.1237293
+  },
+  "19202 west dixie hwy|aventura": {
+    "lat": 25.9604134,
+    "lon": -80.1475952
+  },
+  "93 nw 1st street|miami": {
+    "lat": 25.7750116,
+    "lon": -80.1945265
+  },
+  "9520 harding ave|surfside": {
+    "lat": 25.8856778,
+    "lon": -80.1238162
+  },
+  "2711 nw 2nd ave|miami": {
+    "lat": 25.8022918,
+    "lon": -80.1990619
+  },
+  "1880 ne 183rd street|north miami beach": {
+    "lat": 25.9439862,
+    "lon": -80.1635146
+  },
+  "17030 w dixie hwy|north miami beach": {
+    "lat": 25.9326711,
+    "lon": -80.1533749
+  },
+  "1209 nw 93court|miami": null,
+  "4141 nautilus drive|miami beach": {
+    "lat": 25.8138461,
+    "lon": -80.1353715
+  },
+  "20255 ne 15th ct|aventura": null,
+  "761 ne 167th st|north miami beach": {
+    "lat": 25.9293289,
+    "lon": -80.1850412
+  },
+  "18947 west dixie high way|aventura": null,
+  "9477 harding ave.|surfside": {
+    "lat": 25.8848869,
+    "lon": -80.1232239
+  },
+  "4821 sw 29th ave|hollywood": null,
+  "3017 aventura blvd|aventura": {
+    "lat": 25.9624632,
+    "lon": -80.1413888
+  },
+  "990 ne 171 street|north miami beach": {
+    "lat": 25.9323394,
+    "lon": -80.1806391
+  },
+  "514 w 41st street|miami beach": {
+    "lat": 25.8133981,
+    "lon": -80.1347851
+  },
+  "17092 west dixie highway|north miami beach": {
+    "lat": 25.933621,
+    "lon": -80.1528673
+  },
+  "3073 ne 163rd street|north miami beach": {
+    "lat": 25.9260953,
+    "lon": -80.1594406
+  },
+  "9485 harding ave|surfside": {
+    "lat": 25.8848993,
+    "lon": -80.1234284
+  },
+  "1840 ne 16th street|north miami beach": null,
+  "4750 sw 27th ave|broward county": {
+    "lat": 26.0629903,
+    "lon": -80.1764577
+  },
+  "17100 ne 6th ave|north miami beach": {
+    "lat": 25.9325038,
+    "lon": -80.1887508
+  },
+  "6624 collins ave|miami beach": {
+    "lat": 25.8498161,
+    "lon": -80.1203943
+  },
+  "5804 stirling rd|hollywood": {
+    "lat": 26.0467046,
+    "lon": -80.2051501
+  },
+  "19200 w. dixie highway|aventura": {
+    "lat": 25.9604134,
+    "lon": -80.1475952
+  },
+  "1017 kane concourse|bal harbour": null,
+  "1009 kane concourse|bal harbour": null,
+  "18514 w dixie hwy|north miami beach": {
+    "lat": 25.9187174,
+    "lon": -80.1594988
+  },
+  "9433 harding ave|surfside": {
+    "lat": 25.8840636,
+    "lon": -80.1233436
+  },
+  "433 w 41st street|miami beach": {
+    "lat": 25.8133981,
+    "lon": -80.1347851
+  },
+  "3341 sheridan street|hollywood": {
+    "lat": 26.0331519,
+    "lon": -80.1766833
+  },
+  "19090 ne 29th ave|aventura": {
+    "lat": 25.9519553,
+    "lon": -80.1444541
+  },
+  "9571 harding ave|surfside": {
+    "lat": 25.8864794,
+    "lon": -80.1235716
+  },
+  "|miami": null,
+  "19575 biscayne blvd #359|aventura": {
+    "lat": 25.9571479,
+    "lon": -80.1434451
+  },
+  "15915 nw 49th ave|miami": {
+    "lat": 25.9183232,
+    "lon": -80.2798846
+  },
+  "2188 ne 123rd street|north miami beach": null,
+  "8177 glades rd|boca raton": {
+    "lat": 26.3689894,
+    "lon": -80.173093
+  },
+  "18 hargrove grade, suite 106|other": null,
+  "19201 collins ave|sunny isles": {
+    "lat": 25.9545027,
+    "lon": -80.1197584
+  },
+  "9491 harding ave|surfside": {
+    "lat": 25.8850356,
+    "lon": -80.1233489
+  },
+  "1949 n university dr|other": null,
+  "15400 biscayne blvd  #112|north miami beach": {
+    "lat": 25.9065038,
+    "lon": -80.1584445
+  },
+  "8194 glades rd|boca raton": {
+    "lat": 26.3664041,
+    "lon": -80.1742682
+  },
+  "420 e. linton blvd#800|other": null,
+  "9455 harding ave|surfside": {
+    "lat": 25.8844618,
+    "lon": -80.1231844
+  },
+  "9540 w bay harbor dr.|surfside": null,
+  "530 41st street|miami beach": {
+    "lat": 25.8135707,
+    "lon": -80.1300598
+  },
+  "18450 w dixie highway|north miami beach": {
+    "lat": 25.9464456,
+    "lon": -80.1488668
+  },
+  "4017 prairie ave|miami beach": {
+    "lat": 25.8134949,
+    "lon": -80.130402
+  },
+  "2680 n university dr|broward county": {
+    "lat": 26.2639397,
+    "lon": -80.249876
+  },
+  "6616 collins ave|miami beach": {
+    "lat": 25.8500169,
+    "lon": -80.1204637
+  },
+  "1915 purdy ave|miami beach": {
+    "lat": 25.7946464,
+    "lon": -80.14433
+  },
+  "11304 nw 58th terrace|miami": {
+    "lat": 25.826618,
+    "lon": -80.3804306
+  },
+  "17301 ne 12th ct.|north miami beach": {
+    "lat": 25.9348646,
+    "lon": -80.1754115
+  },
+  "1305 s. military trail|broward county": {
+    "lat": 26.3011313,
+    "lon": -80.1342496
+  },
+  "9441 harding ave|surfside": {
+    "lat": 25.8842316,
+    "lon": -80.1231631
+  },
+  "9476 harding ave|surfside": {
+    "lat": 25.884826,
+    "lon": -80.1237381
+  },
+  "2020 ne 163rd street #300|north miami beach": {
+    "lat": 25.9257174,
+    "lon": -80.1596021
+  },
+  "954 west 41st street|miami beach": null,
+  "3565 ne 207th street|aventura": {
+    "lat": 25.9678493,
+    "lon": -80.1303276
+  },
+  "19000 n.e. 25th avenue|miami": null,
+  "9457 harding ave|surfside": {
+    "lat": 25.884516,
+    "lon": -80.1231895
+  },
+  "5225 collins ave|miami beach": {
+    "lat": 25.8302977,
+    "lon": -80.1213171
+  },
+  "1970 ne 153st  #13|north miami beach": null,
+  "2228 ne 123rd street|north miami beach": null,
+  "19004 ne 29th ave|aventura": {
+    "lat": 25.9516393,
+    "lon": -80.1437493
+  },
+  "18445 ne 19th ave|north miami beach": {
+    "lat": 25.9455223,
+    "lon": -80.1627838
+  },
+  "1324 ne 163rd street|north miami beach": {
+    "lat": 25.9252304,
+    "lon": -80.1734239
+  },
+  "1950 hayes street|hollywood": {
+    "lat": 26.0206259,
+    "lon": -80.1462114
+  },
+  "9460 harding avenue|surfside": {
+    "lat": 25.8845661,
+    "lon": -80.1237142
+  },
+  "13600 sw 10th street|broward county": {
+    "lat": 25.999465,
+    "lon": -80.32843
+  },
+  "21659 fl-7|boca raton": null,
+  "2615 ne 205th street|aventura": {
+    "lat": 25.9656254,
+    "lon": -80.1492172
+  },
+  "18685 w dixie hwy|north miami beach": {
+    "lat": 25.948957,
+    "lon": -80.1484792
+  },
+  "4041 royal palm ave|miami beach": {
+    "lat": 25.8135222,
+    "lon": -80.1291647
+  },
+  "18106 w dixie hwy|aventura": {
+    "lat": 25.9604134,
+    "lon": -80.1475952
+  },
+  "9519 harding ave|surfside": {
+    "lat": 25.8856548,
+    "lon": -80.1234993
+  },
+  "3420 w hallandale blvd|broward county": {
+    "lat": 25.9845062,
+    "lon": -80.176964
+  },
+  "18435 ne 19th avenue|north miami beach": {
+    "lat": 25.9454434,
+    "lon": -80.1627806
+  },
+  "|other": null,
+  "1376 ne 163rd street|north miami beach": {
+    "lat": 25.925451,
+    "lon": -80.1727634
+  },
+  "633 ne 167th street|north miami beach": {
+    "lat": 25.9289934,
+    "lon": -80.1872894
+  },
+  "3301 nw 168th street|other": null,
+  "16422 nw 54th ave|miami": {
+    "lat": 25.9223257,
+    "lon": -80.2885292
+  },
+  "1646 ne 164th street|north miami beach": {
+    "lat": 25.9265846,
+    "lon": -80.1669711
+  },
+  "1580 kennedy cswy|sunny isles": null,
+  "19098 w. dixie hwy|aventura": {
+    "lat": 25.9653337,
+    "lon": -80.1477483
+  },
+  "2127 stirling rd|hollywood": {
+    "lat": 26.047946,
+    "lon": -80.1705191
+  },
+  "3575 ne 207th street suite c-2a|aventura": null,
+  "901 ne 163rd street #3|north miami beach": null
 }

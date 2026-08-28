@@ -2366,6 +2366,3397 @@
     "lon": -80.2013509
   },
   {
+    "name": "16 Handles SURFSIDE LOCATION ONLY",
+    "address": "9509 Harding Ave",
+    "area": "Surfside",
+    "phone": "305-928-7611",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Restaurant",
+    "lat": 25.8854823,
+    "lon": -80.1232721
+  },
+  {
+    "name": "17 Restaurant and Sushi Bar",
+    "address": "1751 Alton Rd",
+    "area": "Miami Beach",
+    "phone": "305-672-0565",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.7932574,
+    "lon": -80.141211
+  },
+  {
+    "name": "3 Scoops",
+    "address": "600 N Surf Rd",
+    "area": "Hollywood",
+    "phone": "954-643-3104",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 26.015675,
+    "lon": -80.115851
+  },
+  {
+    "name": "Arnet Pharmaceutical Corp",
+    "address": "2525 Davie Rd Bldg 330",
+    "area": "Broward County",
+    "phone": "954-236-9053",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Commercial"
+    ],
+    "stringency": [],
+    "category": "Commercial",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Asiatiko",
+    "address": "2906 NE 207th Street #101",
+    "area": "Aventura",
+    "phone": "786-786-0626",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": 25.9674536,
+    "lon": -80.1433844
+  },
+  {
+    "name": "Au Bon Cake",
+    "address": "",
+    "area": "Miami Beach",
+    "phone": "215-802-2253",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Bakery, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Ayala Pastries",
+    "address": "6620 Custer Street",
+    "area": "Hollywood",
+    "phone": "954-743-9106",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Bakery, Pas Yisroel, Yoshon",
+    "lat": 26.0411432,
+    "lon": -80.221571
+  },
+  {
+    "name": "Azumare",
+    "address": "3585 NE 207th Street - C3",
+    "area": "Aventura",
+    "phone": "754-703-0966",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Baguette Nir",
+    "address": "17871 Biscayne Blvd",
+    "area": "Aventura",
+    "phone": "(305) 614-4659",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": 25.9410501,
+    "lon": -80.1480651
+  },
+  {
+    "name": "Bambu Pan Asian Kitchen",
+    "address": "3427 NE 163rd Street",
+    "area": "North Miami Beach",
+    "phone": "305-974-4042",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.9289547,
+    "lon": -80.1362254
+  },
+  {
+    "name": "Bibi's Gourmet Burgers",
+    "address": "9505 Harding Ave",
+    "area": "Surfside",
+    "phone": "631-405-9985",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Meat, Restaurant",
+    "lat": 25.8854315,
+    "lon": -80.1234786
+  },
+  {
+    "name": "Boba Burger",
+    "address": "9580 Bay Harbor Ter",
+    "area": "Miami Beach",
+    "phone": "305-505-5968",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Meat, Restaurant",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Bone Appetit",
+    "address": "",
+    "area": "North Miami Beach",
+    "phone": "954-662-7828",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Commercial"
+    ],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Commercial, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Bourekas, Etc.",
+    "address": "18671 W. Dixie Hwy",
+    "area": "North Miami Beach",
+    "phone": "305-503-3838",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Meat",
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Meat, Parve, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.9187174,
+    "lon": -80.1594988
+  },
+  {
+    "name": "Bunnie Cakes",
+    "address": "2198 NW 21st Street",
+    "area": "Other",
+    "phone": "(786) 577-3243",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [
+      "Commercial"
+    ],
+    "stringency": [],
+    "category": "Bakery, Commercial",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Cakery By Miriam",
+    "address": "2180 1/2 NE 123rd Street",
+    "area": "North Miami Beach",
+    "phone": "305-364-5873",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Bakery, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Carnicery",
+    "address": "",
+    "area": "Hollywood",
+    "phone": "786-548-2935",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Butcher"
+    ],
+    "stringency": [],
+    "category": "Meat, Butcher",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Catch Market Miami",
+    "address": "2208 NE 123rd Street",
+    "area": "North Miami Beach",
+    "phone": "304-467-0277",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Take Out"
+    ],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Parve, Take Out, Misc",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Chai Berry",
+    "address": "1688 NE 164th Street",
+    "area": "North Miami Beach",
+    "phone": "(305) 749-6008",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Restaurant, Pas Yisroel",
+    "lat": 25.9266433,
+    "lon": -80.1662532
+  },
+  {
+    "name": "Chai Wok",
+    "address": "1688 NE 164th Street",
+    "area": "North Miami Beach",
+    "phone": "305-705-2110",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.9266433,
+    "lon": -80.1662532
+  },
+  {
+    "name": "Checked Romaine",
+    "address": "",
+    "area": "Miami Beach",
+    "phone": "305-872-6777",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Misc",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Chill-N Nitrogen Ice Cream Aventura location ONLY",
+    "address": "17831 Biscayne Blvd",
+    "area": "Aventura",
+    "phone": "786-916-3313",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Restaurant",
+    "lat": 25.940716,
+    "lon": -80.1481565
+  },
+  {
+    "name": "China Beach - Wok On The Beach",
+    "address": "3919 Alton Road",
+    "area": "Miami Beach",
+    "phone": "305-534-3034",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Meat, Restaurant",
+    "lat": 25.812559,
+    "lon": -80.135479
+  },
+  {
+    "name": "Chlew Miami",
+    "address": "9531 Harding Ave",
+    "area": "Surfside",
+    "phone": "",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.8858453,
+    "lon": -80.1235162
+  },
+  {
+    "name": "Cielito Artisan Pops",
+    "address": "19501 Biscayne Blvd",
+    "area": "Aventura",
+    "phone": "305-676-2665",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Restaurant",
+    "lat": 25.9576899,
+    "lon": -80.1431178
+  },
+  {
+    "name": "Cine Citta Cafe",
+    "address": "9544 Harding Ave",
+    "area": "Surfside",
+    "phone": "305-866-8688",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.8860526,
+    "lon": -80.123717
+  },
+  {
+    "name": "Cookies and Cakes",
+    "address": "2248 West 77th Street",
+    "area": "Miami",
+    "phone": "305-582-3818",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Commercial"
+    ],
+    "stringency": [],
+    "category": "Dairy, Commercial",
+    "lat": 25.8921174,
+    "lon": -80.3292092
+  },
+  {
+    "name": "Cuisine Art @ The Altair",
+    "address": "9540 W Bay Harbor Dr",
+    "area": "Bal Harbour",
+    "phone": "",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Meat"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Meat, Catering, Cholov Yisroel, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Cupcakes",
+    "address": "1150 NE 185th Street",
+    "area": "North Miami Beach",
+    "phone": "917-459-8494",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Restaurant, Pas Yisroel",
+    "lat": 25.9463031,
+    "lon": -80.1572592
+  },
+  {
+    "name": "Custom Hollywood",
+    "address": "5210 S University Dr #106",
+    "area": "Broward County",
+    "phone": "516-984-7860",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Misc",
+    "lat": 26.0564692,
+    "lon": -80.2517929
+  },
+  {
+    "name": "D'lites - Aventura LOCATION ONLY",
+    "address": "20695 Biscayne Blvd",
+    "area": "Aventura",
+    "phone": "305-932-2554",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Restaurant",
+    "lat": 25.9666637,
+    "lon": -80.1463376
+  },
+  {
+    "name": "Dan The Baking Man",
+    "address": "7350 NE 2nd Ave #102",
+    "area": "Aventura",
+    "phone": "305-968-3015",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Bakery",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Danzinger Kosher Catering",
+    "address": "4101 Pinetree Drive",
+    "area": "Miami Beach",
+    "phone": "786-953-4193",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Catering, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.8460014,
+    "lon": -80.1263563
+  },
+  {
+    "name": "Deli Frozen",
+    "address": "",
+    "area": "Aventura",
+    "phone": "305-206-5044",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Parve, Misc",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Desserts by Carol Franco",
+    "address": "",
+    "area": "Aventura",
+    "phone": "305-491-1115",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Bakery, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Dipsanity",
+    "address": "",
+    "area": "North Miami Beach",
+    "phone": "305-527-3684",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [
+      "Take Out"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Take Out",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Dixie BBQ",
+    "address": "18798 West Dixie Highway",
+    "area": "Aventura",
+    "phone": "",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.9653337,
+    "lon": -80.1477483
+  },
+  {
+    "name": "Dixie BBQ 1",
+    "address": "2790 Stirling Rd",
+    "area": "Hollywood",
+    "phone": "954-367-5670",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 26.04784,
+    "lon": -80.1646079
+  },
+  {
+    "name": "Dolci Peccati Gelato",
+    "address": "274 NE 59th Street",
+    "area": "Miami",
+    "phone": "954-632-8551",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Parve, Restaurant",
+    "lat": 25.8297176,
+    "lon": -80.1905548
+  },
+  {
+    "name": "Dulceria Events",
+    "address": "250 N Dixie Highway #107",
+    "area": "Hollywood",
+    "phone": "305-606-6821",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Bakery, Pas Yisroel",
+    "lat": 26.0135888,
+    "lon": -80.1494634
+  },
+  {
+    "name": "Edgewater Ice Cream",
+    "address": "3131 NE 7th Ave CU2",
+    "area": "Miami",
+    "phone": "",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Restaurant",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Elsie's Cafe",
+    "address": "18900 NE 25th Ave",
+    "area": "North Miami Beach",
+    "phone": "305-778-5946",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Restaurant",
+    "lat": 25.9016751,
+    "lon": -80.150837
+  },
+  {
+    "name": "Expressed Juice",
+    "address": "1402 NW 23rd St.",
+    "area": "Miami",
+    "phone": "1-800-793-8313",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Misc",
+    "lat": 25.7984792,
+    "lon": -80.2195082
+  },
+  {
+    "name": "Feed Me",
+    "address": "2530 NE Miami Gardens Dr",
+    "area": "North Miami Beach",
+    "phone": "305-615-3404",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": 25.9425401,
+    "lon": -80.1815706
+  },
+  {
+    "name": "Fialkoffs Express Surfside",
+    "address": "9463 Harding Ave",
+    "area": "Surfside",
+    "phone": "305-397-8324",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.884585,
+    "lon": -80.1231959
+  },
+  {
+    "name": "Fialkoffs Kosher Pizza - Miami Beach",
+    "address": "544 Arthur Godfrey Rd",
+    "area": "Miami Beach",
+    "phone": "305-397-8395",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.8137523,
+    "lon": -80.1296023
+  },
+  {
+    "name": "Flame Mediterrean",
+    "address": "19010 NE 29th Ave",
+    "area": "Aventura",
+    "phone": "305-466-5656",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.9516184,
+    "lon": -80.1428129
+  },
+  {
+    "name": "Flavors Catering",
+    "address": "",
+    "area": "North Miami Beach",
+    "phone": "786-308-7014",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Catering, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Fleisch 41",
+    "address": "726-41st Street",
+    "area": "Miami Beach",
+    "phone": "305-397-8985",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.8136555,
+    "lon": -80.1311059
+  },
+  {
+    "name": "Foozo",
+    "address": "2520 NE Miami Gardens Dr",
+    "area": "North Miami Beach",
+    "phone": "305-682-9692",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.9425401,
+    "lon": -80.1815706
+  },
+  {
+    "name": "Forty One",
+    "address": "4101 Pinetree Dr.",
+    "area": "Miami Beach",
+    "phone": "305-230-4200",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Meat"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Meat, Catering, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.8460014,
+    "lon": -80.1263563
+  },
+  {
+    "name": "Fresko",
+    "address": "19048 NE 29th Ave",
+    "area": "Aventura",
+    "phone": "786-272-3737",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.9517208,
+    "lon": -80.1433545
+  },
+  {
+    "name": "Fuego",
+    "address": "3861 NE 163rd Street",
+    "area": "North Miami Beach",
+    "phone": "786-520-4082",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": 25.9313857,
+    "lon": -80.132464
+  },
+  {
+    "name": "Gallery of Cakes",
+    "address": "19206 W Dixie Hwy",
+    "area": "Aventura",
+    "phone": "305-935-1114",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Parve, Bakery, Pas Yisroel, Yoshon",
+    "lat": 25.9604134,
+    "lon": -80.1475952
+  },
+  {
+    "name": "Gourmet Event / Magician Chef@Alexander Hotel",
+    "address": "5225 Collins Avenue",
+    "area": "Miami Beach",
+    "phone": "954-548-6981",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Meat"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Meat, Catering, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.8302977,
+    "lon": -80.1213171
+  },
+  {
+    "name": "Gourmet Heimish",
+    "address": "1215 NE 171 Terrace",
+    "area": "North Miami Beach",
+    "phone": "305-502-4611",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Meat",
+      "Parve"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Meat, Parve, Catering, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Hadekel",
+    "address": "2500 NE 186St",
+    "area": "North Miami Beach",
+    "phone": "305-684-2435",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Parve, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Harbour Gourmet",
+    "address": "17040 W Dixie Hwy",
+    "area": "North Miami Beach",
+    "phone": "305-614-1276",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.9329286,
+    "lon": -80.1534271
+  },
+  {
+    "name": "Harbour Grill",
+    "address": "9415 Harding Avenue",
+    "area": "Surfside",
+    "phone": "305-861-0787",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Meat, Restaurant",
+    "lat": 25.8838538,
+    "lon": -80.1231283
+  },
+  {
+    "name": "Hikari",
+    "address": "9472 Harding Ave",
+    "area": "Surfside",
+    "phone": "",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.8847307,
+    "lon": -80.1237293
+  },
+  {
+    "name": "Holy Bites",
+    "address": "19202 West Dixie Hwy",
+    "area": "Aventura",
+    "phone": "305-200-5555",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": 25.9604134,
+    "lon": -80.1475952
+  },
+  {
+    "name": "Holy Grill and Deli",
+    "address": "93 NW 1st Street",
+    "area": "Miami",
+    "phone": "305-961-7878",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": 25.7750116,
+    "lon": -80.1945265
+  },
+  {
+    "name": "Holy Toast - Surfside",
+    "address": "9520 Harding Ave",
+    "area": "Surfside",
+    "phone": "",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.8856778,
+    "lon": -80.1238162
+  },
+  {
+    "name": "Holy Toast - Wynwood",
+    "address": "2711 NW 2nd Ave",
+    "area": "Miami",
+    "phone": "305-784-4116",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.8022918,
+    "lon": -80.1990619
+  },
+  {
+    "name": "Homemade By Vanessa",
+    "address": "1880 NE 183rd Street",
+    "area": "North Miami Beach",
+    "phone": "",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [
+      "Take Out"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Take Out",
+    "lat": 25.9439862,
+    "lon": -80.1635146
+  },
+  {
+    "name": "International Foods by Noni",
+    "address": "17030 W Dixie Hwy",
+    "area": "North Miami Beach",
+    "phone": "305-608-8671",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Parve, Misc, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.9326711,
+    "lon": -80.1533749
+  },
+  {
+    "name": "Island Spice Jamaica",
+    "address": "1209 NW 93Court",
+    "area": "Miami",
+    "phone": "786-208-2066",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Commercial",
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Parve, Commercial, Misc",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Itz Good",
+    "address": "4141 Nautilus Drive",
+    "area": "Miami Beach",
+    "phone": "305-342-5547",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Bakery, Pas Yisroel",
+    "lat": 25.8138461,
+    "lon": -80.1353715
+  },
+  {
+    "name": "J Chef",
+    "address": "20255 NE 15th CT",
+    "area": "Aventura",
+    "phone": "855-524-3318",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Misc, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Jerusalem Pizza",
+    "address": "761 NE 167th St",
+    "area": "North Miami Beach",
+    "phone": "305-653-6662",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.9293289,
+    "lon": -80.1850412
+  },
+  {
+    "name": "Kokoa",
+    "address": "18947 West Dixie High Way",
+    "area": "Aventura",
+    "phone": "786-930-1420",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Bakery, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Kosh",
+    "address": "9477 Harding Ave.",
+    "area": "Surfside",
+    "phone": "305-763-8601",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": 25.8848869,
+    "lon": -80.1232239
+  },
+  {
+    "name": "Kosher from Z Heart",
+    "address": "4821 SW 29th Ave",
+    "area": "Hollywood",
+    "phone": "305-761-8422",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Catering, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Kosher Kingdom",
+    "address": "3017 Aventura Blvd",
+    "area": "Aventura",
+    "phone": "305-792-7988",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [
+      "Butcher",
+      "Grocery"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Bakery, Butcher, Grocery, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.9624632,
+    "lon": -80.1413888
+  },
+  {
+    "name": "Kosher Palate",
+    "address": "990 NE 171 Street",
+    "area": "North Miami Beach",
+    "phone": "305-788-3232",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Meat"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Meat, Catering, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.9323394,
+    "lon": -80.1806391
+  },
+  {
+    "name": "Kosher Price 2",
+    "address": "514 W 41st Street",
+    "area": "Miami Beach",
+    "phone": "786-999-2299",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Bakery",
+      "Take Out"
+    ],
+    "commercial": [
+      "Butcher",
+      "Grocery"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Bakery, Take Out, Butcher, Grocery, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.8133981,
+    "lon": -80.1347851
+  },
+  {
+    "name": "Krudo",
+    "address": "17092 West Dixie Highway",
+    "area": "North Miami Beach",
+    "phone": "786-440-5483",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [
+      "Take Out"
+    ],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Take Out, Misc, Pas Yisroel",
+    "lat": 25.933621,
+    "lon": -80.1528673
+  },
+  {
+    "name": "La Matera",
+    "address": "3073 NE 163rd Street",
+    "area": "North Miami Beach",
+    "phone": "305-974-4485",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.9260953,
+    "lon": -80.1594406
+  },
+  {
+    "name": "La Vita e Bella Ristorante - Temporarily closed",
+    "address": "9485 Harding Ave",
+    "area": "Surfside",
+    "phone": "305-603-9248",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.8848993,
+    "lon": -80.1234284
+  },
+  {
+    "name": "Le Chocolatier",
+    "address": "1840 NE 16th Street",
+    "area": "North Miami Beach",
+    "phone": "305-944-3020",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Misc, Cholov Yisroel, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Leah's Famous Sourdough",
+    "address": "4750 SW 27th Ave",
+    "area": "Broward County",
+    "phone": "718-314-7750",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Parve, Bakery, Pas Yisroel, Yoshon",
+    "lat": 26.0629903,
+    "lon": -80.1764577
+  },
+  {
+    "name": "Lili's Prime Catering",
+    "address": "17100 NE 6th Ave",
+    "area": "North Miami Beach",
+    "phone": "786-277-1351",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Bakery, Catering, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.9325038,
+    "lon": -80.1887508
+  },
+  {
+    "name": "Loaforia",
+    "address": "6624 Collins Ave",
+    "area": "Miami Beach",
+    "phone": "786-655-7788",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Bakery, Pas Yisroel",
+    "lat": 25.8498161,
+    "lon": -80.1203943
+  },
+  {
+    "name": "Macaron By Hadas",
+    "address": "5804 Stirling Rd",
+    "area": "Hollywood",
+    "phone": "954-228-4949",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Parve, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 26.0467046,
+    "lon": -80.2051501
+  },
+  {
+    "name": "Mama's Pizza and Coffee Shop",
+    "address": "19200 W. Dixie Highway",
+    "area": "Aventura",
+    "phone": "305-974-5549",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.9604134,
+    "lon": -80.1475952
+  },
+  {
+    "name": "Mamale Cafe",
+    "address": "1017 Kane Concourse",
+    "area": "Bal Harbour",
+    "phone": "786-648-9045",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Meat Bar",
+    "address": "1009 Kane Concourse",
+    "area": "Bal Harbour",
+    "phone": "786-216-7275",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Meat Bar Butcher",
+    "address": "18514 W Dixie Hwy",
+    "area": "North Miami Beach",
+    "phone": "305-749-6253",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Take Out"
+    ],
+    "commercial": [
+      "Butcher"
+    ],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Take Out, Butcher, Pas Yisroel",
+    "lat": 25.9187174,
+    "lon": -80.1594988
+  },
+  {
+    "name": "Miami Beach Chocolates - Surfside",
+    "address": "9433 Harding Ave",
+    "area": "Surfside",
+    "phone": "305-532-4949",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Misc, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.8840636,
+    "lon": -80.1233436
+  },
+  {
+    "name": "Miami Fresh Fish Market",
+    "address": "433 W 41st Street",
+    "area": "Miami Beach",
+    "phone": "305-763-8225",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Misc, Pas Yisroel",
+    "lat": 25.8133981,
+    "lon": -80.1347851
+  },
+  {
+    "name": "Midnight Cookies Hollywood - THIS LOCATION ONLY",
+    "address": "3341 Sheridan Street",
+    "area": "Hollywood",
+    "phone": "754-888-9372",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Restaurant",
+    "lat": 26.0331519,
+    "lon": -80.1766833
+  },
+  {
+    "name": "Miera's Kitchen",
+    "address": "",
+    "area": "Aventura",
+    "phone": "786-661-0122",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Meat, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Milano's Kosher Restaurant",
+    "address": "19090 NE 29th Ave",
+    "area": "Aventura",
+    "phone": "786-640-6400",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.9519553,
+    "lon": -80.1444541
+  },
+  {
+    "name": "Morelia Gourmet Paletas - SURFSIDE LOCATION ONLY",
+    "address": "9571 Harding Ave",
+    "area": "Surfside",
+    "phone": "305-397-8480",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Restaurant",
+    "lat": 25.8864794,
+    "lon": -80.1235716
+  },
+  {
+    "name": "Moriela Gourmet Paletas ONLY when bearing KDM",
+    "address": "",
+    "area": "Miami",
+    "phone": "1-833-423-7677",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Restaurant",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Mrs. Fields - Only this location in Aventura Mall",
+    "address": "19575 Biscayne Blvd #359",
+    "area": "Aventura",
+    "phone": "786-431-7732",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Bakery, Misc",
+    "lat": 25.9571479,
+    "lon": -80.1434451
+  },
+  {
+    "name": "Mucaro Coffees",
+    "address": "15915 NW 49th Ave",
+    "area": "Miami",
+    "phone": "407-252-7579",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Commercial",
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Commercial, Misc",
+    "lat": 25.9183232,
+    "lon": -80.2798846
+  },
+  {
+    "name": "Mutra",
+    "address": "2188 NE 123rd Street",
+    "area": "North Miami Beach",
+    "phone": "(786) 860-1213",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Naamah Sushi #20 This location ONLY",
+    "address": "8177 Glades Rd",
+    "area": "Boca Raton",
+    "phone": "561-617-7129",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Misc",
+    "lat": 26.3689894,
+    "lon": -80.173093
+  },
+  {
+    "name": "Naturefood 2010 Company",
+    "address": "18 Hargrove Grade, Suite 106",
+    "area": "Other",
+    "phone": "386-283-4968",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Commercial"
+    ],
+    "stringency": [],
+    "category": "Commercial",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "New Time Take Out & Catering",
+    "address": "19201 Collins Ave",
+    "area": "Sunny Isles",
+    "phone": "305-891-6336",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Bakery",
+      "Take Out"
+    ],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Bakery, Take Out, Catering, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.9545027,
+    "lon": -80.1197584
+  },
+  {
+    "name": "Neya",
+    "address": "9491 Harding Ave",
+    "area": "Surfside",
+    "phone": "305-542-0768",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.8850356,
+    "lon": -80.1233489
+  },
+  {
+    "name": "Nothing Bundt Cake - Coral Spring THIS LOCATION IS KDM",
+    "address": "1949 N University Dr",
+    "area": "Other",
+    "phone": "954-507-4527",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Bakery",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Nothing Bundt Cakes -  THIS LOCATION IS KDM",
+    "address": "15400 Biscayne Blvd  #112",
+    "area": "North Miami Beach",
+    "phone": "305-974-4536",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Bakery",
+    "lat": 25.9065038,
+    "lon": -80.1584445
+  },
+  {
+    "name": "Nothing Bundt Cakes -  THIS LOCATION IS KDM",
+    "address": "8194 Glades Rd",
+    "area": "Boca Raton",
+    "phone": "561-788-7311",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Bakery",
+    "lat": 26.3664041,
+    "lon": -80.1742682
+  },
+  {
+    "name": "Nothing Bundt Cakes Del Ray -  THIS LOCATION IS KDM",
+    "address": "420 E. Linton Blvd#800",
+    "area": "Other",
+    "phone": "561-973-0170",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Butcher"
+    ],
+    "stringency": [],
+    "category": "Dairy, Butcher",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Oakberry Surfside - THIS LOCATION ONLY",
+    "address": "9455 Harding Ave",
+    "area": "Surfside",
+    "phone": "",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Parve, Misc",
+    "lat": 25.8844618,
+    "lon": -80.1231844
+  },
+  {
+    "name": "OVO at The Altair",
+    "address": "9540 W Bay Harbor Dr.",
+    "area": "Surfside",
+    "phone": "305-990-2228",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Meat, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Pita Hut-Miami",
+    "address": "530 41st Street",
+    "area": "Miami Beach",
+    "phone": "305-531-6090",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": 25.8135707,
+    "lon": -80.1300598
+  },
+  {
+    "name": "Pita Hut-North Miami Beach",
+    "address": "18450 W Dixie Highway",
+    "area": "North Miami Beach",
+    "phone": "305-792-0821",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.9464456,
+    "lon": -80.1488668
+  },
+  {
+    "name": "Pita Loca",
+    "address": "4017 Prairie Ave",
+    "area": "Miami Beach",
+    "phone": "305-467-3440",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": 25.8134949,
+    "lon": -80.130402
+  },
+  {
+    "name": "Pita Star",
+    "address": "2680 N University Dr",
+    "area": "Broward County",
+    "phone": "754-301-2155",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 26.2639397,
+    "lon": -80.249876
+  },
+  {
+    "name": "Poppy Jaccks",
+    "address": "6616 Collins Ave",
+    "area": "Miami Beach",
+    "phone": "908-244-8130",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Misc",
+    "lat": 25.8500169,
+    "lon": -80.1204637
+  },
+  {
+    "name": "Pure Green Sunset Harbour - this location ONLY",
+    "address": "1915 Purdy Ave",
+    "area": "Miami Beach",
+    "phone": "305-763-8585",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Misc",
+    "lat": 25.7946464,
+    "lon": -80.14433
+  },
+  {
+    "name": "Quality Quail Eggs",
+    "address": "11304 NW 58th Terrace",
+    "area": "Miami",
+    "phone": "786-853-9649",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Commercial"
+    ],
+    "stringency": [],
+    "category": "Commercial",
+    "lat": 25.826618,
+    "lon": -80.3804306
+  },
+  {
+    "name": "Reb Shayala's Kitchen",
+    "address": "17301 NE 12th Ct.",
+    "area": "North Miami Beach",
+    "phone": "305-339-6339",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Meat"
+    ],
+    "food_service": [
+      "Take Out"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Meat, Take Out, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.9348646,
+    "lon": -80.1754115
+  },
+  {
+    "name": "RITA\u2019S of Deerfield Beach",
+    "address": "1305 S. Military Trail",
+    "area": "Broward County",
+    "phone": "954-531-6464",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Restaurant",
+    "lat": 26.3011313,
+    "lon": -80.1342496
+  },
+  {
+    "name": "Roast",
+    "address": "9441 Harding Ave",
+    "area": "Surfside",
+    "phone": "786-803-8857",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.8842316,
+    "lon": -80.1231631
+  },
+  {
+    "name": "Rustiko",
+    "address": "9476 Harding Ave",
+    "area": "Surfside",
+    "phone": "305-560-5650",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.884826,
+    "lon": -80.1237381
+  },
+  {
+    "name": "Sababa Boards",
+    "address": "2020 NE 163rd street #300",
+    "area": "North Miami Beach",
+    "phone": "786-657-4106",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel",
+    "lat": 25.9257174,
+    "lon": -80.1596021
+  },
+  {
+    "name": "Salt And Pepper",
+    "address": "954 West 41st Street",
+    "area": "Miami Beach",
+    "phone": "",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Catering, Pas Yisroel, Yoshon",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Saras Tent - Food of All Nations",
+    "address": "3565 NE 207th Street",
+    "area": "Aventura",
+    "phone": "305-933-2888",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [
+      "Butcher",
+      "Grocery"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Bakery, Butcher, Grocery, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.9678493,
+    "lon": -80.1303276
+  },
+  {
+    "name": "Scheck Hillel Community School",
+    "address": "19000 N.E. 25th Avenue",
+    "area": "Miami",
+    "phone": "305-931-2831",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Misc, Cholov Yisroel, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Serendipity Yogurt Cafe",
+    "address": "9457 Harding Ave",
+    "area": "Surfside",
+    "phone": "305-865-1506",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Parve, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.884516,
+    "lon": -80.1231895
+  },
+  {
+    "name": "Silan",
+    "address": "5225 Collins Ave",
+    "area": "Miami Beach",
+    "phone": "305-939-5264",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": 25.8302977,
+    "lon": -80.1213171
+  },
+  {
+    "name": "sMoki",
+    "address": "1970 NE 153St  #13",
+    "area": "North Miami Beach",
+    "phone": "754-423-5757",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Misc",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "So Heavenly",
+    "address": "2228 NE 123rd Street",
+    "area": "North Miami Beach",
+    "phone": "786-281-4904",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Bakery",
+      "Take Out"
+    ],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Bakery, Take Out, Catering, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Soho Asian Bar and Grill",
+    "address": "19004 NE 29th Ave",
+    "area": "Aventura",
+    "phone": "305-466-5656",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.9516393,
+    "lon": -80.1437493
+  },
+  {
+    "name": "Sonnys Bakery",
+    "address": "18445 NE 19th Ave",
+    "area": "North Miami Beach",
+    "phone": "305-682-8770",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Parve, Bakery, Pas Yisroel, Yoshon",
+    "lat": 25.9455223,
+    "lon": -80.1627838
+  },
+  {
+    "name": "South Florida Kosher Meats",
+    "address": "1324 NE 163rd Street",
+    "area": "North Miami Beach",
+    "phone": "305-949-6068",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [
+      "Butcher",
+      "Grocery"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Parve, Bakery, Butcher, Grocery, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.9252304,
+    "lon": -80.1734239
+  },
+  {
+    "name": "Southern Bear",
+    "address": "1950 Hayes Street",
+    "area": "Hollywood",
+    "phone": "954-923-0977",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Commercial"
+    ],
+    "stringency": [],
+    "category": "Parve, Commercial",
+    "lat": 26.0206259,
+    "lon": -80.1462114
+  },
+  {
+    "name": "Street Kitchen",
+    "address": "9460 Harding Avenue",
+    "area": "Surfside",
+    "phone": "305-763-8267",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": 25.8845661,
+    "lon": -80.1237142
+  },
+  {
+    "name": "Sucre By Sugar Lilies",
+    "address": "13600 SW 10th Street",
+    "area": "Broward County",
+    "phone": "(917) 597-7416",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Bakery, Pas Yisroel",
+    "lat": 25.999465,
+    "lon": -80.32843
+  },
+  {
+    "name": "Sunflower",
+    "address": "21659 FL-7",
+    "area": "Boca Raton",
+    "phone": "561-334-2985",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Meat, Restaurant",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Taam Tov",
+    "address": "2615 NE 205th Street",
+    "area": "Aventura",
+    "phone": "786-690-0565",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Take Out"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Take Out, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.9656254,
+    "lon": -80.1492172
+  },
+  {
+    "name": "Tania's Table",
+    "address": "18685 W Dixie Hwy",
+    "area": "North Miami Beach",
+    "phone": "305-932-9425",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Meat, Bakery",
+    "lat": 25.948957,
+    "lon": -80.1484792
+  },
+  {
+    "name": "Tasty Beach Cafe",
+    "address": "4041 Royal Palm Ave",
+    "area": "Miami Beach",
+    "phone": "305-673-5483",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.8135222,
+    "lon": -80.1291647
+  },
+  {
+    "name": "Temptings, LLC",
+    "address": "",
+    "area": "North Miami Beach",
+    "phone": "305-467-4506",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Catering, Cholov Yisroel, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Tends",
+    "address": "18106 W Dixie Hwy",
+    "area": "Aventura",
+    "phone": "",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.9604134,
+    "lon": -80.1475952
+  },
+  {
+    "name": "The Carrot",
+    "address": "9519 Harding Ave",
+    "area": "Surfside",
+    "phone": "786-216-7355",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
+    "lat": 25.8856548,
+    "lon": -80.1234993
+  },
+  {
+    "name": "The Food Faktory by Appetites Catering",
+    "address": "3420 W Hallandale Blvd",
+    "area": "Broward County",
+    "phone": "954-989-9480",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Meat",
+      "Parve"
+    ],
+    "food_service": [
+      "Take Out"
+    ],
+    "commercial": [
+      "Catering"
+    ],
+    "stringency": [
+      "Cholov Yisroel"
+    ],
+    "category": "Dairy, Meat, Parve, Take Out, Catering, Cholov Yisroel",
+    "lat": 25.9845062,
+    "lon": -80.176964
+  },
+  {
+    "name": "The Sweet Tooth",
+    "address": "18435 NE 19th Avenue",
+    "area": "North Miami Beach",
+    "phone": "305-682-1400",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Parve, Restaurant",
+    "lat": 25.9454434,
+    "lon": -80.1627806
+  },
+  {
+    "name": "Thin Slim Foods",
+    "address": "",
+    "area": "Other",
+    "phone": "",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Wholesale Only"
+    ],
+    "stringency": [],
+    "category": "Wholesale Only",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "TreeHouse Sweets",
+    "address": "1376 NE 163rd Street",
+    "area": "North Miami Beach",
+    "phone": "305-816-6820",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Misc, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": 25.925451,
+    "lon": -80.1727634
+  },
+  {
+    "name": "U Make Candy",
+    "address": "633 NE 167th Street",
+    "area": "North Miami Beach",
+    "phone": "305-242-2666",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Misc",
+    "lat": 25.9289934,
+    "lon": -80.1872894
+  },
+  {
+    "name": "US Dairy Unlimited - ONLT PRODUCTS BEARING KM LOGO",
+    "address": "3301 NW 168th Street",
+    "area": "Other",
+    "phone": "305-454-0760",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Bakery, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Vamss Corp.",
+    "address": "16422 NW 54th Ave",
+    "area": "Miami",
+    "phone": "7865659908",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Dairy, Restaurant",
+    "lat": 25.9223257,
+    "lon": -80.2885292
+  },
+  {
+    "name": "Wall to Wall Nuts",
+    "address": "1646 NE 164th Street",
+    "area": "North Miami Beach",
+    "phone": "305-944-NUTS",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [],
+    "category": "Misc",
+    "lat": 25.9265846,
+    "lon": -80.1669711
+  },
+  {
+    "name": "Whipped By Judith",
+    "address": "",
+    "area": "Miami Beach",
+    "phone": "305-215-8170",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Bakery, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Yalla Delicious",
+    "address": "1580 Kennedy Cswy",
+    "area": "Sunny Isles",
+    "phone": "786-442-8051",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Yo-Chef",
+    "address": "",
+    "area": "North Miami Beach",
+    "phone": "908-538-0220",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Yossef Roasting",
+    "address": "19098 W. Dixie Hwy",
+    "area": "Aventura",
+    "phone": "786-916-5141",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel"
+    ],
+    "category": "Dairy, Parve, Restaurant, Cholov Yisroel",
+    "lat": 25.9653337,
+    "lon": -80.1477483
+  },
+  {
+    "name": "Yossef Roasting - Hollywood",
+    "address": "2127 Stirling Rd",
+    "area": "Hollywood",
+    "phone": "954\u2013534\u20137627",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [],
+    "commercial": [
+      "Misc"
+    ],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Misc, Cholov Yisroel, Pas Yisroel",
+    "lat": 26.047946,
+    "lon": -80.1705191
+  },
+  {
+    "name": "Yummy Frozen Yogurt",
+    "address": "3575 NE 207th Street Suite C-2A",
+    "area": "Aventura",
+    "phone": "917-362-8917",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Parve, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "name": "Yummy Frozen Yogurt NMB",
+    "address": "901 NE 163rd Street #3",
+    "area": "North Miami Beach",
+    "phone": "917-362-8917",
+    "agency": "KM",
+    "cert_link": "",
+    "source": "Kosher Miami",
+    "food_type": [
+      "Dairy",
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel",
+      "Yoshon"
+    ],
+    "category": "Dairy, Parve, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "lat": null,
+    "lon": null
+  },
+  {
     "name": "Boca Tov Treats",
     "address": "Boca Raton",
     "area": "",
