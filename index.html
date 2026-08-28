@@ -166,4 +166,179 @@
         <label class="chip"><input type="checkbox" class="f-commercial" value="Butcher"><span class="swatch" style="background:#8a2f2f"></span>Butcher</label>
         <label class="chip"><input type="checkbox" class="f-commercial" value="Manufacturing"><span class="swatch" style="background:#6b6b6b"></span>Manufacturing</label>
         <label class="chip"><input type="checkbox" class="f-commercial" value="Wholesale Distribution"><span class="swatch" style="background:#8a8a8a"></span>Wholesale Distribution</label>
-        <label class="chip"><input type="checkbox"
+        <label class="chip"><input type="checkbox" class="f-commercial" value="Wholesale Only"><span class="swatch" style="background:#8a8a8a"></span>Wholesale Only</label>
+        <label class="chip"><input type="checkbox" class="f-commercial" value="Food Additives"><span class="swatch" style="background:#8a8a8a"></span>Food Additives</label>
+        <label class="chip"><input type="checkbox" class="f-commercial" value="Misc"><span class="swatch" style="background:#8a8a8a"></span>Misc</label>
+      </div>
+    </details>
+
+    <details class="group" open>
+      <summary>Stringencies</summary>
+      <div class="group-hint">Stricter standards some people specifically look for</div>
+      <div class="group-body">
+        <label class="chip"><input type="checkbox" class="f-stringency" value="Cholov Yisroel"><span class="swatch" style="background:#1a6b5c"></span>Cholov Yisroel</label>
+        <label class="chip"><input type="checkbox" class="f-stringency" value="Pas Yisroel"><span class="swatch" style="background:#8a6d1f"></span>Pas Yisroel</label>
+        <label class="chip"><input type="checkbox" class="f-stringency" value="Yoshon"><span class="swatch" style="background:#5a5a8a"></span>Yoshon</label>
+      </div>
+    </details>
+
+    <details class="group" open>
+      <summary>Certifying Agency</summary>
+      <div class="group-body" id="agency-filters"></div>
+    </details>
+
+    <div id="count"></div>
+  </div>
+
+  <button id="filters-toggle" onclick="document.getElementById('panel').classList.toggle('open')">
+    Filters
+  </button>
+</div>
+
+<script>
+const CATEGORY_COLORS = {
+  "Dairy": "#1a6b5c", "Meat": "#b5473a", "Parve": "#8a6d1f",
+  "Restaurant": "#3d5a99", "Bakery": "#8a5a34", "Take Out": "#3d7a4d", "Drinks and Snacks": "#c78a2e",
+  "Catering": "#5a5a8a", "Commercial": "#6b6b6b", "Grocery": "#3d6b7a", "Butcher": "#8a2f2f",
+  "Manufacturing": "#6b6b6b", "Wholesale Distribution": "#8a8a8a", "Wholesale Only": "#8a8a8a",
+  "Food Additives": "#8a8a8a", "Misc": "#8a8a8a",
+  "Cholov Yisroel": "#1a6b5c", "Pas Yisroel": "#8a6d1f", "Yoshon": "#5a5a8a",
+};
+const AGENCY_LABELS = { "ORB": "ORB", "KM": "KM", "KDM": "KDM", "SSK": "Sunshine State Kosher" };
+
+const map = L.map('map', { zoomControl: false }).setView([25.95, -80.15], 10);
+L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+// Esri's Light Gray Canvas basemap - clean, minimal, no API key required
+// (unlike CARTO's basemaps, which now require an account/key for this kind
+// of hosted usage).
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+  attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+  maxZoom: 16,
+}).addTo(map);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+  maxZoom: 16,
+}).addTo(map);
+
+let allData = [];
+let markers = [];
+
+function colorFor(rec){
+  const ft = rec.food_type || [], fs = rec.food_service || [], cm = rec.commercial || [];
+  const first = ft[0] || fs[0] || cm[0] || "";
+  return CATEGORY_COLORS[first] || "#666";
+}
+
+function buildAgencyFilters(data){
+  const agencies = new Set(data.map(r => r.agency));
+  const box = document.getElementById('agency-filters');
+  [...agencies].sort().forEach(a => {
+    const id = 'ag-' + a;
+    box.insertAdjacentHTML('beforeend', `
+      <label class="chip" for="${id}">
+        <input type="checkbox" id="${id}" class="f-agency" value="${a}"> ${AGENCY_LABELS[a] || a}
+      </label>`);
+  });
+}
+
+function allFilterCheckboxes(){
+  return document.querySelectorAll('.f-food_type,.f-food_service,.f-commercial,.f-stringency,.f-agency');
+}
+
+function render(){
+  const active = {
+    food_type: [...document.querySelectorAll('.f-food_type:checked')].map(e=>e.value),
+    food_service: [...document.querySelectorAll('.f-food_service:checked')].map(e=>e.value),
+    commercial: [...document.querySelectorAll('.f-commercial:checked')].map(e=>e.value),
+    stringency: [...document.querySelectorAll('.f-stringency:checked')].map(e=>e.value),
+  };
+  const activeAgencies = [...document.querySelectorAll('.f-agency:checked')].map(e=>e.value);
+
+  markers.forEach(m => map.removeLayer(m));
+  markers = [];
+
+  let shown = 0;
+  allData.forEach(r => {
+    if (!r.lat || !r.lon) return;
+
+    // Food Type is the one required filter - a restaurant with any food
+    // type tag must match your selection there, or it's hidden. This is
+    // what keeps the map from dumping everything on you before you've
+    // chosen anything.
+    const ft = r.food_type || [];
+    if (ft.length && !ft.some(t => active.food_type.includes(t))) return;
+
+    // Every other group only constrains results once you've actually
+    // checked something in it - leaving a group untouched means "don't
+    // filter by this," not "hide everything with this tag."
+    for (const dim of ["food_service","commercial","stringency"]) {
+      if (!active[dim].length) continue;
+      const tags = r[dim] || [];
+      if (tags.length && !tags.some(t => active[dim].includes(t))) return;
+    }
+    if (activeAgencies.length && !activeAgencies.includes(r.agency)) return;
+
+    const color = colorFor(r);
+    const marker = L.circleMarker([r.lat, r.lon], {
+      radius: 6, color: '#fff', weight: 2, fillColor: color, fillOpacity: 0.95,
+    });
+    const allTags = [...(r.food_type||[]), ...(r.food_service||[]), ...(r.commercial||[]), ...(r.stringency||[])];
+    const tagHtml = allTags.map(c => `<span class="tag" style="background:${CATEGORY_COLORS[c]||'#888'}">${c}</span>`).join("");
+    marker.bindPopup(`
+      <b>${r.name}</b><br>
+      ${r.address || r.area || ""}<br>
+      ${r.phone ? r.phone + "<br>" : ""}
+      ${tagHtml}<br>
+      <span style="color:#5f6368;">Certified by ${AGENCY_LABELS[r.agency] || r.agency} (${r.source})</span>
+      ${r.cert_link ? `<br><a href="${r.cert_link}" target="_blank">View certificate</a>` : ""}
+    `);
+    marker.addTo(map);
+    markers.push(marker);
+    shown++;
+  });
+
+  document.getElementById('count').textContent = `Showing ${shown} of ${allData.length} restaurants`;
+
+  // Frame the view around whatever actually matched, so phones (narrow,
+  // tall screens) and desktops (wide screens) both see all matching pins
+  // rather than a fixed center/zoom that happens to crop differently on
+  // different screen shapes.
+  if (markers.length) {
+    const group = L.featureGroup(markers);
+    map.fitBounds(group.getBounds().pad(0.15), { maxZoom: 13 });
+  }
+}
+
+document.getElementById('select-all-btn').addEventListener('click', () => {
+  allFilterCheckboxes().forEach(cb => cb.checked = true);
+  render();
+});
+document.getElementById('clear-btn').addEventListener('click', () => {
+  allFilterCheckboxes().forEach(cb => cb.checked = false);
+  render();
+});
+
+function fixMapSize(){ map.invalidateSize(); }
+window.addEventListener('resize', fixMapSize);
+window.addEventListener('orientationchange', () => setTimeout(fixMapSize, 200));
+setTimeout(fixMapSize, 300);
+
+fetch('data/restaurants.json?_=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    allData = data;
+    buildAgencyFilters(data);
+    document.querySelectorAll('.f-food_type,.f-food_service,.f-commercial,.f-stringency,.f-agency')
+      .forEach(el => el.addEventListener('change', render));
+    render();
+    fixMapSize();
+    document.getElementById('updated-label').textContent =
+      'Updates daily • ' + new Date().toLocaleDateString();
+  })
+  .catch(err => {
+    document.getElementById('updated-label').textContent = 'Failed to load data';
+    console.error(err);
+  });
+</script>
+</body>
+</html>
