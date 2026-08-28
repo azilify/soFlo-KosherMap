@@ -53,8 +53,23 @@ def scrape_km():
     records = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch()
-        page = browser.new_page(user_agent="Mozilla/5.0 (compatible; KosherMapBot/1.0)")
+        browser = p.chromium.launch(
+            args=["--disable-blink-features=AutomationControlled"]
+        )
+        page = browser.new_page(
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            ),
+            viewport={"width": 1366, "height": 900},
+            locale="en-US",
+        )
+        # Some bot-protection checks look for the automation flag Playwright/
+        # Selenium set on the page - hide it so the page looks like a normal
+        # browser tab rather than an automated one.
+        page.add_init_script(
+            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
+        )
         try:
             page.goto(URL, wait_until="networkidle", timeout=60000)
             page.wait_for_timeout(2000)
