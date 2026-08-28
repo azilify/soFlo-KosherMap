@@ -45,9 +45,13 @@ def scrape_orb():
             if not li_text:
                 continue
 
-            # Name: first link whose href is not a tel:, not view-map-address,
-            # not a PDF certificate link
+            # Name + Website: the first link that isn't a tel/address/PDF link
+            # is the establishment's photo, wrapped in a link that points to
+            # their own website - its title attribute is the display name,
+            # and its href IS the website URL (confirmed against real
+            # markup: <a title="X" href="https://their-site.com"><img .../></a>)
             name = None
+            website = ""
             for a in el.find_all("a"):
                 href = a.get("href", "")
                 if href.startswith("tel:") or "view-map-address" in href or href.endswith(".pdf"):
@@ -55,6 +59,7 @@ def scrape_orb():
                 candidate = a.get("title") or a.get_text(strip=True)
                 if candidate:
                     name = candidate.strip()
+                    website = href.strip()
                     break
             if not name:
                 # fallback: plain text before first link
@@ -85,6 +90,7 @@ def scrape_orb():
                     "phone": phone,
                     "category": current_category,
                     "cert_link": cert_link,
+                    "website": website,
                     "source": "ORB",
                 })
 
