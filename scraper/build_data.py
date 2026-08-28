@@ -21,12 +21,10 @@ from geocode import geocode_all
 from categorize import normalize
 
 OUT_PATH = Path(__file__).parent.parent / "data" / "restaurants.json"
-KDM_PATTERN = re.compile(r"\bKDM\b", re.IGNORECASE)
 
 AGENCY_NAMES = {
     "ORB": "ORB",
     "KM": "KM",
-    "KDM": "KDM",
     "SSK": "Sunshine State Kosher",
 }
 
@@ -73,22 +71,25 @@ def process_km(raw):
     for row in raw:
         name = row["name"]
         ctype = row["type"]
-        is_kdm = bool(KDM_PATTERN.search(name))
-        agency = "KDM" if is_kdm else "KM"
 
-        # KM (not KDM) dairy listings are Cholov Stam by definition, but per
-        # the agreed rule, Cholov Stam isn't surfaced as its own filter tag -
-        # so no extra text needs adding here for that case. KDM listings do
-        # need "Cholov Yisroel" added explicitly since KM's raw Type field
-        # never says it.
-        text_for_tagging = ctype + (", Cholov Yisroel" if is_kdm else "")
+        # Build the raw text categorize.normalize() expects, including the
+        # REAL per-restaurant stringency flags now available directly from
+        # the site's own data table (not guessed from the name anymore).
+        extra_bits = [ctype]
+        if row.get("cholov_yisroel"):
+            extra_bits.append("Cholov Yisroel")
+        if row.get("pas_yisroel"):
+            extra_bits.append("Pas Yisroel")
+        if row.get("yoshon"):
+            extra_bits.append("Yoshon")
+        text_for_tagging = ", ".join(extra_bits)
 
         rec = tag_record({
             "name": name,
             "address": row.get("address", ""),
             "area": row.get("area", ""),
             "phone": row.get("phone", ""),
-            "agency": agency,
+            "agency": "KM",
             "cert_link": "",
             "source": "Kosher Miami",
         }, text_for_tagging)
