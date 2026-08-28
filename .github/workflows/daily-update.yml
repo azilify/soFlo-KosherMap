@@ -46,6 +46,6 @@ jobs:
         run: |
           git config user.name "kosher-map-bot"
           git config user.email "actions@github.com"
-          git add data/restaurants.json data/geocode_cache.json
+          git add data/restaurants.json data/geocode_cache.json data/km_website_cache.json
           git diff --quiet --cached || git commit -m "Daily data update $(date -u +%Y-%m-%d)"
           git push
