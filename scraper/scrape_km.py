@@ -1,51 +1,50 @@
 """
 Scrapes https://koshermiami.org/establishments/
 
-IMPORTANT CAVEAT: Kosher Miami's establishment list is loaded client-side by
-JavaScript after the page loads (there is no static HTML list to parse).
-This script uses Playwright to actually load the page in a headless browser,
-switch to "List View", and read the rendered text.
+This page is loaded by JavaScript (there is no static HTML list), so this
+uses Playwright to load it in a real headless browser. The browser identity
+is set to look like a normal Chrome tab (not an automation tool), because
+this site actively blocks requests that look like bots (a plain "403
+Forbidden" with no content at all).
 
-Because the live DOM structure could not be inspected in advance (it's only
-visible to a real browser), this script is written defensively:
-  1. It waits for network activity to settle.
-  2. It tries clicking a "List View" toggle if one exists.
-  3. It falls back to reading the full rendered page text and parsing it with
-     the same row pattern used for the Kosher Miami PDF export
-     (Name / Type / Area / Address / Phone), since that PDF was itself a
-     print of this List View.
-  4. On any failure, it saves a screenshot + full HTML to data/km_debug.*
-     so a human can inspect what changed and update the selectors below.
+REAL PAGE STRUCTURE (confirmed by inspecting an actual rendered copy):
+The page has a hidden data table at `.listDisplay .scrollableList`, with one
+`<a href="/establishments/SLUG">` per establishment. Each contains a
+`div.row.desctop` (there's also a duplicate `.row.mobile` version for small
+screens - skipped here to avoid double-counting) with nine `.value` cells in
+this fixed order:
+  Name, Type, Area, Address, Phone,
+  Cholov Yisroel, Pas Yisroel, Yoshon, Bishul Yisroel Tuna
 
-If this breaks after a site redesign: open data/km_debug.png and
-data/km_debug.html (uploaded as a workflow artifact - see the GitHub Actions
-log) to see what the page actually looked like, and adjust SELECTORS below.
+The stringency columns hold values like "No", "N/A", "All Items",
+"Available", or partial-availability notes like "Except Fortune Cookies" -
+anything other than "No"/"N/A"/blank counts as that stringency being
+available at that establishment.
+
+(There's a separate small "featured" card view elsewhere on the page that
+shows a KM/KDM certification logo per card, but it only covers a handful of
+establishments, not the full list - so it isn't used as the data source
+here. The per-establishment Cholov Yisroel status from the table above is a
+more complete and accurate signal anyway.)
 """
 import re
 import sys
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
+from bs4 import BeautifulSoup
 
 URL = "https://koshermiami.org/establishments/"
 DEBUG_DIR = Path(__file__).parent.parent / "data"
 
-# Areas and Types as seen on the site's filter UI - used to help split
-# lines when the rendered text doesn't have clean delimiters.
-KNOWN_AREAS = [
-    "Miami Beach", "North Miami Beach", "Surfside", "Aventura",
-    "Broward County", "Palm Beach County", "Boca Raton", "Hollywood",
-    "Sunny Isles", "Bal Harbour", "Miami", "Other",
-]
+NEGATIVE_VALUES = {"", "no", "n/a"}
 
-ROW_PATTERN = re.compile(
-    r"(?P<name>.+?)\s+(?P<type>Meat|Dairy|Bakery|Take Out|Commercial|"
-    r"Wholesale Only|Catering|Misc|Butcher|Grocery|Pareve"
-    r"(?:,\s*(?:Meat|Dairy|Bakery|Take Out|Commercial|Wholesale Only|"
-    r"Catering|Misc|Butcher|Grocery|Pareve))*)\s+"
-    r"(?P<area>" + "|".join(KNOWN_AREAS) + r")\s*"
-    r"(?P<address>.*?)\s*(?P<phone>\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4})?$"
-)
+
+def is_available(value):
+    """True if a stringency column indicates the item is at least partially
+    available (e.g. 'All Items', 'Available', 'Except Fortune Cookies'),
+    False for 'No'/'N/A'/blank."""
+    return (value or "").strip().lower() not in NEGATIVE_VALUES
 
 
 def scrape_km():
@@ -64,62 +63,54 @@ def scrape_km():
             viewport={"width": 1366, "height": 900},
             locale="en-US",
         )
-        # Some bot-protection checks look for the automation flag Playwright/
-        # Selenium set on the page - hide it so the page looks like a normal
-        # browser tab rather than an automated one.
         page.add_init_script(
             "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
         )
         try:
             page.goto(URL, wait_until="networkidle", timeout=60000)
-            page.wait_for_timeout(2000)
-
-            # Try to switch to List View if such a control exists
-            for label in ["List View", "List"]:
-                try:
-                    loc = page.get_by_text(label, exact=False)
-                    if loc.count() > 0:
-                        loc.first.click(timeout=3000)
-                        page.wait_for_timeout(2000)
-                        break
-                except Exception:
-                    continue
-
             page.wait_for_timeout(3000)
-            full_text = page.inner_text("body")
 
-            # Save debug artifacts every run - cheap insurance
-            (DEBUG_DIR / "km_debug.html").write_text(page.content(), encoding="utf-8")
+            html = page.content()
+            (DEBUG_DIR / "km_debug.html").write_text(html, encoding="utf-8")
             page.screenshot(path=str(DEBUG_DIR / "km_debug.png"), full_page=True)
-
         finally:
             browser.close()
 
-    # Parse rendered text line by line. Real listing rows contain one of the
-    # KNOWN_AREAS; use that as an anchor.
-    for line in full_text.splitlines():
-        line = line.strip()
-        if not line or len(line) < 5:
+    soup = BeautifulSoup(html, "html.parser")
+    scrollable = soup.select_one(".listDisplay .scrollableList")
+    if not scrollable:
+        print("WARNING: .listDisplay .scrollableList not found - page "
+              "structure may have changed. Check data/km_debug.html.",
+              file=sys.stderr)
+        return []
+
+    for a in scrollable.find_all("a", href=re.compile(r"^/establishments/")):
+        row = a.select_one("div.row.desctop")
+        if not row:
             continue
-        if not any(area in line for area in KNOWN_AREAS):
+        values = [v.get_text(strip=True) for v in row.select(".value")]
+        if len(values) < 9:
             continue
-        m = ROW_PATTERN.match(line)
-        if not m:
+
+        name, ctype, area, address, phone, cy, py, yoshon, bishul = values[:9]
+        if not name:
             continue
+
         records.append({
-            "name": m.group("name").strip(),
-            "type": m.group("type").strip(),
-            "area": m.group("area").strip(),
-            "address": (m.group("address") or "").strip(),
-            "phone": (m.group("phone") or "").strip(),
-            "source": "Kosher Miami",
+            "name": name,
+            "type": ctype,
+            "area": area,
+            "address": address,
+            "phone": phone,
+            "cholov_yisroel": is_available(cy),
+            "pas_yisroel": is_available(py),
+            "yoshon": is_available(yoshon),
         })
 
     if not records:
-        print("WARNING: KM scrape produced 0 rows. Check data/km_debug.html "
-              "and data/km_debug.png (uploaded as a workflow artifact) to "
-              "see what the live page looked like, and fix ROW_PATTERN / "
-              "the List View toggle logic above.", file=sys.stderr)
+        print("WARNING: KM scrape produced 0 rows despite finding the "
+              "scrollableList container - check data/km_debug.html for "
+              "what the row markup actually looked like.", file=sys.stderr)
 
     return records
 
