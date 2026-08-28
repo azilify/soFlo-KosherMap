@@ -254,8 +254,22 @@ function render(){
   };
   const activeAgencies = [...document.querySelectorAll('.f-agency:checked')].map(e=>e.value);
 
+  const totalChecked = active.food_type.length + active.food_service.length +
+                        active.commercial.length + active.stringency.length +
+                        activeAgencies.length;
+
   markers.forEach(m => map.removeLayer(m));
   markers = [];
+
+  // With nothing checked anywhere, show nothing - no exceptions. Without
+  // this, businesses that don't carry a Food Type tag at all (mostly
+  // snack/drink shops with no Dairy/Meat/Parve classification) would show
+  // up even before you'd picked anything, since there'd be no tag for the
+  // Food Type filter to block.
+  if (totalChecked === 0) {
+    document.getElementById('count').textContent = `Showing 0 of ${allData.length} restaurants`;
+    return;
+  }
 
   let shown = 0;
   allData.forEach(r => {
