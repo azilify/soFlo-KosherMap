@@ -6199,6 +6199,25 @@
     "lon": -80.058141
   },
   {
+    "name": "Chef Steph",
+    "address": "Boca Raton",
+    "area": "",
+    "phone": "561-356-6396",
+    "agency": "SSK",
+    "cert_link": "",
+    "website": "",
+    "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [
+      "Take Out"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Take Out",
+    "lat": 26.3586885,
+    "lon": -80.0830984
+  },
+  {
     "name": "City Nut & Candy",
     "address": "2390 Hayes St, Hollywood, FL",
     "area": "",
@@ -6235,6 +6254,23 @@
     "category": "Drinks and Snacks",
     "lat": 25.9441485,
     "lon": -80.1470097
+  },
+  {
+    "name": "Fruitlicious",
+    "address": "Boca Raton",
+    "area": "",
+    "phone": "",
+    "agency": "SSK",
+    "cert_link": "",
+    "website": "",
+    "source": "Sunshine State Kosher",
+    "food_type": [],
+    "food_service": [],
+    "commercial": [],
+    "stringency": [],
+    "category": "",
+    "lat": 26.3586885,
+    "lon": -80.0830984
   },
   {
     "name": "HipPops",
