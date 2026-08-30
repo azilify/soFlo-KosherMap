@@ -13,6 +13,7 @@ https://maps.googleapis.com/maps/api/geocode/json and set GOOGLE_MAPS_API_KEY
 as a repo secret.
 """
 import json
+import re
 import time
 from pathlib import Path
 
@@ -21,6 +22,8 @@ import requests
 CACHE_PATH = Path(__file__).parent.parent / "data" / "geocode_cache.json"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 HEADERS = {"User-Agent": "KosherRestaurantMap/1.0 (personal project; contact via GitHub)"}
+
+ZIP_RE = re.compile(r"\b(\d{5})\b")
 
 
 def load_cache():
@@ -32,6 +35,19 @@ def load_cache():
 def save_cache(cache):
     CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
     CACHE_PATH.write_text(json.dumps(cache, indent=2))
+
+
+def _query_nominatim(query):
+    params = {"q": query, "format": "json", "limit": 1, "countrycodes": "us"}
+    try:
+        r = requests.get(NOMINATIM_URL, params=params, headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        results = r.json()
+        if results:
+            return {"lat": float(results[0]["lat"]), "lon": float(results[0]["lon"])}
+    except Exception as e:
+        print(f"Geocode failed for '{query}': {e}")
+    return None
 
 
 def geocode_one(address, area_hint=""):
@@ -47,15 +63,25 @@ def geocode_one(address, area_hint=""):
     else:
         query = address + (", FL" if needs_state else "")
 
-    params = {"q": query, "format": "json", "limit": 1, "countrycodes": "us"}
-    try:
-        r = requests.get(NOMINATIM_URL, params=params, headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        results = r.json()
-        if results:
-            return {"lat": float(results[0]["lat"]), "lon": float(results[0]["lon"])}
-    except Exception as e:
-        print(f"Geocode failed for '{query}': {e}")
+    result = _query_nominatim(query)
+    if result:
+        return result
+
+    # Fallback: some addresses list a city that doesn't officially match its
+    # own zip code (e.g. a business calling itself "Fort Lauderdale" at a
+    # zip code that's technically Hollywood's, or vice versa - common along
+    # unincorporated county lines in South Florida). If the full address
+    # fails, retry with just the street and zip, dropping the city name
+    # entirely - that sidesteps the mismatch.
+    zip_match = ZIP_RE.search(address)
+    if zip_match:
+        street = address.split(",")[0].strip()
+        fallback_query = f"{street}, FL {zip_match.group(1)}"
+        if fallback_query.lower() != query.lower():
+            result = _query_nominatim(fallback_query)
+            if result:
+                return result
+
     return None
 
 
