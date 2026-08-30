@@ -83,8 +83,18 @@ def process_orb(raw):
 
 def process_km(raw):
     out = []
+    seen = set()  # dedupe by (name, address) - Kosher Miami's page has
+                  # occasionally listed the same establishment's anchor
+                  # more than once (cause unconfirmed on their end), so
+                  # this guards against duplicate pins on the map either way.
     for row in raw:
         name = row["name"]
+        address = row.get("address", "")
+        dedupe_key = (name.strip().lower(), address.strip().lower())
+        if dedupe_key in seen:
+            continue
+        seen.add(dedupe_key)
+
         ctype = row["type"]
 
         # Build the raw text categorize.normalize() expects, including the
@@ -101,7 +111,7 @@ def process_km(raw):
 
         rec = tag_record({
             "name": name,
-            "address": row.get("address", ""),
+            "address": address,
             "area": row.get("area", ""),
             "phone": row.get("phone", ""),
             "agency": "KM",
@@ -115,7 +125,13 @@ def process_km(raw):
 
 def process_sunshine(raw):
     out = []
+    seen = set()
     for row in raw:
+        dedupe_key = (row["name"].strip().lower(), row.get("address", "").strip().lower())
+        if dedupe_key in seen:
+            continue
+        seen.add(dedupe_key)
+
         rec = tag_record({
             "name": row["name"],
             "address": row.get("address", ""),
