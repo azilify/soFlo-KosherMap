@@ -107,84 +107,104 @@ def scrape_km():
     DEBUG_DIR.mkdir(parents=True, exist_ok=True)
     records = []
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            args=["--disable-blink-features=AutomationControlled"]
-        )
-        page = new_stealth_page(browser)
-        try:
-            page.goto(URL, wait_until="networkidle", timeout=60000)
-            page.wait_for_timeout(3000)
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                args=["--disable-blink-features=AutomationControlled"]
+            )
+            page = new_stealth_page(browser)
+
+            # "networkidle" waits for ALL background network activity to stop,
+            # which can hang or time out on pages with persistent polling
+            # (this page embeds Google Maps, analytics, etc. that never fully
+            # go quiet). "domcontentloaded" plus an explicit wait for the
+            # actual list content is faster and far less prone to this.
+            page.goto(URL, wait_until="domcontentloaded", timeout=45000)
+            try:
+                page.wait_for_selector(".listDisplay .scrollableList a", timeout=30000)
+            except Exception:
+                pass  # fall through - we'll detect the missing content below anyway
+            page.wait_for_timeout(2000)
 
             html = page.content()
             (DEBUG_DIR / "km_debug.html").write_text(html, encoding="utf-8")
             page.screenshot(path=str(DEBUG_DIR / "km_debug.png"), full_page=True)
-        finally:
-            pass  # browser stays open for the website-enrichment pass below
 
-        soup = BeautifulSoup(html, "html.parser")
-        scrollable = soup.select_one(".listDisplay .scrollableList")
-        if not scrollable:
-            print("WARNING: .listDisplay .scrollableList not found - page "
-                  "structure may have changed. Check data/km_debug.html.",
-                  file=sys.stderr)
+            soup = BeautifulSoup(html, "html.parser")
+            scrollable = soup.select_one(".listDisplay .scrollableList")
+            if not scrollable:
+                print("WARNING: .listDisplay .scrollableList not found - page "
+                      "structure may have changed. Check data/km_debug.html.",
+                      file=sys.stderr)
+                browser.close()
+                return []
+
+            for a in scrollable.find_all("a", href=re.compile(r"^/establishments/")):
+                row = a.select_one("div.row.desctop")
+                if not row:
+                    continue
+                values = [v.get_text(strip=True) for v in row.select(".value")]
+                if len(values) < 9:
+                    continue
+
+                name, ctype, area, address, phone, cy, py, yoshon, bishul = values[:9]
+                if not name:
+                    continue
+
+                records.append({
+                    "name": name,
+                    "type": ctype,
+                    "area": area,
+                    "address": address,
+                    "phone": phone,
+                    "cholov_yisroel": is_available(cy),
+                    "pas_yisroel": is_available(py),
+                    "yoshon": is_available(yoshon),
+                    "detail_href": a["href"],
+                    "website": "",
+                })
+
+            if not records:
+                print("WARNING: KM scrape produced 0 rows despite finding the "
+                      "scrollableList container - check data/km_debug.html for "
+                      "what the row markup actually looked like.", file=sys.stderr)
+                browser.close()
+                return []
+
+            # Website enrichment: one extra page visit per establishment we
+            # haven't already checked. Cached by detail URL so this shrinks to
+            # near-zero extra work on every run after the first. If an
+            # individual detail page fails, fetch_website() already catches
+            # that internally and just returns "" - it won't abort the run.
+            cache = load_website_cache()
+            new_lookups = 0
+            for rec in records:
+                detail_url = BASE_URL + rec["detail_href"]
+                if detail_url in cache:
+                    rec["website"] = cache[detail_url]
+                    continue
+                website = fetch_website(page, detail_url)
+                cache[detail_url] = website
+                rec["website"] = website
+                new_lookups += 1
+                time.sleep(0.4)  # be polite between requests
+
+            if new_lookups:
+                save_website_cache(cache)
+            print(f"Website lookups: {new_lookups} new, "
+                  f"{len(records) - new_lookups} from cache")
+
             browser.close()
-            return []
 
-        for a in scrollable.find_all("a", href=re.compile(r"^/establishments/")):
-            row = a.select_one("div.row.desctop")
-            if not row:
-                continue
-            values = [v.get_text(strip=True) for v in row.select(".value")]
-            if len(values) < 9:
-                continue
-
-            name, ctype, area, address, phone, cy, py, yoshon, bishul = values[:9]
-            if not name:
-                continue
-
-            records.append({
-                "name": name,
-                "type": ctype,
-                "area": area,
-                "address": address,
-                "phone": phone,
-                "cholov_yisroel": is_available(cy),
-                "pas_yisroel": is_available(py),
-                "yoshon": is_available(yoshon),
-                "detail_href": a["href"],
-                "website": "",
-            })
-
-        if not records:
-            print("WARNING: KM scrape produced 0 rows despite finding the "
-                  "scrollableList container - check data/km_debug.html for "
-                  "what the row markup actually looked like.", file=sys.stderr)
-            browser.close()
-            return []
-
-        # Website enrichment: one extra page visit per establishment we
-        # haven't already checked. Cached by detail URL so this shrinks to
-        # near-zero extra work on every run after the first.
-        cache = load_website_cache()
-        new_lookups = 0
-        for rec in records:
-            detail_url = BASE_URL + rec["detail_href"]
-            if detail_url in cache:
-                rec["website"] = cache[detail_url]
-                continue
-            website = fetch_website(page, detail_url)
-            cache[detail_url] = website
-            rec["website"] = website
-            new_lookups += 1
-            time.sleep(0.4)  # be polite between requests
-
-        if new_lookups:
-            save_website_cache(cache)
-        print(f"Website lookups: {new_lookups} new, "
-              f"{len(records) - new_lookups} from cache")
-
-        browser.close()
+    except Exception as e:
+        # Whatever goes wrong here (a slow/blocked page, a Playwright
+        # timeout, a changed site structure) - never let it crash the whole
+        # pipeline. Returning [] lets build_data.py's resilience logic fall
+        # back to yesterday's Kosher Miami data instead of losing everything
+        # (including whatever ORB/Sunshine already successfully scraped this
+        # same run).
+        print(f"WARNING: Kosher Miami scrape failed entirely: {e}", file=sys.stderr)
+        return records if records else []
 
     return records
 
