@@ -11,6 +11,7 @@ until the next successful run.
 """
 import json
 import re
+import sys
 from pathlib import Path
 from collections import defaultdict
 
@@ -138,6 +139,17 @@ def load_previous():
     return []
 
 
+def safe_scrape(label, scrape_fn):
+    """Runs a scraper function, but never lets an unexpected exception from
+    it crash the whole pipeline - one bad source should degrade gracefully,
+    not take down data for the other two sources that scraped fine."""
+    try:
+        return scrape_fn()
+    except Exception as e:
+        print(f"WARNING: {label} scrape crashed unexpectedly: {e}", file=sys.stderr)
+        return []
+
+
 def main():
     previous = load_previous()
     previous_by_source = defaultdict(list)
@@ -145,7 +157,7 @@ def main():
         previous_by_source[r.get("source")].append(r)
 
     print("Scraping ORB...")
-    orb_raw = scrape_orb()
+    orb_raw = safe_scrape("ORB", scrape_orb)
     orb_records = process_orb(orb_raw) if orb_raw else previous_by_source.get("ORB", [])
     if not orb_raw:
         print(f"  ORB scrape returned nothing - keeping {len(orb_records)} previous entries")
@@ -153,7 +165,7 @@ def main():
         print(f"  {len(orb_records)} ORB restaurants")
 
     print("Scraping Kosher Miami...")
-    km_raw = scrape_km()
+    km_raw = safe_scrape("Kosher Miami", scrape_km)
     km_records = process_km(km_raw) if km_raw else previous_by_source.get("Kosher Miami", [])
     if not km_raw:
         print(f"  Kosher Miami scrape returned nothing - keeping {len(km_records)} previous entries")
@@ -161,7 +173,7 @@ def main():
         print(f"  {len(km_records)} Kosher Miami restaurants")
 
     print("Scraping Sunshine State Kosher...")
-    sunshine_raw = scrape_sunshine()
+    sunshine_raw = safe_scrape("Sunshine State Kosher", scrape_sunshine)
     sunshine_records = process_sunshine(sunshine_raw) if sunshine_raw else previous_by_source.get("Sunshine State Kosher", [])
     if not sunshine_raw:
         print(f"  Sunshine State Kosher scrape returned nothing - keeping {len(sunshine_records)} previous entries")
