@@ -817,7 +817,10 @@
     "lat": 25.999465,
     "lon": -80.32843
   },
-  "21659 fl-7|boca raton": null,
+  "21659 fl-7|boca raton": {
+    "lat": 26.3832021,
+    "lon": -80.2044529
+  },
   "2615 ne 205th street|aventura": {
     "lat": 25.9656254,
     "lon": -80.1492172
