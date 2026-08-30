@@ -80,7 +80,11 @@ def geocode_all(records):
             rec["lat"], rec["lon"] = None, None
             continue
 
-        if key in cache:
+        # Treat a cached null the same as "not cached at all" - this is what
+        # actually lets old, already-stuck failures heal themselves on the
+        # next run, rather than only preventing NEW failures from getting
+        # stuck (which is all the previous version of this fix did).
+        if key in cache and cache[key] is not None:
             coords = cache[key]
         else:
             coords = geocode_one(addr, area)
