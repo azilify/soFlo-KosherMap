@@ -37,7 +37,16 @@ def save_cache(cache):
 def geocode_one(address, area_hint=""):
     if not address or not address.strip():
         return None
-    query = f"{address}, {area_hint}, FL" if area_hint else f"{address}, FL"
+
+    # Avoid appending a redundant ", FL" onto addresses that already contain
+    # the state (most do, since these are printed as "...City, FL 33312").
+    # A duplicated state can confuse the geocoder on some queries.
+    needs_state = "fl" not in address.lower()
+    if area_hint:
+        query = f"{address}, {area_hint}" + (", FL" if needs_state else "")
+    else:
+        query = address + (", FL" if needs_state else "")
+
     params = {"q": query, "format": "json", "limit": 1, "countrycodes": "us"}
     try:
         r = requests.get(NOMINATIM_URL, params=params, headers=HEADERS, timeout=15)
@@ -54,6 +63,11 @@ def geocode_all(records):
     """
     records: list of dicts each with 'address' and optionally 'area'.
     Adds 'lat'/'lon' keys in place. Returns the same list.
+
+    IMPORTANT: only successful lookups are cached. A failed lookup (bad
+    network blip, rate limit, temporary geocoder hiccup) is deliberately
+    NOT cached, so it gets retried on the next run instead of being
+    permanently stuck as "no coordinates" forever.
     """
     cache = load_cache()
     updated = False
@@ -70,8 +84,9 @@ def geocode_all(records):
             coords = cache[key]
         else:
             coords = geocode_one(addr, area)
-            cache[key] = coords
-            updated = True
+            if coords:
+                cache[key] = coords
+                updated = True
             time.sleep(1.1)  # respect Nominatim's ~1 req/sec limit
 
         if coords:
