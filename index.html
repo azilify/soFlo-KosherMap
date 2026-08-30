@@ -261,26 +261,15 @@ function render(){
   markers.forEach(m => map.removeLayer(m));
   markers = [];
 
-  // With nothing checked anywhere, show nothing - no exceptions. Without
-  // this, businesses that don't carry a Food Type tag at all (mostly
-  // snack/drink shops with no Dairy/Meat/Parve classification) would show
-  // up even before you'd picked anything, since there'd be no tag for the
-  // Food Type filter to block.
   if (totalChecked === 0) {
     document.getElementById('count').textContent = `Showing 0 of ${allData.length} restaurants`;
     return;
   }
 
-   let shown = 0;
+  let shown = 0;
   allData.forEach(r => {
     if (!r.lat || !r.lon) return;
 
-    // A record must actually MATCH something you've selected, not merely
-    // avoid conflicting with it. Without this, a business with no tags at
-    // all in any dimension you've touched (e.g. a commercial-only listing
-    // with no food classification) would slip through every check simply
-    // by having nothing to contradict - never having actually matched
-    // anything you picked.
     let rejected = false;
     let matched = false;
 
@@ -316,6 +305,7 @@ function render(){
       <b>${r.name}</b><br>
       ${r.address || r.area || ""}<br>
       ${r.phone ? r.phone + "<br>" : ""}
+      ${r.website ? `<a href="${r.website}" target="_blank">Visit website</a><br>` : ""}
       ${tagHtml}<br>
       <span style="color:#5f6368;">Certified by ${AGENCY_LABELS[r.agency] || r.agency} (${r.source})</span>
       ${r.cert_link ? `<br><a href="${r.cert_link}" target="_blank">View certificate</a>` : ""}
@@ -327,10 +317,6 @@ function render(){
 
   document.getElementById('count').textContent = `Showing ${shown} of ${allData.length} restaurants`;
 
-  // Frame the view around whatever actually matched, so phones (narrow,
-  // tall screens) and desktops (wide screens) both see all matching pins
-  // rather than a fixed center/zoom that happens to crop differently on
-  // different screen shapes.
   if (markers.length) {
     const group = L.featureGroup(markers);
     map.fitBounds(group.getBounds().pad(0.15), { maxZoom: 13 });
