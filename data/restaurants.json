@@ -2964,7 +2964,7 @@
   {
     "name": "Chic Espresso",
     "address": "",
-    "area": "Other",
+    "area": "North Miami Beach",
     "phone": "786-383-4929",
     "agency": "KM",
     "cert_link": "",
@@ -2973,14 +2973,14 @@
     "food_type": [
       "Dairy"
     ],
-    "food_service": [
-      "Restaurant"
+    "food_service": [],
+    "commercial": [
+      "Catering"
     ],
-    "commercial": [],
     "stringency": [
       "Cholov Yisroel"
     ],
-    "category": "Dairy, Restaurant, Cholov Yisroel",
+    "category": "Dairy, Catering, Cholov Yisroel",
     "lat": null,
     "lon": null
   },
