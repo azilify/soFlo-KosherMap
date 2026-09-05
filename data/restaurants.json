@@ -2339,6 +2339,29 @@
     "lon": -80.1523494
   },
   {
+    "name": "Meat Master Burger",
+    "address": "6770 Stirling Rd, Hollywood, FL 33024",
+    "area": "",
+    "phone": "954-239-8022",
+    "agency": "ORB",
+    "cert_link": "/pdf/7592Meat Master Burger 2026.pdf",
+    "website": "https://www.instagram.com/meatmasterburger/",
+    "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 26.0465031,
+    "lon": -80.2089259
+  },
+  {
     "name": "Vish Hummus Hollywood",
     "address": "2893 Stirling Rd, Fort Lauderdale, FL 33312",
     "area": "",
