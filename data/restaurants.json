@@ -157,9 +157,10 @@
     "commercial": [],
     "stringency": [
       "Cholov Yisroel",
-      "Pas Yisroel"
+      "Pas Yisroel",
+      "Yoshon"
     ],
-    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
     "lat": 26.3643369,
     "lon": -80.1479561
   },
@@ -266,7 +267,7 @@
     "area": "",
     "phone": "561-757-3900",
     "agency": "ORB",
-    "cert_link": "/pdf/3376Lenny's Pizza (Boca)_Certificate_December 31, 2026.pdf",
+    "cert_link": "/pdf/3425Lenny's Pizza December 2026.pdf",
     "website": "https://lennypizza.com/?utm_source=google",
     "source": "ORB",
     "food_type": [
@@ -1301,29 +1302,6 @@
     "lon": -80.1905376
   },
   {
-    "name": "The Cave Kosher Bar & Grill",
-    "address": "5650 Stirling Rd #28, Hollywood, FL 33021",
-    "area": "",
-    "phone": "754-778-7684",
-    "agency": "ORB",
-    "cert_link": "/pdf/8543The Cave Kosher Bar & Grill 2026 (1).pdf",
-    "website": "https://www.thecavefl.com/",
-    "source": "ORB",
-    "food_type": [
-      "Meat"
-    ],
-    "food_service": [
-      "Restaurant"
-    ],
-    "commercial": [],
-    "stringency": [
-      "Pas Yisroel"
-    ],
-    "category": "Meat, Restaurant, Pas Yisroel",
-    "lat": 26.0477295,
-    "lon": -80.1751735
-  },
-  {
     "name": "Capas Burger",
     "address": "21000 W Dixie Hwy, Miami FL 33180",
     "area": "",
@@ -1953,7 +1931,7 @@
     "area": "",
     "phone": "954-380-7892",
     "agency": "ORB",
-    "cert_link": "/pdf/2265Puya Urban Cantina 2026.pdf",
+    "cert_link": "/pdf/5772Puya Urban Cantina LLC_certificate_December 31, 2026.pdf",
     "website": "https://puyacantina.com/",
     "source": "ORB",
     "food_type": [
