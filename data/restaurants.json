@@ -2340,6 +2340,50 @@
     "lon": -80.2089259
   },
   {
+    "name": "Koji & Coal",
+    "address": "3558 N Ocean Blvd, Fort Lauderdale, FL 33308",
+    "area": "",
+    "phone": "561-769-4044",
+    "agency": "ORB",
+    "cert_link": "/pdf/4369Koji & Coal 2026.pdf",
+    "website": "http://kojiandcoal.com",
+    "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 26.1768108,
+    "lon": -80.0992875
+  },
+  {
+    "name": "Ruven\u2019s Tortilla Bar",
+    "address": "14871 Biscayne Blvd, North Miami Beach, FL 33181",
+    "area": "",
+    "phone": "",
+    "agency": "ORB",
+    "cert_link": "/pdf/8481Ruven\u2019s Tortilla Bar 2026.pdf",
+    "website": "https://www.instagram.com/ruvens_miami?stkn=bHFud25uYXAwcndw",
+    "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [],
+    "category": "Meat, Restaurant",
+    "lat": 25.9129928,
+    "lon": -80.1558224
+  },
+  {
     "name": "Vish Hummus Hollywood",
     "address": "2893 Stirling Rd, Fort Lauderdale, FL 33312",
     "area": "",

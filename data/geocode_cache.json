@@ -979,5 +979,13 @@
   "6770 stirling rd, hollywood, fl 33024|": {
     "lat": 26.0465031,
     "lon": -80.2089259
+  },
+  "3558 n ocean blvd, fort lauderdale, fl 33308|": {
+    "lat": 26.1768108,
+    "lon": -80.0992875
+  },
+  "14871 biscayne blvd, north miami beach, fl 33181|": {
+    "lat": 25.9129928,
+    "lon": -80.1558224
   }
 }
