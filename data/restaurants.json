@@ -2363,12 +2363,12 @@
     "lon": -80.0992875
   },
   {
-    "name": "Ruven\u2019s Tortilla Bar",
+    "name": "Ruven\u2019s Roll",
     "address": "14871 Biscayne Blvd, North Miami Beach, FL 33181",
     "area": "",
-    "phone": "",
+    "phone": "305-540-5539",
     "agency": "ORB",
-    "cert_link": "/pdf/8481Ruven\u2019s Tortilla Bar 2026.pdf",
+    "cert_link": "/pdf/6822Ruven's Roll 2026.pdf",
     "website": "https://www.instagram.com/ruvens_miami?stkn=bHFud25uYXAwcndw",
     "source": "ORB",
     "food_type": [
@@ -2378,8 +2378,10 @@
       "Restaurant"
     ],
     "commercial": [],
-    "stringency": [],
-    "category": "Meat, Restaurant",
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 25.9129928,
     "lon": -80.1558224
   },
@@ -6507,8 +6509,8 @@
     "commercial": [],
     "stringency": [],
     "category": "Dairy, Parve, Bakery",
-    "lat": null,
-    "lon": null
+    "lat": 25.9578286,
+    "lon": -80.1423496
   },
   {
     "name": "Menchies Frozen Yogurt",
