@@ -1009,6 +1009,31 @@
     "lon": null
   },
   {
+    "name": "Sphera Miami",
+    "address": "976 W Hallandale Beach Blvd, Hallandale Beach, FL 33009",
+    "area": "",
+    "phone": "",
+    "agency": "ORB",
+    "cert_link": "/pdf/2293Sphera Miami 2026.pdf",
+    "website": "https://www.instagram.com/spheramiami/",
+    "source": "ORB",
+    "food_type": [
+      "Dairy",
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Meat, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.9852409,
+    "lon": -80.1614788
+  },
+  {
     "name": "Pita Xpress",
     "address": "2445 Stirling Rd, Dania Beach, FL 33312",
     "area": "",
