@@ -335,30 +335,6 @@
     "lon": -80.1503019
   },
   {
-    "name": "The Cafe Maison la Fleur",
-    "address": "2906 NE 207th St, Aventura, FL 33180",
-    "area": "",
-    "phone": "305-204-0304",
-    "agency": "ORB",
-    "cert_link": "/pdf/4163The Cafe Maison la Fleur 2026.pdf",
-    "website": "http://Www.maisonlafleur.com",
-    "source": "ORB",
-    "food_type": [
-      "Dairy"
-    ],
-    "food_service": [
-      "Restaurant"
-    ],
-    "commercial": [],
-    "stringency": [
-      "Cholov Yisroel",
-      "Pas Yisroel"
-    ],
-    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
-    "lat": 25.9674536,
-    "lon": -80.1433844
-  },
-  {
     "name": "Bagel Boss (JCC)",
     "address": "5850 S Pine Island Rd, Davie, FL 33328",
     "area": "",
@@ -2409,6 +2385,29 @@
     "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 25.9129928,
     "lon": -80.1558224
+  },
+  {
+    "name": "GalGal Shawarma with Friends",
+    "address": "1402 E Las Olas Blvd, Fort Lauderdale, FL 33301",
+    "area": "",
+    "phone": "",
+    "agency": "ORB",
+    "cert_link": "/pdf/9756GalGal Shawarma with Friends December 2026.pdf",
+    "website": "https://galgalfl.com/",
+    "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 26.1193045,
+    "lon": -80.1292246
   },
   {
     "name": "Vish Hummus Hollywood",
