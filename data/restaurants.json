@@ -1927,29 +1927,6 @@
     "lon": -80.1604915
   },
   {
-    "name": "Puya Urban Cantina LLC",
-    "address": "2726 Griffin Rd, Ste 3-6, Dania Beach, FL 33312",
-    "area": "",
-    "phone": "954-380-7892",
-    "agency": "ORB",
-    "cert_link": "/pdf/5772Puya Urban Cantina LLC_certificate_December 31, 2026.pdf",
-    "website": "https://puyacantina.com/",
-    "source": "ORB",
-    "food_type": [
-      "Meat"
-    ],
-    "food_service": [
-      "Restaurant"
-    ],
-    "commercial": [],
-    "stringency": [
-      "Pas Yisroel"
-    ],
-    "category": "Meat, Restaurant, Pas Yisroel",
-    "lat": 26.0623302,
-    "lon": -80.1767351
-  },
-  {
     "name": "Ben Yehuda Grill",
     "address": "3455 NE 163rd St, North Miami Beach, FL 33160",
     "area": "",
@@ -2408,6 +2385,29 @@
     "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.1193045,
     "lon": -80.1292246
+  },
+  {
+    "name": "Bacar",
+    "address": "2726 Griffin Rd, Ste 3-6, Dania Beach, FL 33312",
+    "area": "",
+    "phone": "",
+    "agency": "ORB",
+    "cert_link": "/pdf/4996Bacar 2026.pdf",
+    "website": "http://Bacar954.com",
+    "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 26.0623302,
+    "lon": -80.1767351
   },
   {
     "name": "Vish Hummus Hollywood",
