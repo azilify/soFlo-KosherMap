@@ -962,29 +962,6 @@
     "lon": -80.2060331
   },
   {
-    "name": "OBAA Matcha",
-    "address": "2433 NE 202 St, Aventura, FL 33180",
-    "area": "",
-    "phone": "305-318-8782",
-    "agency": "ORB",
-    "cert_link": "/pdf/5161OBAA Matcha 2026.pdf",
-    "website": "https://www.instagram.com/obaamatcha/",
-    "source": "ORB",
-    "food_type": [
-      "Dairy"
-    ],
-    "food_service": [
-      "Restaurant"
-    ],
-    "commercial": [],
-    "stringency": [
-      "Cholov Yisroel"
-    ],
-    "category": "Dairy, Restaurant, Cholov Yisroel",
-    "lat": null,
-    "lon": null
-  },
-  {
     "name": "Sphera Miami",
     "address": "976 W Hallandale Beach Blvd, Hallandale Beach, FL 33009",
     "area": "",
