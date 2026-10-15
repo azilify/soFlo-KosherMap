@@ -987,6 +987,30 @@
     "lon": -80.1614788
   },
   {
+    "name": "Maison Orel",
+    "address": "1570 Alton Road, Suite B, Miami Beach, FL 33139",
+    "area": "",
+    "phone": "786-498-2670",
+    "agency": "ORB",
+    "cert_link": "/pdf/4251Maison Orel 2026.pdf",
+    "website": "https://maisonorelmiami.com/",
+    "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.7886905,
+    "lon": -80.141344
+  },
+  {
     "name": "Pita Xpress",
     "address": "2445 Stirling Rd, Dania Beach, FL 33312",
     "area": "",
