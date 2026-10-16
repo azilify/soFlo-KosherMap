@@ -97,7 +97,7 @@
     "area": "",
     "phone": "561-338-0008",
     "agency": "ORB",
-    "cert_link": "/pdf/7468Jon\u2019s Place 2026.pdf",
+    "cert_link": "/pdf/2906Jon\u2019s Place 2026 (1).pdf",
     "website": "https://www.facebook.com/pg/Jons-Place-301563877688/about/?ref=page_internal",
     "source": "ORB",
     "food_type": [
@@ -960,31 +960,6 @@
     "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.0469774,
     "lon": -80.2060331
-  },
-  {
-    "name": "Sphera Miami",
-    "address": "976 W Hallandale Beach Blvd, Hallandale Beach, FL 33009",
-    "area": "",
-    "phone": "",
-    "agency": "ORB",
-    "cert_link": "/pdf/2293Sphera Miami 2026.pdf",
-    "website": "https://www.instagram.com/spheramiami/",
-    "source": "ORB",
-    "food_type": [
-      "Dairy",
-      "Meat"
-    ],
-    "food_service": [
-      "Restaurant"
-    ],
-    "commercial": [],
-    "stringency": [
-      "Cholov Yisroel",
-      "Pas Yisroel"
-    ],
-    "category": "Dairy, Meat, Restaurant, Cholov Yisroel, Pas Yisroel",
-    "lat": 25.9852409,
-    "lon": -80.1614788
   },
   {
     "name": "Maison Orel",
