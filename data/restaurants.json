@@ -2386,6 +2386,30 @@
     "lon": -80.1767351
   },
   {
+    "name": "Bagel Boss Boynton Beach",
+    "address": "3775 W Woolbright Rd, Boynton Beach, FL 33436",
+    "area": "",
+    "phone": "954-666-5916",
+    "agency": "ORB",
+    "cert_link": "/pdf/2398Bagel Boss (Boynton Beach) 2026.pdf",
+    "website": "https://www.bagelboss.com/",
+    "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 26.5143732,
+    "lon": -80.0769563
+  },
+  {
     "name": "Vish Hummus Hollywood",
     "address": "2893 Stirling Rd, Fort Lauderdale, FL 33312",
     "area": "",
