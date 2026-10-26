@@ -2386,6 +2386,29 @@
     "lon": -80.1767351
   },
   {
+    "name": "The Hide",
+    "address": "2520 Stirling Rd, Hollywood, FL 33020",
+    "area": "",
+    "phone": "669-305-2520",
+    "agency": "ORB",
+    "cert_link": "/pdf/4890The Hide 2026.pdf",
+    "website": "http://Thehidefoodclub.com",
+    "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 26.0479317,
+    "lon": -80.1647136
+  },
+  {
     "name": "Bagel Boss Boynton Beach",
     "address": "3775 W Woolbright Rd, Boynton Beach, FL 33436",
     "area": "",
