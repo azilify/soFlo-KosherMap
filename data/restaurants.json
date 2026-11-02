@@ -2202,29 +2202,6 @@
     "lon": -80.2661883
   },
   {
-    "name": "Shawarma Bar",
-    "address": "7600 W Camino Real, Boca Raton, FL 33433",
-    "area": "",
-    "phone": "",
-    "agency": "ORB",
-    "cert_link": "/pdf/9155Shawarma Bar 2026.pdf",
-    "website": "http://Shawarmabarboca.com",
-    "source": "ORB",
-    "food_type": [
-      "Meat"
-    ],
-    "food_service": [
-      "Restaurant"
-    ],
-    "commercial": [],
-    "stringency": [
-      "Pas Yisroel"
-    ],
-    "category": "Meat, Restaurant, Pas Yisroel",
-    "lat": 26.3440349,
-    "lon": -80.1286783
-  },
-  {
     "name": "Laffa & Co.",
     "address": "1736 NE Miami Gardens Drive, Unit 07, North Miami Beach, FL 33179",
     "area": "",
