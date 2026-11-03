@@ -479,30 +479,6 @@
     "lon": -80.1430075
   },
   {
-    "name": "Rita's (in KC Market)",
-    "address": "5650 Stirling Rd, Hollywood, FL 33021",
-    "area": "",
-    "phone": "",
-    "agency": "ORB",
-    "cert_link": "/pdf/7981Rita's Ice_certificate_December 31, 2026.pdf",
-    "website": "https://www.ritasice.com/location/ritas-of-hollywood-fl/",
-    "source": "ORB",
-    "food_type": [
-      "Dairy"
-    ],
-    "food_service": [
-      "Restaurant"
-    ],
-    "commercial": [],
-    "stringency": [
-      "Cholov Yisroel",
-      "Pas Yisroel"
-    ],
-    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
-    "lat": 26.0466968,
-    "lon": -80.2019115
-  },
-  {
     "name": "Oasis Pizzeria & Bakery",
     "address": "5810 S University Dr #104, Davie, FL 33328",
     "area": "",
