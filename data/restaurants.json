@@ -962,6 +962,30 @@
     "lon": -80.141344
   },
   {
+    "name": "Joe's Pizza Boca Raton",
+    "address": "9874 Yamato Rd, Boca Raton, FL 33434",
+    "area": "",
+    "phone": "",
+    "agency": "ORB",
+    "cert_link": "/pdf/9147Joe's Pizza Boca 2026.pdf",
+    "website": "https://www.joespizzaflorida.com/",
+    "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 26.3934514,
+    "lon": -80.2016261
+  },
+  {
     "name": "Pita Xpress",
     "address": "2445 Stirling Rd, Dania Beach, FL 33312",
     "area": "",
@@ -1080,7 +1104,7 @@
     "area": "",
     "phone": "954-455-2118",
     "agency": "ORB",
-    "cert_link": "/pdf/2814Hummus Achla 2026.pdf",
+    "cert_link": "/pdf/9465Hummus Achla 2026 (1).pdf",
     "website": "https://www.getsauce.com/order/site/hummus-achla-hallandale?utm_source=GMB&utm_medium=Website%20button&utm_id=Hummus%20Achla%20Hallandale",
     "source": "ORB",
     "food_type": [
@@ -2362,6 +2386,29 @@
     "lon": -80.1647136
   },
   {
+    "name": "Pitmaster Show Miami",
+    "address": "3599 NE 207th St, Aventura, FL 33180",
+    "area": "",
+    "phone": "888-319-7230",
+    "agency": "ORB",
+    "cert_link": "/pdf/6137Pitmaster 2026.pdf",
+    "website": "http://go.pitmaster.show/miami",
+    "source": "ORB",
+    "food_type": [
+      "Meat"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Meat, Restaurant, Pas Yisroel",
+    "lat": 25.967891,
+    "lon": -80.128751
+  },
+  {
     "name": "Bagel Boss Boynton Beach",
     "address": "3775 W Woolbright Rd, Boynton Beach, FL 33436",
     "area": "",
@@ -2384,6 +2431,30 @@
     "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 26.5143732,
     "lon": -80.0769563
+  },
+  {
+    "name": "Zev's Pizza",
+    "address": "17010 W Dixie Hwy, North Miami Beach, FL 33160",
+    "area": "",
+    "phone": "786-668-5559",
+    "agency": "ORB",
+    "cert_link": "/pdf/9641Zev's Pizza 2026.pdf",
+    "website": "http://@zevspizza",
+    "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.9325567,
+    "lon": -80.1538952
   },
   {
     "name": "Vish Hummus Hollywood",
