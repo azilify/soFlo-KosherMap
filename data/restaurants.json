@@ -677,7 +677,7 @@
     "area": "",
     "phone": "754-465-5026",
     "agency": "ORB",
-    "cert_link": "/pdf/4109Abby's 2026 (1).pdf",
+    "cert_link": "/pdf/3138Abby's December 2026.pdf",
     "website": "https://abbyscoopercity.com/",
     "source": "ORB",
     "food_type": [
@@ -960,6 +960,30 @@
     "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 25.7886905,
     "lon": -80.141344
+  },
+  {
+    "name": "Pura Vida Miami",
+    "address": "744 West 41st St, Miami Beach, FL 33140",
+    "area": "",
+    "phone": "",
+    "agency": "ORB",
+    "cert_link": "/pdf/1366Pura Vida Miami 2027.pdf",
+    "website": "http://Puravidamiami.com",
+    "source": "ORB",
+    "food_type": [
+      "Dairy"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Cholov Yisroel",
+      "Pas Yisroel"
+    ],
+    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
+    "lat": 25.8593589,
+    "lon": -80.2866544
   },
   {
     "name": "Joe's Pizza Boca Raton",
@@ -2591,6 +2615,29 @@
     "category": "Parve, Restaurant, Pas Yisroel",
     "lat": 26.5145521,
     "lon": -80.0753243
+  },
+  {
+    "name": "Sababa Hummus House",
+    "address": "7515 FL-7, Parkland, FL 33073",
+    "area": "",
+    "phone": "754-812-1650",
+    "agency": "ORB",
+    "cert_link": "/pdf/2146Sababa Hummus House 2026.pdf",
+    "website": "https://www.instagram.com/sababahummushouse/",
+    "source": "ORB",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Restaurant"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Restaurant, Pas Yisroel",
+    "lat": 26.3235515,
+    "lon": -80.204083
   },
   {
     "name": "BREADS & CO",
