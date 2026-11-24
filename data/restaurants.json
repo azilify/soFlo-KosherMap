@@ -834,10 +834,9 @@
     "commercial": [],
     "stringency": [
       "Cholov Yisroel",
-      "Pas Yisroel",
-      "Yoshon"
+      "Pas Yisroel"
     ],
-    "category": "Dairy, Parve, Restaurant, Cholov Yisroel, Pas Yisroel, Yoshon",
+    "category": "Dairy, Parve, Restaurant, Cholov Yisroel, Pas Yisroel",
     "lat": 25.9854877,
     "lon": -80.155631
   },
@@ -1694,30 +1693,6 @@
     "category": "Meat, Restaurant, Pas Yisroel",
     "lat": 26.4965895,
     "lon": -80.1477587
-  },
-  {
-    "name": "Panini / Panino Kosher Hollywood",
-    "address": "5978 SW 40th Ave, Fort Lauderdale, FL 33314",
-    "area": "",
-    "phone": "786-607-7878",
-    "agency": "ORB",
-    "cert_link": "/pdf/7571Panini _ Panino Kosher Hollywood 2026 (1).pdf",
-    "website": "https://www.paninifl.com/",
-    "source": "ORB",
-    "food_type": [
-      "Meat"
-    ],
-    "food_service": [
-      "Restaurant"
-    ],
-    "commercial": [],
-    "stringency": [
-      "Pas Yisroel",
-      "Yoshon"
-    ],
-    "category": "Meat, Restaurant, Pas Yisroel, Yoshon",
-    "lat": 26.1089085,
-    "lon": -80.2013509
   },
   {
     "name": "Smash House Burgers Boca",
@@ -2638,26 +2613,6 @@
     "category": "Parve, Restaurant, Pas Yisroel",
     "lat": 26.3235515,
     "lon": -80.204083
-  },
-  {
-    "name": "BREADS & CO",
-    "address": "5978 SW 40th Ave, Fort Lauderdale, FL 33314",
-    "area": "",
-    "phone": "",
-    "agency": "ORB",
-    "cert_link": "/pdf/6176BREADS & CO Certificate 2025.pdf",
-    "website": "http://www.breadsandco.com",
-    "source": "ORB",
-    "food_type": [],
-    "food_service": [],
-    "commercial": [],
-    "stringency": [
-      "Pas Yisroel",
-      "Yoshon"
-    ],
-    "category": "Pas Yisroel, Yoshon",
-    "lat": 26.1089085,
-    "lon": -80.2013509
   },
   {
     "name": "16 Handles SURFSIDE LOCATION ONLY",
@@ -6650,26 +6605,6 @@
     "lon": null
   },
   {
-    "name": "Nacttive",
-    "address": "11555 Heron Bay Blvd, Suite 200, Coral Springs",
-    "area": "",
-    "phone": "561-725-7525",
-    "agency": "SSK",
-    "cert_link": "",
-    "website": "",
-    "source": "Sunshine State Kosher",
-    "food_type": [],
-    "food_service": [],
-    "commercial": [
-      "Food Additives",
-      "Wholesale Distribution"
-    ],
-    "stringency": [],
-    "category": "Food Additives, Wholesale Distribution",
-    "lat": 26.3094343,
-    "lon": -80.2814535
-  },
-  {
     "name": "Pops Corn",
     "address": "11401 Pines Blvd, Pembroke Pines",
     "area": "",
@@ -6752,6 +6687,29 @@
     "category": "Meat, Catering",
     "lat": 26.3586885,
     "lon": -80.0830984
+  },
+  {
+    "name": "The Custom Cookie Corner",
+    "address": "The Babka Corner, Boca Raton",
+    "area": "",
+    "phone": "213-776-5536",
+    "agency": "SSK",
+    "cert_link": "",
+    "website": "",
+    "source": "Sunshine State Kosher",
+    "food_type": [
+      "Parve"
+    ],
+    "food_service": [
+      "Bakery"
+    ],
+    "commercial": [],
+    "stringency": [
+      "Pas Yisroel"
+    ],
+    "category": "Parve, Bakery, Pas Yisroel",
+    "lat": null,
+    "lon": null
   },
   {
     "name": "The Lucky Dip Pizza Ice Cream",
