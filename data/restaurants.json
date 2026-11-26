@@ -599,30 +599,6 @@
     "lon": null
   },
   {
-    "name": "Gifted Pizza (Food Truck)",
-    "address": "96th St & The Beach, Surfside, FL 33155",
-    "area": "",
-    "phone": "",
-    "agency": "ORB",
-    "cert_link": "/pdf/9368Gifted Pizza Food Truck 2026.pdf",
-    "website": "https://www.giftedcrust.com/",
-    "source": "ORB",
-    "food_type": [
-      "Dairy"
-    ],
-    "food_service": [
-      "Restaurant"
-    ],
-    "commercial": [],
-    "stringency": [
-      "Cholov Yisroel",
-      "Pas Yisroel"
-    ],
-    "category": "Dairy, Restaurant, Cholov Yisroel, Pas Yisroel",
-    "lat": 26.820071,
-    "lon": -80.2916985
-  },
-  {
     "name": "Bagel Boss (Surfside)",
     "address": "9543 Harding Ave, Surfside, FL 33154",
     "area": "",
